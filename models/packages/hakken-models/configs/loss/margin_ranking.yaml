@@ -1,0 +1,8 @@
+# KGE / SeGAL margin ranking only (set rel_loss_weight>0 + relation kwargs for relation aux).
+name: RankingRelationLoss
+kwargs:
+  entity_loss: MarginRankingLoss
+  entity_loss_kwargs:
+    margin: 1.0
+    reduction: mean
+  rel_loss_weight: 0

@@ -1,0 +1,32 @@
+mlruns/
+checkpoints/
+.zen/
+hakken_ml_toolkit/
+results/*
+ray_results/
+outputs/*
+production/*.ckpt
+lightning_logs/
+data/
+# Local env files (do NOT commit real credentials)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Tool caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Secrets and keys
+secrets/
+*.pem
+*.key
+
+# OS files
+.DS_Store

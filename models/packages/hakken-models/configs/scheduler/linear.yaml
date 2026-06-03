@@ -1,0 +1,7 @@
+name: LinearLR
+kwargs:
+  start_factor: 1.0
+  end_factor: 0.1
+  total_iters: 20
+  interval: epoch
+  frequency: 1

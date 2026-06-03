@@ -1,0 +1,62 @@
+_target_: kge.evaluator.KGEEvaluator
+config:
+  _target_: kge.evaluator.KGEEvaluatorConfig
+  ranking_metrics:
+    hits_at_k:
+      _target_: kge.evaluator.MetricModel
+      class_path: hakken_ml_toolkit.metrics.HitsAtK
+      parameter_grid:
+        top_k: [1, 5, 10]
+      update_args_mapping:
+        scores: "scores"
+        targets: "targets"
+      target_list: ["subject", "relation", "object"]
+    mrr:
+      _target_: kge.evaluator.MetricModel
+      class_path: hakken_ml_toolkit.metrics.MeanReciprocalRank
+      parameter_grid: {}
+      update_args_mapping:
+        scores: "scores"
+        targets: "targets"
+      target_list: ["subject", "object"]
+  relation_clf_metrics:
+    f1_score:
+      _target_: kge.evaluator.MetricModel
+      class_path: torchmetrics.classification.MultilabelF1Score
+      parameter_grid:
+        threshold: [0.5]
+        average: [macro, micro, weighted]
+        multidim_average: [global]
+      update_args_mapping:
+        preds: "scores"
+        target: "relations"
+      target_list: ["relation"]
+    precision:
+      _target_: kge.evaluator.MetricModel
+      class_path: torchmetrics.classification.MultilabelPrecision
+      parameter_grid:
+        threshold: [0.5]
+        average: [macro, micro, weighted]
+        multidim_average: [global]
+      update_args_mapping:
+        preds: "scores"
+        target: "relations"
+      target_list: ["relation"]
+    recall:
+      _target_: kge.evaluator.MetricModel
+      class_path: torchmetrics.classification.MultilabelRecall
+      parameter_grid:
+        threshold: [0.5]
+        average: [macro, micro, weighted]
+        multidim_average: [global]
+      update_args_mapping:
+        preds: "scores"
+        target: "relations"
+      target_list: ["relation"]
+  loader_kwargs:
+    batch_size: 1024
+    num_workers: 8
+  filter_list: ["train", "val", "test"]
+  enable: true
+  
+      

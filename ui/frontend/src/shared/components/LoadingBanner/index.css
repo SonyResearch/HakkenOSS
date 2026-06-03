@@ -1,0 +1,29 @@
+:root {
+  --progress-bar-height: 1.5rem;
+}
+
+.loading-banner {
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+
+.loading-banner h4 {
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  background-color: white;
+  position: relative;
+  width: 80%;
+  height: var(--progress-bar-height);
+  border: 1px solid gray;
+}
+
+.progress {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: calc(var(--progress-bar-height) - 2px);
+  background-color: var(--blue);
+  transition: width 400ms ease-in;
+}

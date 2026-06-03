@@ -1,0 +1,52 @@
+.explanation-row {
+  margin-top: 1.5rem;
+  padding: var(--sm-padding);
+}
+
+.explanation-row h4 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.explanation-title {
+  padding: var(--md-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explanation-title h4 {
+  margin: 0;
+}
+
+.explanation-row .exclamation-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid rgb(255, 110, 57);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: rgb(255, 110, 57);
+}
+
+.explanation-row .not-tooltip {
+  position: absolute;
+  top: 5rem;
+  background-color: rgb(255, 250, 242);
+  width: 300px;
+  padding: var(--sm-padding);
+  left: 40%;
+  z-index: 10000;
+}
+
+@media screen and (max-width: 750px) {
+  .explanation-title {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
+  }
+}

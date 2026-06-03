@@ -1,0 +1,1140 @@
+<http://dimensions/400500000075> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000133> .
+<http://dimensions/400500000156> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000030> .
+<http://dimensions/400500000050> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of central sleep apnea" .
+<http://dimensions/400500000318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000226> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000235> .
+<http://dimensions/400500000339> <http://www.w3.org/2000/01/rdf-schema#label> "Prespecified tumor biomarker" .
+<http://dimensions/400500000215> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000213> .
+<http://dimensions/400500000207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000032> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000333> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000132> .
+<http://dimensions/400500000298> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000047> .
+<http://dimensions/400500000326> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000134> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000146> .
+<http://dimensions/400500000364> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000149> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000183> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000026> .
+<http://dimensions/400500000262> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000037> .
+<http://dimensions/400500000181> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000195> .
+<http://dimensions/400500000023> <http://www.w3.org/2000/01/rdf-schema#label> "Invasive biomarker" .
+<http://dimensions/400500000024> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular target occupancy" .
+<http://dimensions/400500000294> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000288> .
+<http://dimensions/400500000017> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of CNS infection" .
+<http://dimensions/400500000259> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000037> .
+<http://dimensions/400500000157> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000218> <http://www.w3.org/2000/01/rdf-schema#label> "Biological endpoint" .
+<http://dimensions/400500000034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000002> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioral biomarker of disease" .
+<http://dimensions/400500000318> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000235> .
+<http://dimensions/400500000307> <http://www.w3.org/2000/01/rdf-schema#label> "Sweat biomarker" .
+<http://dimensions/400500000235> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000153> .
+<http://dimensions/400500000343> <http://www.w3.org/2000/01/rdf-schema#label> "Primary endpoint" .
+<http://dimensions/400500000128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000241> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker for sleep loss" .
+<http://dimensions/400500000098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000282> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000195> .
+<http://dimensions/400500000328> <http://www.w3.org/2000/01/rdf-schema#label> "Sperm biomarker" .
+<http://dimensions/400500000259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000277> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000025> .
+<http://dimensions/400500000258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000142> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000164> .
+<http://dimensions/400500000307> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000310> .
+<http://dimensions/400500000349> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000153> .
+<http://dimensions/400500000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000197> .
+<http://dimensions/400500000089> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000159> .
+<http://dimensions/400500000276> <http://www.w3.org/2000/01/rdf-schema#label> "Novel biomarker of aging" .
+<http://dimensions/400500000301> <http://www.w3.org/2000/01/rdf-schema#label> "Vitamin E biomarker" .
+<http://dimensions/400500000300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000298> .
+<http://dimensions/400500000162> <http://www.w3.org/2000/01/rdf-schema#label> "Novel biomarker" .
+<http://dimensions/400500000167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000155> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000064> .
+<http://dimensions/400500000076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000130> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000097> .
+<http://dimensions/400500000344> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000365> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000194> .
+<http://dimensions/400500000353> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000191> <http://www.w3.org/2000/01/rdf-schema#label> "Differential diagnosis biomarker" .
+<http://dimensions/400500000056> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of Multiple Sclerosis" .
+<http://dimensions/400500000188> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000187> .
+<http://dimensions/400500000260> <http://www.w3.org/2000/01/rdf-schema#label> "Robust metabolomic biomarker" .
+<http://dimensions/400500000290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000316> <http://www.w3.org/2000/01/rdf-schema#label> "Promising serum biomarker" .
+<http://dimensions/400500000057> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000099> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000053> .
+<http://dimensions/400500000038> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of neural regeneration" .
+<http://dimensions/400500000293> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000288> .
+<http://dimensions/400500000268> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000265> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000261> .
+<http://dimensions/400500000151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000322> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000206> .
+<http://dimensions/400500000118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000036> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of normal pressure hydrocephalus" .
+<http://dimensions/400500000316> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000204> .
+<http://dimensions/400500000177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000182> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000205> .
+<http://dimensions/400500000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000228> <http://www.w3.org/2000/01/rdf-schema#label> "Pollutant biomarker" .
+<http://dimensions/400500000360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000325> <http://www.w3.org/2000/01/rdf-schema#label> "New specific biomarker" .
+<http://dimensions/400500000167> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000164> .
+<http://dimensions/400500000009> <http://www.w3.org/2000/01/rdf-schema#label> "Companion endpoint" .
+<http://dimensions/400500000344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000171> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000170> .
+<http://dimensions/400500000255> <http://www.w3.org/2000/01/rdf-schema#label> "Fetal biomarker" .
+<http://dimensions/400500000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000147> .
+<http://dimensions/400500000148> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000165> .
+<http://dimensions/400500000018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000227> .
+<http://dimensions/400500000348> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000076> .
+<http://dimensions/400500000168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000132> .
+<http://dimensions/400500000048> <http://www.w3.org/2000/01/rdf-schema#label> "Pathophysiological response" .
+<http://dimensions/400500000008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000025> .
+<http://dimensions/400500000085> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000163> .
+<http://dimensions/400500000273> <http://www.w3.org/2000/01/rdf-schema#label> "Composite biological endpoint" .
+<http://dimensions/400500000043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000105> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000132> .
+<http://dimensions/400500000063> <http://www.w3.org/2000/01/rdf-schema#label> "Target biomarker" .
+<http://dimensions/400500000073> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000064> .
+<http://dimensions/400500000132> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000252> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000251> .
+<http://dimensions/400500000288> <http://www.w3.org/2000/01/rdf-schema#label> "Recovery biomarker" .
+<http://dimensions/400500000293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000128> <http://www.w3.org/2000/01/rdf-schema#label> "Type 0 biomarker" .
+<http://dimensions/400500000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000186> <http://www.w3.org/2000/01/rdf-schema#label> "Therapy biomarker" .
+<http://dimensions/400500000000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000016> .
+<http://dimensions/400500000314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000130> <http://www.w3.org/2000/01/rdf-schema#label> "Protein biomarker" .
+<http://dimensions/400500000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000132> .
+<http://dimensions/400500000025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000020> .
+<http://dimensions/400500000236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000227> <http://www.w3.org/2000/01/rdf-schema#label> "Food-related biomarker" .
+<http://dimensions/400500000200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000079> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of Epilepsy" .
+<http://dimensions/400500000295> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000113> .
+<http://dimensions/400500000169> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000036> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000243> <http://www.w3.org/2000/01/rdf-schema#label> "Chronic sleep loss biomarker" .
+<http://dimensions/400500000224> <http://www.w3.org/2000/01/rdf-schema#label> "Potential smoking-related biomarker" .
+<http://dimensions/400500000311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000364> <http://www.w3.org/2000/01/rdf-schema#label> "Well-recognized biomarker" .
+<http://dimensions/400500000297> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000015> <http://www.w3.org/2000/01/rdf-schema#label> "Continuous variable" .
+<http://dimensions/400500000258> <http://www.w3.org/2000/01/rdf-schema#label> "Child biomarker" .
+<http://dimensions/400500000319> <http://www.w3.org/2000/01/rdf-schema#label> "Candidate blood biomarker" .
+<http://dimensions/400500000178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000344> <http://www.w3.org/2000/01/rdf-schema#label> "Secondary endpoint" .
+<http://dimensions/400500000273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000123> <http://www.w3.org/2000/01/rdf-schema#label> "Physiologic biomarker" .
+<http://dimensions/400500000100> <http://www.w3.org/2000/01/rdf-schema#label> "Time to event response" .
+<http://dimensions/400500000362> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000125> .
+<http://dimensions/400500000233> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000230> .
+<http://dimensions/400500000342> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000218> .
+<http://dimensions/400500000138> <http://www.w3.org/2000/01/rdf-schema#label> "Non-invasive biomarker" .
+<http://dimensions/400500000244> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of obstructive sleep apnea" .
+<http://dimensions/400500000050> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000234> .
+<http://dimensions/400500000328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000354> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000313> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000263> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000037> .
+<http://dimensions/400500000125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000321> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000320> .
+<http://dimensions/400500000240> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of chronic sleep deficit" .
+<http://dimensions/400500000357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000204> <http://www.w3.org/2000/01/rdf-schema#label> "Serum biomarker" .
+<http://dimensions/400500000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000324> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000292> <http://www.w3.org/2000/01/rdf-schema#label> "Alloyed gold standard biomarker" .
+<http://dimensions/400500000138> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000004> .
+<http://dimensions/400500000114> <http://www.w3.org/2000/01/rdf-schema#label> "Surrogate endpoint" .
+<http://dimensions/400500000072> <http://www.w3.org/2000/01/rdf-schema#label> "Blood biomarker" .
+<http://dimensions/400500000228> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000083> .
+<http://dimensions/400500000046> <http://www.w3.org/2000/01/rdf-schema#label> "Valid exercise-related biomarker" .
+<http://dimensions/400500000369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000028> <http://www.w3.org/2000/01/rdf-schema#label> "Inclusion biomarker" .
+<http://dimensions/400500000283> <http://www.w3.org/2000/01/rdf-schema#label> "Premalignant tissue biomarker" .
+<http://dimensions/400500000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000223> <http://www.w3.org/2000/01/rdf-schema#label> "Alcohol-related biomarker" .
+<http://dimensions/400500000064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000233> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep-circadian biomarker" .
+<http://dimensions/400500000322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000254> <http://www.w3.org/2000/01/rdf-schema#label> "Age-related biomarker" .
+<http://dimensions/400500000291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000147> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000099> .
+<http://dimensions/400500000021> <http://www.w3.org/2000/01/rdf-schema#label> "Pharmacodynamic biomarker" .
+<http://dimensions/400500000218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000345> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000343> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000066> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular biomarker" .
+<http://dimensions/400500000200> <http://www.w3.org/2000/01/rdf-schema#label> "Key biomarker" .
+<http://dimensions/400500000153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000330> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000328> .
+<http://dimensions/400500000229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000198> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000197> .
+<http://dimensions/400500000032> <http://www.w3.org/2000/01/rdf-schema#label> "Physiological response" .
+<http://dimensions/400500000329> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000328> .
+<http://dimensions/400500000133> <http://www.w3.org/2000/01/rdf-schema#label> "Epidemiology biomarker" .
+<http://dimensions/400500000046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000209> <http://www.w3.org/2000/01/rdf-schema#label> "New MRI biomarker" .
+<http://dimensions/400500000284> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000089> .
+<http://dimensions/400500000114> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000324> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000235> .
+<http://dimensions/400500000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000053> .
+<http://dimensions/400500000359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000312> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000310> .
+<http://dimensions/400500000050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000195> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000194> .
+<http://dimensions/400500000171> <http://www.w3.org/2000/01/rdf-schema#label> "Skin biopsy biomarker" .
+<http://dimensions/400500000042> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000087> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000083> .
+<http://dimensions/400500000059> <http://www.w3.org/2000/01/rdf-schema#label> "Other therapy biomarker" .
+<http://dimensions/400500000070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000224> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000222> .
+<http://dimensions/400500000360> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000219> .
+<http://dimensions/400500000355> <http://www.w3.org/2000/01/rdf-schema#label> "Immuno-oncology biomarker" .
+<http://dimensions/400500000165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000337> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000016> .
+<http://dimensions/400500000369> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000090> .
+<http://dimensions/400500000345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000066> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000092> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000058> <http://www.w3.org/2000/01/rdf-schema#label> "Valid smoking-related biomarker" .
+<http://dimensions/400500000323> <http://www.w3.org/2000/01/rdf-schema#label> "Candidate miRNA biomarker" .
+<http://dimensions/400500000094> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000164> .
+<http://dimensions/400500000358> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000229> <http://www.w3.org/2000/01/rdf-schema#label> "Endogenous biomarker" .
+<http://dimensions/400500000135> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000130> .
+<http://dimensions/400500000059> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000186> .
+<http://dimensions/400500000122> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000045> .
+<http://dimensions/400500000331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000260> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000037> .
+<http://dimensions/400500000286> <http://www.w3.org/2000/01/rdf-schema#label> "Serum OS biomarker" .
+<http://dimensions/400500000157> <http://www.w3.org/2000/01/rdf-schema#label> "Time-to-treatment failure" .
+<http://dimensions/400500000182> <http://www.w3.org/2000/01/rdf-schema#label> "Plasma metabolomic biomarker" .
+<http://dimensions/400500000275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000026> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000044> .
+<http://dimensions/400500000239> <http://www.w3.org/2000/01/rdf-schema#label> "Acute sleep loss biomarker" .
+<http://dimensions/400500000129> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of disruption of blood-brain barrier" .
+<http://dimensions/400500000146> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000169> .
+<http://dimensions/400500000135> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating protein biomarker" .
+<http://dimensions/400500000025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000221> <http://www.w3.org/2000/01/rdf-schema#label> "Lifestyle-related biomarker" .
+<http://dimensions/400500000302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000087> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000227> .
+<http://dimensions/400500000163> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanism biomarker" .
+<http://dimensions/400500000228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000090> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000303> <http://www.w3.org/2000/01/rdf-schema#label> "Vitamin D biomarker" .
+<http://dimensions/400500000049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000284> <http://www.w3.org/2000/01/rdf-schema#label> "Histologically normal tissue biomarker" .
+<http://dimensions/400500000367> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000318> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000150> .
+<http://dimensions/400500000285> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000204> .
+<http://dimensions/400500000076> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000020> .
+<http://dimensions/400500000047> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000227> .
+<http://dimensions/400500000149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000107> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical response" .
+<http://dimensions/400500000053> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000064> .
+<http://dimensions/400500000326> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000231> .
+<http://dimensions/400500000196> <http://www.w3.org/2000/01/rdf-schema#label> "Key inflammatory biomarker" .
+<http://dimensions/400500000211> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000213> .
+<http://dimensions/400500000159> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000249> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000332> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000329> .
+<http://dimensions/400500000306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000232> <http://www.w3.org/2000/01/rdf-schema#label> "Viable biomarker" .
+<http://dimensions/400500000219> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000074> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000215> .
+<http://dimensions/400500000368> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000148> <http://www.w3.org/2000/01/rdf-schema#label> "Probable valid biomarker" .
+<http://dimensions/400500000104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000197> .
+<http://dimensions/400500000178> <http://www.w3.org/2000/01/rdf-schema#label> "Melanoma biomarker" .
+<http://dimensions/400500000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000090> .
+<http://dimensions/400500000014> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000163> .
+<http://dimensions/400500000060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000367> <http://www.w3.org/2000/01/rdf-schema#label> "Synaptic biomarker" .
+<http://dimensions/400500000083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000295> <http://www.w3.org/2000/01/rdf-schema#label> "Systemic inflammatory biomarker" .
+<http://dimensions/400500000279> <http://www.w3.org/2000/01/rdf-schema#label> "Bone imaging biomarker" .
+<http://dimensions/400500000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000265> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000204> .
+<http://dimensions/400500000072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000113> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of inflammation" .
+<http://dimensions/400500000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000272> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000206> .
+<http://dimensions/400500000253> <http://www.w3.org/2000/01/rdf-schema#label> "Male biomarker" .
+<http://dimensions/400500000112> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical endpoint" .
+<http://dimensions/400500000267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000047> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of nutritional status" .
+<http://dimensions/400500000280> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000011> .
+<http://dimensions/400500000232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000143> <http://www.w3.org/2000/01/rdf-schema#label> "Efficacy biomarker" .
+<http://dimensions/400500000170> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000331> <http://www.w3.org/2000/01/rdf-schema#label> "Potential novel sperm biomarker" .
+<http://dimensions/400500000299> <http://www.w3.org/2000/01/rdf-schema#label> "Iron biomarker" .
+<http://dimensions/400500000246> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000233> .
+<http://dimensions/400500000324> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000153> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000125> .
+<http://dimensions/400500000275> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000194> .
+<http://dimensions/400500000285> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000049> .
+<http://dimensions/400500000151> <http://www.w3.org/2000/01/rdf-schema#label> "Screening biomarker" .
+<http://dimensions/400500000312> <http://www.w3.org/2000/01/rdf-schema#label> "Tear biomarker" .
+<http://dimensions/400500000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000351> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000350> .
+<http://dimensions/400500000132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000110> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000090> .
+<http://dimensions/400500000247> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000230> .
+<http://dimensions/400500000366> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000226> .
+<http://dimensions/400500000357> <http://www.w3.org/2000/01/rdf-schema#label> "Immune profile biomarker" .
+<http://dimensions/400500000201> <http://www.w3.org/2000/01/rdf-schema#label> "Early biomarker" .
+<http://dimensions/400500000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000345> <http://www.w3.org/2000/01/rdf-schema#label> "Hard clinical endpoint" .
+<http://dimensions/400500000299> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000298> .
+<http://dimensions/400500000367> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000194> .
+<http://dimensions/400500000144> <http://www.w3.org/2000/01/rdf-schema#label> "Stratification biomarker" .
+<http://dimensions/400500000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000166> <http://www.w3.org/2000/01/rdf-schema#label> "Type I biomarker" .
+<http://dimensions/400500000125> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker by qualification" .
+<http://dimensions/400500000245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000327> <http://www.w3.org/2000/01/rdf-schema#label> "Reliable valid biomarker" .
+<http://dimensions/400500000060> <http://www.w3.org/2000/01/rdf-schema#label> "Endocrine biomarker" .
+<http://dimensions/400500000165> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000125> .
+<http://dimensions/400500000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000146> <http://www.w3.org/2000/01/rdf-schema#label> "Prognostic biomarker" .
+<http://dimensions/400500000297> <http://www.w3.org/2000/01/rdf-schema#label> "Lipid biomarker" .
+<http://dimensions/400500000013> <http://www.w3.org/2000/01/rdf-schema#label> "Disease-free survival" .
+<http://dimensions/400500000168> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000090> .
+<http://dimensions/400500000061> <http://www.w3.org/2000/01/rdf-schema#label> "Ordinal variable" .
+<http://dimensions/400500000030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000099> .
+<http://dimensions/400500000151> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000005> .
+<http://dimensions/400500000246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000327> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000149> .
+<http://dimensions/400500000359> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000132> .
+<http://dimensions/400500000043> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000030> .
+<http://dimensions/400500000034> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000037> .
+<http://dimensions/400500000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000137> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000033> .
+<http://dimensions/400500000233> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000272> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000355> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000353> .
+<http://dimensions/400500000269> <http://www.w3.org/2000/01/rdf-schema#label> "Multiple inflammatory biomarker" .
+<http://dimensions/400500000235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000205> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000072> .
+<http://dimensions/400500000300> <http://www.w3.org/2000/01/rdf-schema#label> "Vitamin A biomarker" .
+<http://dimensions/400500000032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000264> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000204> .
+<http://dimensions/400500000220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000105> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular imaging biomarker" .
+<http://dimensions/400500000071> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000030> .
+<http://dimensions/400500000175> <http://www.w3.org/2000/01/rdf-schema#label> "Gastric cancer biomarker" .
+<http://dimensions/400500000358> <http://www.w3.org/2000/01/rdf-schema#label> "Systemic biomarker" .
+<http://dimensions/400500000250> <http://www.w3.org/2000/01/rdf-schema#label> "Potential exercise-related biomarker" .
+<http://dimensions/400500000264> <http://www.w3.org/2000/01/rdf-schema#label> "Serum proteomic biomarker" .
+<http://dimensions/400500000084> <http://www.w3.org/2000/01/rdf-schema#label> "Translational biomarker" .
+<http://dimensions/400500000173> <http://www.w3.org/2000/01/rdf-schema#label> "Breast cancer biomarker" .
+<http://dimensions/400500000253> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000251> .
+<http://dimensions/400500000251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000195> <http://www.w3.org/2000/01/rdf-schema#label> "Cardiac biomarker" .
+<http://dimensions/400500000202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000180> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating epilepsy biomarker" .
+<http://dimensions/400500000297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000172> <http://www.w3.org/2000/01/rdf-schema#label> "Liquid biopsy biomarker" .
+<http://dimensions/400500000143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000252> .
+<http://dimensions/400500000304> <http://www.w3.org/2000/01/rdf-schema#label> "Vitamin K biomarker" .
+<http://dimensions/400500000076> <http://www.w3.org/2000/01/rdf-schema#label> "Rate of response" .
+<http://dimensions/400500000062> <http://www.w3.org/2000/01/rdf-schema#label> "Genotypic biomarker" .
+<http://dimensions/400500000167> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of Huntington disease" .
+<http://dimensions/400500000225> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000226> .
+<http://dimensions/400500000137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000218> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000099> .
+<http://dimensions/400500000220> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioral biomarker of aging" .
+<http://dimensions/400500000016> <http://www.w3.org/2000/01/rdf-schema#label> "Predictive biomarker" .
+<http://dimensions/400500000128> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000163> .
+<http://dimensions/400500000124> <http://www.w3.org/2000/01/rdf-schema#label> "Drug response biomarker" .
+<http://dimensions/400500000317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000121> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000045> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker" .
+<http://dimensions/400500000338> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000188> .
+<http://dimensions/400500000160> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000340> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000311> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000310> .
+<http://dimensions/400500000181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000333> <http://www.w3.org/2000/01/rdf-schema#label> "Ultrasound imaging biomarker" .
+<http://dimensions/400500000090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000324> <http://www.w3.org/2000/01/rdf-schema#label> "Novel candidate biomarker" .
+<http://dimensions/400500000192> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000045> .
+<http://dimensions/400500000313> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000003> <http://www.w3.org/2000/01/rdf-schema#label> "Time to event variable" .
+<http://dimensions/400500000277> <http://www.w3.org/2000/01/rdf-schema#label> "Quantifiable graded response" .
+<http://dimensions/400500000140> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000044> .
+<http://dimensions/400500000125> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000045> .
+<http://dimensions/400500000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000127> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of susceptibility" .
+<http://dimensions/400500000305> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000107> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000348> <http://www.w3.org/2000/01/rdf-schema#label> "Outstanding response rate" .
+<http://dimensions/400500000314> <http://www.w3.org/2000/01/rdf-schema#label> "Stool biomarker" .
+<http://dimensions/400500000232> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000199> .
+<http://dimensions/400500000132> <http://www.w3.org/2000/01/rdf-schema#label> "Imaging biomarker" .
+<http://dimensions/400500000230> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep-related biomarker" .
+<http://dimensions/400500000332> <http://www.w3.org/2000/01/rdf-schema#label> "Novel candidate sperm biomarker" .
+<http://dimensions/400500000343> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000239> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000241> .
+<http://dimensions/400500000097> <http://www.w3.org/2000/01/rdf-schema#label> "Proteomic biomarker" .
+<http://dimensions/400500000023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000004> .
+<http://dimensions/400500000337> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000038> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000321> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000324> .
+<http://dimensions/400500000353> <http://www.w3.org/2000/01/rdf-schema#label> "Immune biomarker" .
+<http://dimensions/400500000320> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000235> .
+<http://dimensions/400500000075> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of effect" .
+<http://dimensions/400500000159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000194> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of body function" .
+<http://dimensions/400500000048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000328> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000310> .
+<http://dimensions/400500000064> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000045> .
+<http://dimensions/400500000154> <http://www.w3.org/2000/01/rdf-schema#label> "Calibration" .
+<http://dimensions/400500000319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000291> <http://www.w3.org/2000/01/rdf-schema#label> "Gold standard biomarker" .
+<http://dimensions/400500000245> <http://www.w3.org/2000/01/rdf-schema#label> "Morbidity biomarker" .
+<http://dimensions/400500000263> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnostic metabolomic biomarker" .
+<http://dimensions/400500000066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000202> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000201> .
+<http://dimensions/400500000340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000319> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000235> .
+<http://dimensions/400500000093> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000337> <http://www.w3.org/2000/01/rdf-schema#label> "Novel predictive biomarker" .
+<http://dimensions/400500000010> <http://www.w3.org/2000/01/rdf-schema#label> "Surrogate biomarker" .
+<http://dimensions/400500000061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000000> <http://www.w3.org/2000/01/rdf-schema#label> "Kinetic biomarker" .
+<http://dimensions/400500000158> <http://www.w3.org/2000/01/rdf-schema#label> "Ultimate outcome" .
+<http://dimensions/400500000189> <http://www.w3.org/2000/01/rdf-schema#label> "Predicting treatment toxicity" .
+<http://dimensions/400500000120> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000214> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000132> .
+<http://dimensions/400500000126> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000163> .
+<http://dimensions/400500000086> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000164> .
+<http://dimensions/400500000293> <http://www.w3.org/2000/01/rdf-schema#label> "Urinary recovery biomarker" .
+<http://dimensions/400500000164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000280> <http://www.w3.org/2000/01/rdf-schema#label> "Brain imaging biomarker" .
+<http://dimensions/400500000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000193> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000005> .
+<http://dimensions/400500000194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000008> <http://www.w3.org/2000/01/rdf-schema#label> "Challenge response" .
+<http://dimensions/400500000208> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000213> .
+<http://dimensions/400500000223> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000221> .
+<http://dimensions/400500000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000098> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating cancer biomarker" .
+<http://dimensions/400500000030> <http://www.w3.org/2000/01/rdf-schema#label> "Performance measure" .
+<http://dimensions/400500000058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000261> <http://www.w3.org/2000/01/rdf-schema#label> "Blood-based metabolomic biomarker" .
+<http://dimensions/400500000242> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker for sleep deficit" .
+<http://dimensions/400500000227> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000221> .
+<http://dimensions/400500000248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000106> <http://www.w3.org/2000/01/rdf-schema#label> "Copy number variant biomarker" .
+<http://dimensions/400500000326> <http://www.w3.org/2000/01/rdf-schema#label> "Promising in vivo biomarker" .
+<http://dimensions/400500000252> <http://www.w3.org/2000/01/rdf-schema#label> "Female biomarker" .
+<http://dimensions/400500000268> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000130> .
+<http://dimensions/400500000180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000285> <http://www.w3.org/2000/01/rdf-schema#label> "Serum tumor marker" .
+<http://dimensions/400500000079> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000269> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000206> .
+<http://dimensions/400500000179> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000197> .
+<http://dimensions/400500000065> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000208> .
+<http://dimensions/400500000174> <http://www.w3.org/2000/01/rdf-schema#label> "Colorectal cancer biomarker" .
+<http://dimensions/400500000325> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000179> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating metabolic biomarker" .
+<http://dimensions/400500000219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000318> <http://www.w3.org/2000/01/rdf-schema#label> "Candidate AKI biomarker" .
+<http://dimensions/400500000256> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000252> .
+<http://dimensions/400500000241> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000233> .
+<http://dimensions/400500000314> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000313> .
+<http://dimensions/400500000211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000368> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000052> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of Parkinson disease" .
+<http://dimensions/400500000242> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000233> .
+<http://dimensions/400500000089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000142> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of Amyotrophic Lateral Sclerosis" .
+<http://dimensions/400500000273> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000218> .
+<http://dimensions/400500000330> <http://www.w3.org/2000/01/rdf-schema#label> "Valid sperm biomarker" .
+<http://dimensions/400500000134> <http://www.w3.org/2000/01/rdf-schema#label> "Staging biomarker" .
+<http://dimensions/400500000219> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioral biomarker" .
+<http://dimensions/400500000226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000322> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000321> .
+<http://dimensions/400500000294> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000226> .
+<http://dimensions/400500000006> <http://www.w3.org/2000/01/rdf-schema#label> "Monitoring drug resistance" .
+<http://dimensions/400500000140> <http://www.w3.org/2000/01/rdf-schema#label> "Cerebrospinal fluid biomarker" .
+<http://dimensions/400500000033> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000024> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000145> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000146> .
+<http://dimensions/400500000264> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000097> .
+<http://dimensions/400500000172> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000170> .
+<http://dimensions/400500000354> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical immune biomarker" .
+<http://dimensions/400500000021> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000186> .
+<http://dimensions/400500000124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000352> <http://www.w3.org/2000/01/rdf-schema#label> "Laboratory biomarker" .
+<http://dimensions/400500000028> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000151> .
+<http://dimensions/400500000082> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000102> .
+<http://dimensions/400500000365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000158> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000043> <http://www.w3.org/2000/01/rdf-schema#label> "Sensitivity" .
+<http://dimensions/400500000067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000097> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000236> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000242> .
+<http://dimensions/400500000220> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000168> .
+<http://dimensions/400500000186> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000296> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000042> <http://www.w3.org/2000/01/rdf-schema#label> "Survival time" .
+<http://dimensions/400500000323> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000235> .
+<http://dimensions/400500000062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000278> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000151> .
+<http://dimensions/400500000342> <http://www.w3.org/2000/01/rdf-schema#label> "Complete endpoint" .
+<http://dimensions/400500000082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000197> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000287> <http://www.w3.org/2000/01/rdf-schema#label> "Metabolic endpoint" .
+<http://dimensions/400500000346> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000122> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker by type" .
+<http://dimensions/400500000014> <http://www.w3.org/2000/01/rdf-schema#label> "Type V biomarker" .
+<http://dimensions/400500000366> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000110> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of cancer" .
+<http://dimensions/400500000078> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker by function" .
+<http://dimensions/400500000134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000181> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating cardiac biomarker" .
+<http://dimensions/400500000168> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of aging" .
+<http://dimensions/400500000197> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating biomarker" .
+<http://dimensions/400500000294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000170> <http://www.w3.org/2000/01/rdf-schema#label> "Biopsy biomarker" .
+<http://dimensions/400500000207> <http://www.w3.org/2000/01/rdf-schema#label> "CT imaging biomarker" .
+<http://dimensions/400500000041> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000223> .
+<http://dimensions/400500000361> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000125> .
+<http://dimensions/400500000065> <http://www.w3.org/2000/01/rdf-schema#label> "Valid MRI biomarker" .
+<http://dimensions/400500000347> <http://www.w3.org/2000/01/rdf-schema#label> "Excellent overall survival" .
+<http://dimensions/400500000234> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep apnea biomarker" .
+<http://dimensions/400500000242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000261> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000037> .
+<http://dimensions/400500000354> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000353> .
+<http://dimensions/400500000094> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of AIDS-Dementia Complex" .
+<http://dimensions/400500000054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000022> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of neurological disorders" .
+<http://dimensions/400500000100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000020> .
+<http://dimensions/400500000268> <http://www.w3.org/2000/01/rdf-schema#label> "New protein biomarker" .
+<http://dimensions/400500000060> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000083> .
+<http://dimensions/400500000164> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of neurodegenerative disease" .
+<http://dimensions/400500000192> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker kit" .
+<http://dimensions/400500000113> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000090> .
+<http://dimensions/400500000240> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000242> .
+<http://dimensions/400500000121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000096> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of Stroke" .
+<http://dimensions/400500000026> <http://www.w3.org/2000/01/rdf-schema#label> "Urine biomarker" .
+<http://dimensions/400500000190> <http://www.w3.org/2000/01/rdf-schema#label> "Monitoring treatment toxicity" .
+<http://dimensions/400500000081> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000020> .
+<http://dimensions/400500000276> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000168> .
+<http://dimensions/400500000243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000069> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000151> .
+<http://dimensions/400500000117> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000030> .
+<http://dimensions/400500000256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000145> <http://www.w3.org/2000/01/rdf-schema#label> "Progression rate biomarker" .
+<http://dimensions/400500000249> <http://www.w3.org/2000/01/rdf-schema#label> "Exercise-related biomarker" .
+<http://dimensions/400500000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000331> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000329> .
+<http://dimensions/400500000119> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000197> .
+<http://dimensions/400500000155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000093> <http://www.w3.org/2000/01/rdf-schema#label> "Combinatorial biomarker" .
+<http://dimensions/400500000230> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000221> .
+<http://dimensions/400500000022> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000090> .
+<http://dimensions/400500000306> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000072> .
+<http://dimensions/400500000306> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000290> .
+<http://dimensions/400500000075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000018> <http://www.w3.org/2000/01/rdf-schema#label> "Dietary intake biomarker" .
+<http://dimensions/400500000196> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000113> .
+<http://dimensions/400500000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000101> .
+<http://dimensions/400500000265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000249> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000221> .
+<http://dimensions/400500000137> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000007> .
+<http://dimensions/400500000235> <http://www.w3.org/2000/01/rdf-schema#label> "Candidate biomarker" .
+<http://dimensions/400500000254> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000218> .
+<http://dimensions/400500000220> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000219> .
+<http://dimensions/400500000267> <http://www.w3.org/2000/01/rdf-schema#label> "Putative proteomic biomarker" .
+<http://dimensions/400500000203> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000201> .
+<http://dimensions/400500000225> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000223> .
+<http://dimensions/400500000070> <http://www.w3.org/2000/01/rdf-schema#label> "Known valid biomarker" .
+<http://dimensions/400500000336> <http://www.w3.org/2000/01/rdf-schema#label> "Potential predictive biomarker" .
+<http://dimensions/400500000176> <http://www.w3.org/2000/01/rdf-schema#label> "Lung cancer biomarker" .
+<http://dimensions/400500000310> <http://www.w3.org/2000/01/rdf-schema#label> "Bodily secretions biomarker" .
+<http://dimensions/400500000288> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000359> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000010> .
+<http://dimensions/400500000364> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000125> .
+<http://dimensions/400500000350> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000146> .
+<http://dimensions/400500000230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000124> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000368> <http://www.w3.org/2000/01/rdf-schema#label> "Redox biomarker" .
+<http://dimensions/400500000311> <http://www.w3.org/2000/01/rdf-schema#label> "Sputum biomarker" .
+<http://dimensions/400500000320> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000130> .
+<http://dimensions/400500000257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000361> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000334> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000077> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating inflammation biomarker" .
+<http://dimensions/400500000129> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000362> <http://www.w3.org/2000/01/rdf-schema#label> "Functional biomarker" .
+<http://dimensions/400500000119> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating miRNA biomarker" .
+<http://dimensions/400500000338> <http://www.w3.org/2000/01/rdf-schema#label> "Potential drug resistance predicting biomarker" .
+<http://dimensions/400500000051> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000049> .
+<http://dimensions/400500000225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000011> <http://www.w3.org/2000/01/rdf-schema#label> "Anatomical imaging biomarker" .
+<http://dimensions/400500000057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000044> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000313> .
+<http://dimensions/400500000090> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of disease" .
+<http://dimensions/400500000365> <http://www.w3.org/2000/01/rdf-schema#label> "Pulmonary biomarker" .
+<http://dimensions/400500000189> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000102> .
+<http://dimensions/400500000304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000033> .
+<http://dimensions/400500000058> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000222> .
+<http://dimensions/400500000107> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000227> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000243> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000241> .
+<http://dimensions/400500000118> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000214> <http://www.w3.org/2000/01/rdf-schema#label> "Qualitative imaging biomarker" .
+<http://dimensions/400500000281> <http://www.w3.org/2000/01/rdf-schema#label> "Novel multiple PET biomarker" .
+<http://dimensions/400500000034> <http://www.w3.org/2000/01/rdf-schema#label> "Metabolite biomarker" .
+<http://dimensions/400500000199> <http://www.w3.org/2000/01/rdf-schema#label> "Known biomarker" .
+<http://dimensions/400500000005> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnostic biomarker" .
+<http://dimensions/400500000193> <http://www.w3.org/2000/01/rdf-schema#label> "Histopathologic biomarker" .
+<http://dimensions/400500000077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000088> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000007> .
+<http://dimensions/400500000213> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000132> .
+<http://dimensions/400500000263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000064> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker by usage" .
+<http://dimensions/400500000189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000188> <http://www.w3.org/2000/01/rdf-schema#label> "Predicting drug resistance" .
+<http://dimensions/400500000210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000120> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular target activation" .
+<http://dimensions/400500000245> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000259> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000194> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000039> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000011> .
+<http://dimensions/400500000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000359> <http://www.w3.org/2000/01/rdf-schema#label> "Surrogate imaging biomarker" .
+<http://dimensions/400500000154> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000030> .
+<http://dimensions/400500000093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000183> <http://www.w3.org/2000/01/rdf-schema#label> "Urinary metabolomic biomarker" .
+<http://dimensions/400500000099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000212> <http://www.w3.org/2000/01/rdf-schema#label> "MEG biomarker" .
+<http://dimensions/400500000204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000166> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000163> .
+<http://dimensions/400500000171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000317> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000231> .
+<http://dimensions/400500000054> <http://www.w3.org/2000/01/rdf-schema#label> "Intermediate endpoint" .
+<http://dimensions/400500000281> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000216> .
+<http://dimensions/400500000281> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000116> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000274> <http://www.w3.org/2000/01/rdf-schema#label> "New biological endpoint" .
+<http://dimensions/400500000336> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000016> .
+<http://dimensions/400500000363> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000109> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000275> <http://www.w3.org/2000/01/rdf-schema#label> "Blood pressure biomarker" .
+<http://dimensions/400500000046> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000249> .
+<http://dimensions/400500000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000013> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000136> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000161> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000155> <http://www.w3.org/2000/01/rdf-schema#label> "Drug discovery application" .
+<http://dimensions/400500000303> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000298> .
+<http://dimensions/400500000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000136> <http://www.w3.org/2000/01/rdf-schema#label> "Time-to-recurrence biomarker" .
+<http://dimensions/400500000135> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000197> .
+<http://dimensions/400500000213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000071> <http://www.w3.org/2000/01/rdf-schema#label> "Specificity" .
+<http://dimensions/400500000261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000095> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000210> <http://www.w3.org/2000/01/rdf-schema#label> "Quantitative imaging biomarker" .
+<http://dimensions/400500000315> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000066> .
+<http://dimensions/400500000212> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000213> .
+<http://dimensions/400500000062> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000033> .
+<http://dimensions/400500000305> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of neuroendocrine carcinoma" .
+<http://dimensions/400500000208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000191> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000005> .
+<http://dimensions/400500000182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000169> .
+<http://dimensions/400500000299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000068> <http://www.w3.org/2000/01/rdf-schema#label> "Time-to-progression biomarker" .
+<http://dimensions/400500000145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000163> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000152> .
+<http://dimensions/400500000270> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000206> .
+<http://dimensions/400500000262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000177> <http://www.w3.org/2000/01/rdf-schema#label> "Pancreas cancer biomarker" .
+<http://dimensions/400500000336> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000226> .
+<http://dimensions/400500000271> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000206> .
+<http://dimensions/400500000108> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000049> .
+<http://dimensions/400500000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000141> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000315> <http://www.w3.org/2000/01/rdf-schema#label> "Candidate molecular biomarker" .
+<http://dimensions/400500000272> <http://www.w3.org/2000/01/rdf-schema#label> "Novel multiple biomarker" .
+<http://dimensions/400500000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000248> <http://www.w3.org/2000/01/rdf-schema#label> "Stress-related biomarker" .
+<http://dimensions/400500000173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000087> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of nutritional exposure" .
+<http://dimensions/400500000083> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000133> .
+<http://dimensions/400500000293> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000026> .
+<http://dimensions/400500000295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000290> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000165> .
+<http://dimensions/400500000277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000109> <http://www.w3.org/2000/01/rdf-schema#label> "Pharmacogenomic biomarker" .
+<http://dimensions/400500000313> <http://www.w3.org/2000/01/rdf-schema#label> "Fluid and secretions biomarker" .
+<http://dimensions/400500000319> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000072> .
+<http://dimensions/400500000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000053> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical application" .
+<http://dimensions/400500000251> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000125> .
+<http://dimensions/400500000247> <http://www.w3.org/2000/01/rdf-schema#label> "Circadian biomarker" .
+<http://dimensions/400500000077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000113> .
+<http://dimensions/400500000193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000088> <http://www.w3.org/2000/01/rdf-schema#label> "Transcriptomic biomarker" .
+<http://dimensions/400500000211> <http://www.w3.org/2000/01/rdf-schema#label> "EEG biomarker" .
+<http://dimensions/400500000049> <http://www.w3.org/2000/01/rdf-schema#label> "Categorical variable" .
+<http://dimensions/400500000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000349> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000131> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000111> .
+<http://dimensions/400500000193> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000159> .
+<http://dimensions/400500000205> <http://www.w3.org/2000/01/rdf-schema#label> "Plasma biomarker" .
+<http://dimensions/400500000111> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical biomarker" .
+<http://dimensions/400500000190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000102> .
+<http://dimensions/400500000123> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000231> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000235> .
+<http://dimensions/400500000035> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000187> .
+<http://dimensions/400500000152> <http://www.w3.org/2000/01/rdf-schema#label> "Therapeutic biomarker" .
+<http://dimensions/400500000349> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000218> .
+<http://dimensions/400500000336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000161> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of neurotoxicity" .
+<http://dimensions/400500000033> <http://www.w3.org/2000/01/rdf-schema#label> "Genetic biomarker" .
+<http://dimensions/400500000121> <http://www.w3.org/2000/01/rdf-schema#label> "Qualified biomarker" .
+<http://dimensions/400500000270> <http://www.w3.org/2000/01/rdf-schema#label> "Multiple pathogen biomarker" .
+<http://dimensions/400500000357> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000353> .
+<http://dimensions/400500000208> <http://www.w3.org/2000/01/rdf-schema#label> "MRI biomarker" .
+<http://dimensions/400500000051> <http://www.w3.org/2000/01/rdf-schema#label> "Binary variable" .
+<http://dimensions/400500000209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000256> <http://www.w3.org/2000/01/rdf-schema#label> "Maternal biomarker" .
+<http://dimensions/400500000341> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical cardiovascular endpoint" .
+<http://dimensions/400500000310> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000313> .
+<http://dimensions/400500000172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000287> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000034> .
+<http://dimensions/400500000221> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000341> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000340> .
+<http://dimensions/400500000215> <http://www.w3.org/2000/01/rdf-schema#label> "PET biomarker" .
+<http://dimensions/400500000035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000274> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000218> .
+<http://dimensions/400500000255> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000254> .
+<http://dimensions/400500000253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000350> <http://www.w3.org/2000/01/rdf-schema#label> "relevant prognostic biomarker" .
+<http://dimensions/400500000156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000225> <http://www.w3.org/2000/01/rdf-schema#label> "Potential alcohol-related biomarker" .
+<http://dimensions/400500000027> <http://www.w3.org/2000/01/rdf-schema#label> "other female biomarker" .
+<http://dimensions/400500000289> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000087> .
+<http://dimensions/400500000181> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000197> .
+<http://dimensions/400500000156> <http://www.w3.org/2000/01/rdf-schema#label> "Reclassification" .
+<http://dimensions/400500000246> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of circadian disruption" .
+<http://dimensions/400500000126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000257> <http://www.w3.org/2000/01/rdf-schema#label> "Infant biomarker" .
+<http://dimensions/400500000271> <http://www.w3.org/2000/01/rdf-schema#label> "Multiple salivary biomarker" .
+<http://dimensions/400500000139> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000213> <http://www.w3.org/2000/01/rdf-schema#label> "Imaging biomarker by technique" .
+<http://dimensions/400500000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000183> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000037> .
+<http://dimensions/400500000216> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000206> .
+<http://dimensions/400500000317> <http://www.w3.org/2000/01/rdf-schema#label> "Promising plasma biomarker" .
+<http://dimensions/400500000129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000286> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000204> .
+<http://dimensions/400500000057> <http://www.w3.org/2000/01/rdf-schema#label> "Distal biomarker" .
+<http://dimensions/400500000160> <http://www.w3.org/2000/01/rdf-schema#label> "Biochemical marker" .
+<http://dimensions/400500000363> <http://www.w3.org/2000/01/rdf-schema#label> "Computational biomarker" .
+<http://dimensions/400500000012> <http://www.w3.org/2000/01/rdf-schema#label> "Type IV biomarker" .
+<http://dimensions/400500000072> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000044> .
+<http://dimensions/400500000276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000152> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000053> .
+<http://dimensions/400500000187> <http://www.w3.org/2000/01/rdf-schema#label> "Drug resistance biomarker" .
+<http://dimensions/400500000025> <http://www.w3.org/2000/01/rdf-schema#label> "Graded response" .
+<http://dimensions/400500000144> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000169> .
+<http://dimensions/400500000251> <http://www.w3.org/2000/01/rdf-schema#label> "Gender-related biomarker" .
+<http://dimensions/400500000296> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000205> .
+<http://dimensions/400500000174> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000340> <http://www.w3.org/2000/01/rdf-schema#label> "Cardiovascular endpoint" .
+<http://dimensions/400500000307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000152> .
+<http://dimensions/400500000056> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000164> .
+<http://dimensions/400500000004> <http://www.w3.org/2000/01/rdf-schema#label> "Monitoring biomarker" .
+<http://dimensions/400500000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000084> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000169> .
+<http://dimensions/400500000306> <http://www.w3.org/2000/01/rdf-schema#label> "Standard blood biomarker" .
+<http://dimensions/400500000294> <http://www.w3.org/2000/01/rdf-schema#label> "Potential recovery biomarker" .
+<http://dimensions/400500000203> <http://www.w3.org/2000/01/rdf-schema#label> "Early disease biomarker" .
+<http://dimensions/400500000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000147> .
+<http://dimensions/400500000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000063> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000149> <http://www.w3.org/2000/01/rdf-schema#label> "Authentic biomarker" .
+<http://dimensions/400500000197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000118> <http://www.w3.org/2000/01/rdf-schema#label> "Failure-free survival" .
+<http://dimensions/400500000040> <http://www.w3.org/2000/01/rdf-schema#label> "Functional imaging biomarker" .
+<http://dimensions/400500000234> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000233> .
+<http://dimensions/400500000207> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000213> .
+<http://dimensions/400500000369> <http://www.w3.org/2000/01/rdf-schema#label> "fibrotic biomarker" .
+<http://dimensions/400500000153> <http://www.w3.org/2000/01/rdf-schema#label> "Exploratory biomarker" .
+<http://dimensions/400500000019> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000033> .
+<http://dimensions/400500000334> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000088> .
+<http://dimensions/400500000355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000302> <http://www.w3.org/2000/01/rdf-schema#label> "Vitamin C biomarker" .
+<http://dimensions/400500000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000163> .
+<http://dimensions/400500000001> <http://www.w3.org/2000/01/rdf-schema#label> "Progression-free survival" .
+<http://dimensions/400500000327> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000165> .
+<http://dimensions/400500000322> <http://www.w3.org/2000/01/rdf-schema#label> "Multiple novel candidate protein biomarker" .
+<http://dimensions/400500000070> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000199> .
+<http://dimensions/400500000143> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000016> .
+<http://dimensions/400500000115> <http://www.w3.org/2000/01/rdf-schema#label> "microRNA biomarker" .
+<http://dimensions/400500000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000169> <http://www.w3.org/2000/01/rdf-schema#label> "Disease biomarker" .
+<http://dimensions/400500000366> <http://www.w3.org/2000/01/rdf-schema#label> "In vivo biomarker" .
+<http://dimensions/400500000361> <http://www.w3.org/2000/01/rdf-schema#label> "Effective biomarker" .
+<http://dimensions/400500000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000098> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000278> <http://www.w3.org/2000/01/rdf-schema#label> "Early detection biomarker" .
+<http://dimensions/400500000086> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of Prion disease" .
+<http://dimensions/400500000283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000267> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000097> .
+<http://dimensions/400500000162> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000153> .
+<http://dimensions/400500000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000217> <http://www.w3.org/2000/01/rdf-schema#label> "Concurrent multiple PET biomarker" .
+<http://dimensions/400500000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000125> .
+<http://dimensions/400500000103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000320> <http://www.w3.org/2000/01/rdf-schema#label> "Candidate protein biomarker" .
+<http://dimensions/400500000081> <http://www.w3.org/2000/01/rdf-schema#label> "Categorical response" .
+<http://dimensions/400500000019> <http://www.w3.org/2000/01/rdf-schema#label> "Epigenetic biomarker" .
+<http://dimensions/400500000337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000103> <http://www.w3.org/2000/01/rdf-schema#label> "Type VI biomarker" .
+<http://dimensions/400500000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000206> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000069> <http://www.w3.org/2000/01/rdf-schema#label> "Exclusion biomarker" .
+<http://dimensions/400500000265> <http://www.w3.org/2000/01/rdf-schema#label> "Serum metabolomic biomarker" .
+<http://dimensions/400500000085> <http://www.w3.org/2000/01/rdf-schema#label> "Type II biomarker" .
+<http://dimensions/400500000296> <http://www.w3.org/2000/01/rdf-schema#label> "Novel plasmatic biomarker" .
+<http://dimensions/400500000120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000150> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of acute kidney injury" .
+<http://dimensions/400500000310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000351> <http://www.w3.org/2000/01/rdf-schema#label> "Clinically relevant prognostic biomarker" .
+<http://dimensions/400500000044> <http://www.w3.org/2000/01/rdf-schema#label> "Fluid biomarker" .
+<http://dimensions/400500000234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000068> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000003> .
+<http://dimensions/400500000182> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000261> .
+<http://dimensions/400500000292> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000290> .
+<http://dimensions/400500000290> <http://www.w3.org/2000/01/rdf-schema#label> "Standard biomarker" .
+<http://dimensions/400500000308> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000310> .
+<http://dimensions/400500000041> <http://www.w3.org/2000/01/rdf-schema#label> "Valid alcohol-related biomarker" .
+<http://dimensions/400500000250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000249> .
+<http://dimensions/400500000224> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000226> .
+<http://dimensions/400500000007> <http://www.w3.org/2000/01/rdf-schema#label> "Genomic biomarker" .
+<http://dimensions/400500000258> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000254> .
+<http://dimensions/400500000177> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000175> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000283> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000089> .
+<http://dimensions/400500000259> <http://www.w3.org/2000/01/rdf-schema#label> "Novel metabolomic biomarker" .
+<http://dimensions/400500000198> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating intermediate biomarker" .
+<http://dimensions/400500000353> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000035> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of autism" .
+<http://dimensions/400500000069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000360> <http://www.w3.org/2000/01/rdf-schema#label> "Soluble biomarker" .
+<http://dimensions/400500000082> <http://www.w3.org/2000/01/rdf-schema#label> "Safety biomarker" .
+<http://dimensions/400500000222> <http://www.w3.org/2000/01/rdf-schema#label> "Smoking-related biomarker" .
+<http://dimensions/400500000080> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of Alzheimer disease" .
+<http://dimensions/400500000176> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000020> <http://www.w3.org/2000/01/rdf-schema#label> "Response biomarker" .
+<http://dimensions/400500000236> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of acute sleep deficit" .
+<http://dimensions/400500000065> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000165> .
+<http://dimensions/400500000329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000074> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000356> <http://www.w3.org/2000/01/rdf-schema#label> "Immunotherapy biomarker" .
+<http://dimensions/400500000070> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000165> .
+<http://dimensions/400500000073> <http://www.w3.org/2000/01/rdf-schema#label> "Post-approval surveillance application" .
+<http://dimensions/400500000298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000133> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000053> .
+<http://dimensions/400500000108> <http://www.w3.org/2000/01/rdf-schema#label> "Nominal variable" .
+<http://dimensions/400500000224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000039> <http://www.w3.org/2000/01/rdf-schema#label> "Structural imaging biomarker" .
+<http://dimensions/400500000154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000048> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000021> .
+<http://dimensions/400500000244> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000234> .
+<http://dimensions/400500000282> <http://www.w3.org/2000/01/rdf-schema#label> "Ideal cardiac biomarker" .
+<http://dimensions/400500000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000117> <http://www.w3.org/2000/01/rdf-schema#label> "Discrimination" .
+<http://dimensions/400500000102> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000053> .
+<http://dimensions/400500000346> <http://www.w3.org/2000/01/rdf-schema#label> "Efficacy endpoint" .
+<http://dimensions/400500000127> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000133> .
+<http://dimensions/400500000280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000199> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000125> .
+<http://dimensions/400500000338> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000078> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000045> .
+<http://dimensions/400500000215> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000131> <http://www.w3.org/2000/01/rdf-schema#label> "Qualitative biomarker" .
+<http://dimensions/400500000349> <http://www.w3.org/2000/01/rdf-schema#label> "Exploratory end point" .
+<http://dimensions/400500000209> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000055> <http://www.w3.org/2000/01/rdf-schema#label> "Preventive biomarker" .
+<http://dimensions/400500000092> <http://www.w3.org/2000/01/rdf-schema#label> "Cellular biomarker" .
+<http://dimensions/400500000096> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000302> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000298> .
+<http://dimensions/400500000201> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000256> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000254> .
+<http://dimensions/400500000180> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000101> .
+<http://dimensions/400500000209> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000208> .
+<http://dimensions/400500000334> <http://www.w3.org/2000/01/rdf-schema#label> "RNA biomarker" .
+<http://dimensions/400500000152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000083> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of exposure" .
+<http://dimensions/400500000308> <http://www.w3.org/2000/01/rdf-schema#label> "Saliva biomarker" .
+<http://dimensions/400500000091> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000033> .
+<http://dimensions/400500000316> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000289> <http://www.w3.org/2000/01/rdf-schema#label> "Concentration biomarker" .
+<http://dimensions/400500000216> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000215> .
+<http://dimensions/400500000288> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000087> .
+<http://dimensions/400500000279> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000011> .
+<http://dimensions/400500000231> <http://www.w3.org/2000/01/rdf-schema#label> "Promising biomarker" .
+<http://dimensions/400500000178> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000165> <http://www.w3.org/2000/01/rdf-schema#label> "Valid biomarker" .
+<http://dimensions/400500000091> <http://www.w3.org/2000/01/rdf-schema#label> "Haplotype biomarker" .
+<http://dimensions/400500000101> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating disease biomarker" .
+<http://dimensions/400500000116> <http://www.w3.org/2000/01/rdf-schema#label> "Quantitative biomarker" .
+<http://dimensions/400500000052> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000164> .
+<http://dimensions/400500000089> <http://www.w3.org/2000/01/rdf-schema#label> "Tissue biomarker" .
+<http://dimensions/400500000139> <http://www.w3.org/2000/01/rdf-schema#label> "Overall survival" .
+<http://dimensions/400500000276> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000162> .
+<http://dimensions/400500000148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000356> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000186> .
+<http://dimensions/400500000339> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000099> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker measurement" .
+<http://dimensions/400500000257> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000254> .
+<http://dimensions/400500000254> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000202> <http://www.w3.org/2000/01/rdf-schema#label> "Early therapy biomarker" .
+<http://dimensions/400500000352> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000064> .
+<http://dimensions/400500000095> <http://www.w3.org/2000/01/rdf-schema#label> "Proximal biomarker" .
+<http://dimensions/400500000268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000347> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000139> .
+<http://dimensions/400500000301> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000298> .
+<http://dimensions/400500000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000363> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000298> <http://www.w3.org/2000/01/rdf-schema#label> "Micronutrient biomarker" .
+<http://dimensions/400500000304> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000298> .
+<http://dimensions/400500000173> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000110> .
+<http://dimensions/400500000287> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000217> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000216> .
+<http://dimensions/400500000037> <http://www.w3.org/2000/01/rdf-schema#label> "Metabolomic biomarker" .
+<http://dimensions/400500000274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000055> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000169> .
+<http://dimensions/400500000287> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000218> .
+<http://dimensions/400500000159> <http://www.w3.org/2000/01/rdf-schema#label> "Histological biomarker" .
+<http://dimensions/400500000210> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000132> .
+<http://dimensions/400500000266> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000097> .
+<http://dimensions/400500000260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000137> <http://www.w3.org/2000/01/rdf-schema#label> "DNA biomarker" .
+<http://dimensions/400500000216> <http://www.w3.org/2000/01/rdf-schema#label> "Multiple PET biomarker" .
+<http://dimensions/400500000115> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000334> .
+<http://dimensions/400500000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000222> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000221> .
+<http://dimensions/400500000111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000053> .
+<http://dimensions/400500000144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000356> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000353> .
+<http://dimensions/400500000291> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000290> .
+<http://dimensions/400500000266> <http://www.w3.org/2000/01/rdf-schema#label> "Prognostic proteomic biomarker" .
+<http://dimensions/400500000087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000321> <http://www.w3.org/2000/01/rdf-schema#label> "Novel candidate protein biomarker" .
+<http://dimensions/400500000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000126> <http://www.w3.org/2000/01/rdf-schema#label> "Type III biomarker" .
+<http://dimensions/400500000282> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000141> <http://www.w3.org/2000/01/rdf-schema#label> "Concentration of drug" .
+<http://dimensions/400500000204> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000072> .
+<http://dimensions/400500000067> <http://www.w3.org/2000/01/rdf-schema#label> "Event-free survival" .
+<http://dimensions/400500000071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000080> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000164> .
+<http://dimensions/400500000187> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000078> .
+<http://dimensions/400500000150> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000090> .
+<http://dimensions/400500000223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000104> <http://www.w3.org/2000/01/rdf-schema#label> "Circulating epigenetic biomarker" .
+<http://dimensions/400500000315> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000235> .
+<http://dimensions/400500000316> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000231> .
+<http://dimensions/400500000054> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000112> .
+<http://dimensions/400500000029> <http://www.w3.org/2000/01/rdf-schema#label> "Biomarker of traumatic brain injury" .
+<http://dimensions/400500000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000074> <http://www.w3.org/2000/01/rdf-schema#label> "New PET biomarker" .
+<http://dimensions/400500000329> <http://www.w3.org/2000/01/rdf-schema#label> "Novel sperm biomarker" .
+<http://dimensions/400500000164> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000022> .
+<http://dimensions/400500000020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000206> <http://www.w3.org/2000/01/rdf-schema#label> "Multiple biomarker" .
+<http://dimensions/400500000222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000355> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000186> .
+<http://dimensions/400500000103> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000163> .
+<http://dimensions/400500000248> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000221> .
+<http://dimensions/400500000229> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000122> .
+<http://dimensions/400500000147> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome variable" .
+<http://dimensions/400500000188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dimensions/400500000092> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000159> .
+<http://dimensions/400500000049> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000147> .
+<http://dimensions/400500000102> <http://www.w3.org/2000/01/rdf-schema#label> "Toxicologic biomarker" .
+<http://dimensions/400500000098> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dimensions/400500000101> .
+<http://dimensions/400500000262> <http://www.w3.org/2000/01/rdf-schema#label> "Radiation metabolomic biomarker" .
+<http://dimensions/400500000226> <http://www.w3.org/2000/01/rdf-schema#label> "Potential biomarker" .

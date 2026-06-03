@@ -1,0 +1,12 @@
+# subject: "00064ef166585da2e7dbe45b6826affe"
+# relation: CAUSE
+# object: "00069bed05f3c40e3e0f8b05cbe694e9"
+# subject: "0d28423129e620ff4ef207fcf7df8b0d"
+# relation: INHIBIT
+# object: "71d4034793735c89bdcee46cc8572747"
+# subject: "6239d7c38188ac8b2dbca6a63d87e919" # Ethanol
+# relation: CAUSE
+# object: "6a1aea857162e3dd4d14839aee552066" # Abdomen, Acute
+# ["39ad38286d78e844fd795a54cfee63f3", ASSOCIATE, "6a1aea857162e3dd4d14839aee552066"]
+["fd913196f9e45e32915cb3bbc198b4a2", TREAT, "767abda73ec19fe2b3fd7c0b2500d49a"]
+

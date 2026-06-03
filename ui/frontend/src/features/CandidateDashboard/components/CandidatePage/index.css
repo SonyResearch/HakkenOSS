@@ -1,0 +1,224 @@
+.candidate-page-wrapper {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  scrollbar-width: none;
+}
+
+.candidate-page-wrapper.validation {
+  margin-bottom: 1rem;
+}
+
+.candidate-page,
+.explanation-page {
+  padding: var(--lg-padding);
+  max-height: var(--results-section-height);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  flex-grow: 2;
+  position: relative;
+  min-height: 100%;
+}
+
+.candidate-page.validation {
+  overflow-x: scroll;
+  max-height: 82vh;
+  scrollbar-width: none;
+}
+
+.candidate-page.validation > div:first-child {
+  display: flex;
+}
+.candidate-page.validation .main-information {
+  flex-direction: row;
+}
+.candidate-page > div:first-child {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 1rem;
+}
+.candidate-page .main-information {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.candidate-name-and-score {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.candidate-page.validation .candidate-name-and-score {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.candidate-page.validation .candidate-name-and-score h2 {
+  font-size: 2rem;
+}
+
+.candidate-page .container {
+  scale: 1.5;
+}
+.main-information h2 {
+  font-size: 2.2rem;
+  margin: 0.4rem 0;
+  color: var(--blue);
+  font-weight: 600;
+  word-break: break-word;
+}
+.main-information > div:last-child {
+  min-width: 200px;
+}
+
+.candidate-page > div > div > p {
+  margin-bottom: 2rem;
+}
+
+.condition-select {
+  border: 1px solid lightgray;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  max-width: 20rem;
+  font-size: 0.7rem;
+}
+
+.reference-row,
+.explanation-row {
+  background-color: rgb(243, 243, 243);
+  box-shadow: var(--box-shadow);
+  position: relative;
+}
+
+.reference-row td:first-of-type {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.reference-row td span {
+  font-size: 0.8rem;
+}
+
+.abstract-row .extra-information {
+  padding: var(--sm-padding);
+  margin-bottom: 1rem;
+  background-color: var(--light-blue);
+  border-radius: var(--border-radius);
+}
+
+.abstract-row .extra-information p {
+  margin-bottom: 0.5rem;
+}
+
+.abstract-row .extra-information span {
+  font-size: 0.9rem;
+}
+
+.reference-summary {
+  margin-top: 1rem;
+  background-color: var(--light-blue);
+  padding: 0.01rem 2rem;
+  border-radius: var(--border-radius);
+}
+
+.reference-summary h4 {
+  padding: 0;
+}
+
+.abstract-row {
+  border-bottom: none;
+  margin-bottom: 10rem;
+}
+
+.abstract-row p {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.contextualization-error {
+  margin-top: 4rem;
+  text-align: center;
+  min-height: 100%;
+}
+
+.reference-filters input {
+  background-color: white;
+}
+
+.highlighted {
+  background-color: #a0d0ff;
+}
+
+.scatter-plot-button {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  width: fit-content;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .candidate-page .score-marker-container {
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .candidate-page .container {
+    scale: 1.2; /*visualization*/
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .candidate-page .main-information {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .main-information h2 {
+    font-size: 2.6rem;
+  }
+
+  .candidate-page .main-information > div:last-child {
+    margin-top: 3rem;
+  }
+
+  .candidate-name-and-score {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .candidate-page > div:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reference-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .reference-filters input {
+    max-width: var(--min-input-width);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .candidate-page,
+  .explanation-page {
+    padding: var(--md-padding);
+  }
+}

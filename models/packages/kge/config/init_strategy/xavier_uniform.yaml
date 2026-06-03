@@ -1,0 +1,5 @@
+_target_: kge.initialization.XavierUniform
+gain: 1.0
+skip_bias_init: False
+bias_value: 0.0
+embedding_padding_value: 0.0

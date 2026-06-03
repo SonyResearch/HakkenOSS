@@ -1,0 +1,8 @@
+# Set DOCS_FOLDER env var (e.g. absolute path to documents directory)
+path: ${oc.env:DOCS_FOLDER}/braca1.txt
+encoding: utf-8
+group_id: test-graph
+source_description: This is a document about Braca1 gene
+reference_year: 2026
+source_type: text
+lang: en

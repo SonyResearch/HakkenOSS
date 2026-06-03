@@ -1,0 +1,20 @@
+# @package _global_
+#
+# Knowledge-graph profile: agro
+# Usage:  uv run python scripts/run_enki_ingest.py kg=agro document=...
+
+workspace: "enki-agro"
+
+chunks_table:
+  name: agro_chunks_vectors
+
+entities_table:
+  name: agro_entities_vectors
+
+domains_table:
+  name: agro_domains_vectors
+
+relations_table:
+  name: agro_relations_vectors
+
+facts_table_name: agro_facts

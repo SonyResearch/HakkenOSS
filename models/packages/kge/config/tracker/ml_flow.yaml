@@ -1,0 +1,8 @@
+_target_: hakken_ml_toolkit.tracker.MLFlowTracker
+config:
+  _target_: hakken_ml_toolkit.tracker.MLFlowTrackerConfig
+  experiment_name: ${run.project}
+  run_name: null
+  tracking_uri: ".ml_flow"
+  persist: true
+  log: false

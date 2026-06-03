@@ -1,0 +1,27 @@
+.mode-toggle {
+  border-radius: var(--border-radius);
+  width: fit-content;
+  margin: 2rem;
+  margin-inline: auto;
+  align-self: center;
+  background-color: var(--light-gray);
+  border: 1px solid #e2e8f0;
+}
+
+.mode-toggle button {
+  padding: 0.5rem 2rem;
+  border-radius: calc(var(--border-radius) - 2px);
+  border: none;
+  background: transparent;
+  color: gray;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 400ms ease-in;
+}
+
+.mode-toggle button.active {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.463);
+  font-weight: 700;
+}

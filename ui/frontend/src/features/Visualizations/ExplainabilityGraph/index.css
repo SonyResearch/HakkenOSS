@@ -1,0 +1,150 @@
+.results-section .explanation-graph {
+  position: relative;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.248);
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60vh;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: var(--border-radius);
+  z-index: 10000;
+}
+
+.explanation-graph.amplified {
+  position: fixed;
+  height: 100vh;
+}
+
+.explanation-graph.amplified svg {
+  cursor: grab;
+}
+
+.explanation-graph svg {
+  margin-inline: auto;
+  background-color: white;
+}
+
+.explanation-graph:focus {
+  outline: none;
+}
+
+.explanation-graph-parameters {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  color: black;
+}
+
+.explanation-graph-parameters > label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanation-graph-parameters > button {
+  border: none;
+  padding: 0.4rem 1rem;
+}
+
+.explanation-graph-parameters > img {
+  top: var(--header-height);
+  right: 1rem;
+}
+
+.num-of-explanations {
+  cursor: pointer;
+}
+
+.explanation-graph img {
+  width: 2rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+.explanation-graph .amplifying-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.explanation-graph .amplifying-icon.close {
+  top: calc(1rem + var(--header-height));
+}
+
+.explanation-tooltip {
+  position: absolute;
+  opacity: 0;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 0 0.5rem;
+  border-radius: var(--border-radius);
+  transition: 400ms;
+  max-width: 300px;
+  max-height: 0;
+  transition: max-height 400ms ease-in opacity 400ms 400ms ease-in;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  z-index: 100000000000;
+}
+
+.explanation-tooltip.active {
+  opacity: 1;
+  max-height: 500px;
+  overflow-y: auto;
+  max-width: auto;
+  pointer-events: all;
+  scrollbar-width: thin;
+}
+
+.explanation-tooltip strong {
+  border-bottom: 2px solid lightsteelblue;
+  padding: 1rem;
+  color: var(--blue);
+}
+.explanation-tooltip > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.explanation-tooltip > ul > li {
+  font-size: 0.9rem;
+  border-bottom: 1px solid lightsteelblue;
+  padding: 1rem;
+  margin: 0;
+}
+
+.explanation-tooltip a {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.explanation-tooltip button {
+  padding: 0.2rem 1rem;
+  align-self: center;
+}
+
+.link {
+  stroke: gray;
+  stroke-width: 2;
+  transition: all 400ms ease-in;
+}
+.highlighted {
+  stroke: yellowgreen;
+}
+
+@media screen and (max-width: 750px) {
+  .explanation-graph-parameters {
+    font-size: 0.8rem;
+    align-items: center;
+  }
+}

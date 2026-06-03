@@ -1,0 +1,99 @@
+.main-navigation {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  margin-bottom: 0.5rem;
+  margin-right: 4rem;
+  z-index: 10000000;
+}
+
+.main-navigation > a {
+  color: inherit;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-decoration: none;
+  position: relative;
+}
+
+.main-navigation > a.active {
+  color: white;
+}
+
+.main-navigation > a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -0.1rem;
+  width: 0;
+  height: 0.5px;
+  background-color: white;
+  transition:
+    width 300ms ease-in-out,
+    left 300ms ease-in-out;
+}
+
+.main-navigation > a:hover::after,
+.main-navigation > a.active::after {
+  left: 0;
+  width: 100%;
+}
+
+.menu-icon {
+  display: none !important;
+}
+
+.main-navigation-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .main-navigation {
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 2rem;
+    display: none;
+  }
+
+  .main-navigation a {
+    font-size: 1.2rem;
+  }
+
+  .menu-icon {
+    display: block !important;
+  }
+
+  .main-navigation-mobile {
+    display: block;
+    position: absolute;
+    top: var(--header-height);
+    display: flex;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.482);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    right: 1rem;
+    gap: 1rem;
+    border-radius: var(--border-radius);
+    justify-content: center;
+    transition: all 400ms ease-in-out;
+  }
+
+  .main-navigation-mobile > a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  .main-navigation-mobile > a.active {
+    color: var(--primary-pink);
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-navigation a {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,49 @@
+.validation-form {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(234, 234, 234);
+  justify-content: center;
+  margin: 1rem 0;
+  align-items: center;
+  position: relative;
+}
+
+.validation-form .input {
+  background-color: white;
+  min-width: 180px;
+}
+
+.validation-form .button-box {
+  display: flex;
+}
+
+.entity-inputs {
+  flex-direction: row !important;
+  gap: 1.5rem;
+}
+
+.error {
+  margin-bottom: 2rem;
+  bottom: -1rem;
+  left: 0;
+  color: red;
+}
+
+@media screen and (max-width: 1400px) {
+  .entity-inputs {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .validation-form {
+    flex-direction: column;
+    gap: 1rem;
+    max-height: auto;
+    padding: 2rem;
+  }
+}

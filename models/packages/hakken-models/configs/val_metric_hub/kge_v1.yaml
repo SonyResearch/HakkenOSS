@@ -1,0 +1,74 @@
+# Sampled mean rank + multilabel relation clf (F1 / precision / recall, micro & macro).
+# Use: defaults train_kge.yaml with ``- val_metric_hub: kge_mean_rank_relation_multilabel``
+# ``num_labels: -1`` is replaced by dataset ``num_relations`` when the training step builds the hub.
+# Relation bundles skip batches without ``relation_labels`` (``skip_if_missing_inputs: true``).
+
+enabled: true
+bundles:
+  - name: mean_rank
+    metric_class: hakken_models.evaluators.metrics.mean_rank_metric.MeanRankMetric
+    metric_kwargs: {}
+    input_bindings:
+      pos_scores: pos_scores
+      neg_scores: neg_scores
+    skip_if_missing_inputs: false
+
+  - name: relation_f1_micro
+    metric_class: torchmetrics.classification.MultilabelF1Score
+    metric_kwargs:
+      num_labels: -1
+      average: micro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+
+  - name: relation_f1_macro
+    metric_class: torchmetrics.classification.MultilabelF1Score
+    metric_kwargs:
+      num_labels: -1
+      average: macro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+
+  - name: relation_precision_micro
+    metric_class: torchmetrics.classification.MultilabelPrecision
+    metric_kwargs:
+      num_labels: -1
+      average: micro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+
+  - name: relation_precision_macro
+    metric_class: torchmetrics.classification.MultilabelPrecision
+    metric_kwargs:
+      num_labels: -1
+      average: macro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+
+  - name: relation_recall_micro
+    metric_class: torchmetrics.classification.MultilabelRecall
+    metric_kwargs:
+      num_labels: -1
+      average: micro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+
+  - name: relation_recall_macro
+    metric_class: torchmetrics.classification.MultilabelRecall
+    metric_kwargs:
+      num_labels: -1
+      average: macro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true

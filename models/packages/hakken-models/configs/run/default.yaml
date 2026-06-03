@@ -1,0 +1,3 @@
+seed: 42
+resume_from_checkpoint: null
+cleanup_local_checkpoints: true

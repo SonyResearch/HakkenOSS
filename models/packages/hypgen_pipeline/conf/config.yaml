@@ -1,0 +1,28 @@
+# Default configuration values
+defaults:
+  - _self_
+
+batch: 1
+
+# Stage parameters (defaults that can be overridden)
+prepare:
+  datapath: ""
+  outpath: ""
+  node_pair_column: "node_pairs"
+  node_pair_ocids_column: "node_pair_ocids"
+  predicted_relations_column: "predicted_relations"
+  confidence_scores_column: "confidence_scores"
+
+filter_topk_entities:
+  datapath: ""
+  outpath: ""
+  topk: 1
+
+
+# Hydra configuration
+hydra:
+  job:
+    chdir: True  # Change to the original working directory
+  run:
+    dir: . # Don't create output directories for Hydra
+  output_subdir: null

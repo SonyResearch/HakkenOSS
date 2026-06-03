@@ -1,0 +1,17 @@
+_target_: gnn.GAT
+config:
+  _target_: gnn.GATConfig
+  input_dim: null
+  output_dim: null
+  hidden_dim: 64
+  activation: relu
+  dropout: 0.0
+  batch_norm: True
+  stage_type: skipsum
+  num_layers_pre: 1
+  num_layers_gnn: 1
+  num_layers_post: 1
+  pooling: null
+  device: ${run.device}
+  improved: False
+  add_self_loops: True

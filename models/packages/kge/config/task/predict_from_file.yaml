@@ -1,0 +1,2 @@
+name: predict_from_file
+file_path: experiments/data/nodes_selected.csv

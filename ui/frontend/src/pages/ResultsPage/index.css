@@ -1,0 +1,94 @@
+:root {
+  --results-section-height: 110vh;
+}
+
+.results-section {
+  position: absolute;
+  top: 7.5rem;
+  left: 0;
+  width: 100%;
+  min-height: 80%;
+  z-index: 1000;
+  background-color: var(--offwhite);
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results-main-info-wrapper {
+  width: 90%;
+}
+
+.results-main-info {
+  display: 'flex';
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.display-options > select {
+  height: 2rem;
+}
+
+.query-formula {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.query-formula > p {
+  padding: 1rem;
+}
+.query-formula > img {
+  width: 2rem;
+  cursor: pointer;
+}
+
+.results-section h2 {
+  color: var(--primary-pink);
+  font-family: 'arial-nova';
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+.error {
+  color: rgb(248, 34, 34);
+}
+
+.score-marker-container {
+  margin-top: 1rem;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.score-marker-container .score-range {
+  position: absolute;
+  bottom: -0.8rem;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.score-range:first-of-type {
+  left: 0;
+}
+
+.score-range:last-of-type {
+  right: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .results-main-info-wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .query-formula {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

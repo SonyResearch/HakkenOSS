@@ -1,0 +1,19 @@
+DELIMITER_DEFAULT = "\t"
+NODE_PAIR_OCIDS_COLUMN_DEFAULT = "node_pair_ocids"
+NODE_PAIR_COLUMN_DEFAULT = "node_pair"
+CONFIDENCE_SCORE_COLUMN_DEFAULT = "confidence_score"
+PREDICTED_RELATION_COLUMN_DEFAULT = "predicted_relation"  # single
+CONFIDENCE_SCORE_COLUMN_DEFAULT = "confidence_score"  # single
+PREDICTED_RELATIONS_COLUMN_DEFAULT = "predicted_relations"  # multiple
+CONFIDENCE_SCORES_COLUMN_DEFAULT = "confidence_scores"  # multiple
+EXISTING_RELATIONS_COLUMN_DEFAULT = "existing_relations"
+DATE_COLUMN_DEFAULT = "timestamp"
+PAPER_LINK_COLUMN_DEFAULT = "store_source_link"
+OCID_SUBJECT_COLUMN_DEFAULT = "ocid_subject"
+OCID_OBJECT_COLUMN_DEFAULT = "ocid_object"
+RELATION_TYPE_COLUMN_DEFAULT = "relation_type"
+TOPK_COLUMN_DEFAULT = 3
+RECENCY_MEDIAN_COLUMN_DEFAULT = "recency_median"
+RECENCY_MODE_COLUMN_DEFAULT = "recency_mode"
+PAPERS_COUNT_COLUMN_DEFAULT = "papers_count"
+FORMAT_TOKEN_DEFAULT = "<==>"

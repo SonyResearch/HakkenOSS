@@ -1,0 +1,17 @@
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled 
+
+experiment_folder: ${oc.env:KGE_RUN_PATH}
+config_path: .hydra/config.yaml
+model_ckpt_path: seed_0/model_checkpoint/last.ckpt
+score_scaler_json_path: ${oc.env:KGE_RUN_PATH}/seed_0/model_checkpoint/last_score_scaler.json
+model_ckpt_is_lightning: true
+device: cuda
+
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null

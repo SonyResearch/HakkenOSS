@@ -1,0 +1,150 @@
+val_metric_hub:
+  bundles:
+  - name: mean_rank
+    metric_class: hakken_models.evaluators.metrics.mean_rank_metric.MeanRankMetric
+    metric_kwargs: {}
+    input_bindings:
+      pos_scores: pos_scores
+      neg_scores: neg_scores
+    skip_if_missing_inputs: false
+  - name: relation_f1_micro
+    metric_class: torchmetrics.classification.MultilabelF1Score
+    metric_kwargs:
+      num_labels: -1
+      average: micro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+  - name: relation_f1_macro
+    metric_class: torchmetrics.classification.MultilabelF1Score
+    metric_kwargs:
+      num_labels: -1
+      average: macro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+  - name: relation_precision_micro
+    metric_class: torchmetrics.classification.MultilabelPrecision
+    metric_kwargs:
+      num_labels: -1
+      average: micro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+  - name: relation_precision_macro
+    metric_class: torchmetrics.classification.MultilabelPrecision
+    metric_kwargs:
+      num_labels: -1
+      average: macro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+  - name: relation_recall_micro
+    metric_class: torchmetrics.classification.MultilabelRecall
+    metric_kwargs:
+      num_labels: -1
+      average: micro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+  - name: relation_recall_macro
+    metric_class: torchmetrics.classification.MultilabelRecall
+    metric_kwargs:
+      num_labels: -1
+      average: macro
+    input_bindings:
+      rel_logits: preds
+      rel_labels: target
+    skip_if_missing_inputs: true
+  enabled: true
+data_loader:
+  name: DataLoader
+  kwargs:
+    persistent_workers: false
+    pin_memory: true
+    num_negatives: 150
+    num_workers: 4
+    batch_size: 1024
+optimizer:
+  name: Adam
+  kwargs:
+    weight_decay: 0
+    lr: 0.007
+    betas:
+    - 0.9
+    - 0.999
+run:
+  cleanup_local_checkpoints: false
+  seed: 42
+negative_strategy:
+  name: mean
+logger:
+  log_model: true
+model_checkpoint:
+  monitor: val/mean_rank
+  filename: best-{epoch:02d}-{val/mean_rank:.2f}
+  every_n_epochs: 1
+  checkpoint_dir: production/kge-v2.0.0/checkpoints
+  save_last: true
+  mode: min
+  save_top_k: 1
+  enabled: true
+init_strategy:
+  name: XavierNormal
+  kwargs:
+    gain: 1.0
+    skip_bias_init: false
+trainer:
+  gradient_clip_val: 1.0
+  devices: 1
+  check_val_every_n_epoch: 1
+  precision: 16-mixed
+  auto_batch_size: false
+  limit_train_batches: 0.1
+  strategy: auto
+  limit_val_batches: 0.1
+  max_epochs: 100
+loss:
+  name: RankingRelationLoss
+  kwargs:
+    entity_loss: MarginRankingLoss
+    entity_loss_multi_neg: false
+    relation_loss: FLWithLogitsLoss
+    rel_loss_weight: 0.2
+    relation_loss_kwargs:
+      regularization_coeff: 0.25
+      gamma: 1.0
+      reduction: mean
+    entity_loss_kwargs:
+      margin: 17
+      reduction: mean
+negative_sampler:
+  name: UniformNegativeSampler
+  kwargs:
+    corruption_scheme:
+    - subject
+    - object
+early_stopping:
+  monitor: val/mean_rank
+  verbose: true
+  check_finite: true
+  strict: true
+  stopping_threshold: 2.0
+  mode: min
+  patience: 10
+  min_delta: 0.01
+dataset:
+  version: v2
+  data_root_uri_template: s3://sai-spaice-ds/data/processed/data_processing/zenml/{name}/{version}
+  name: pubtator3-v0.4.0
+  load_embeddings: false
+kge:
+  embedding_dim: 256
+  score_fn_name: ComplExScore
+experiment_tracker:
+  experiment_name: kge-prod

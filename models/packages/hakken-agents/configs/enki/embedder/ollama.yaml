@@ -1,0 +1,5 @@
+
+embedding_model: qwen3-embedding:8b
+embedding_dim: 4096
+api_key: ""
+base_url: http://localhost:11434

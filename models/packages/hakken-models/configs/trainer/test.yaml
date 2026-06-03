@@ -1,0 +1,5 @@
+limit_train_batches: 10
+limit_val_batches: 10
+max_epochs: 10
+devices: 1
+check_val_every_n_epoch: 1

@@ -1,0 +1,16 @@
+# KGE: Ranking loss (entity/triple) + Focal loss for relations.
+# Requires dataset with relation_labels (has_relation_labels=True) for the relation term.
+# If relation_labels are absent, only the ranking term is used.
+name: RankingRelationLoss
+kwargs:
+  entity_loss: MarginRankingLoss
+  entity_loss_kwargs:
+    margin: 1.0
+    reduction: mean
+  relation_loss: FLWithLogitsLoss
+  relation_loss_kwargs:
+    gamma: 2.0
+    regularization_coeff: 0.0
+    reduction: mean
+  rel_loss_weight: 1.0
+  entity_loss_multi_neg: false

@@ -1,0 +1,3 @@
+embedding_dim: 128
+score_fn_name: "ComplExScore"
+score_fn_kwargs: {}

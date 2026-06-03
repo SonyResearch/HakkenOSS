@@ -1,0 +1,20 @@
+publication_vector_database_config:
+  config_type: milvus
+  collection_name: qwen3_embedding_0_6b
+  vector_type: float16
+  dimension: 1024
+  uri: "${oc.env:MILVUS_URI}"
+
+publication_encoder_config:
+  config_type: llm
+  hf_model_name_or_path: Qwen/Qwen3-Embedding-0.6B
+  hf_model_loading_kwargs:
+    dtype: float16
+    attn_implementation: flash_attention_2
+  max_length: 8192
+  overlap: 64
+  batch_size: 16
+
+reference_reader_config:
+  config_type: ndjson
+  publications_directory: "${oc.env:PUBLICATION_DATA_DIRECTORY}"

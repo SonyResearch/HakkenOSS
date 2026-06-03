@@ -1,0 +1,3 @@
+{"pmid":"id1","year":2008,"title":"title1","abstract":"abstract1","doi":"doi1","citations_count":10,"authors":[{"first_name":"AF1","last_name":"AL1"}]}
+{"pmid":"id2","year":2015,"title":"title2","abstract":"abstract2","doi":"doi2","citations_count":20,"authors":[{"first_name":"AF2","last_name":"AL2"}]}
+{"pmid":"id3","year":2019,"title":"title3","abstract":"abstract3","doi":"doi3","citations_count":15,"authors":[{"first_name":"AF3","last_name":"AL3"}, {"last_name":"AL4"}]}

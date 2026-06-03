@@ -1,0 +1,10 @@
+_target_: kge.models.conv_e.ConvE
+config:
+  _target_: kge.models.conv_e.ConvEConfig
+  name: conv_e
+  embedding_dim: 100
+  conv_out_channels: 16
+  conv_kernel_size: 3
+  embedding_dropout: 0.2
+  feature_map_dropout: 0.2
+  projection_dropout: 0.2

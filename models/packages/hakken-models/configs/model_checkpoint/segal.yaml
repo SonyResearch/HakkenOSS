@@ -1,0 +1,8 @@
+checkpoint_dir: checkpoints
+filename: "best-{epoch:02d}"
+monitor: val/mean_rank
+mode: min
+save_top_k: 1
+save_last: true
+every_n_epochs: 1
+enabled: true

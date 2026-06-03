@@ -1,0 +1,25 @@
+_target_: datasets.DSVKGDataset
+config:
+  _target_: datasets.DSVKGConfig
+  root_folder: ${oc.env:DATA_ROOT_FOLDER}
+  data_split_temporal_dict:
+    train: [1781, 2024]
+    val: [2025, 2025]
+    test: [2026, 2026]
+  # data_split_temporal_dict:
+  #   train: [2008, 2015]
+  #   val: [2016, 2017]
+  #   test: [2018, 2019]
+  relation_filter: null
+  facts_file: ${oc.env:DATA_ROOT_FOLDER}/edges.tsv
+  cache_folder: ${oc.env:CACHED_DATA_FOLDER}
+  facts_file_delimiter: \t
+  relation_column: relation_type
+  subject_column: subject_id
+  object_column: object_id
+  timestamp_column: year
+  facts_file_columns_dtypes:
+    subject_domain_id: string
+    object_domain_id: string 
+    relation_type:  string
+    year: int

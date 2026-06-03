@@ -1,0 +1,23 @@
+encoder_dim: 256
+
+embedder:
+  provider: "ollama"
+  model_name: "mxbai-embed-large:335m"
+  embedding_dim: 1024
+  trainable: false
+  encode_batch_size: 512
+  base_url: "http://localhost:11434"
+
+temporal:
+  embedding_dim: 64
+  learnable_frequencies: true
+  num_sinusoidal: null
+
+scoring:
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.1
+
+edge_feature_mode: "cat"
+
+use_inverse_relations: true

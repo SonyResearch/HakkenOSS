@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  querying:
+    image: intelligent:latest
+    networks:
+      - app-network
+    environment:
+      - SPAICE_MODEL_NAME=querying
+      - SPAICE_MODEL_PORT=8088
+      - OCTOPUS_HOST=${OCTOPUS_HOST:-localhost}
+      - OCTOPUS_PORT=${OCTOPUS_PORT:-8000}
+      - CORE_MODEL_PORT=${CORE_MODEL_PORT:-8001}
+      - CORE_MODEL_HOST=${CORE_MODEL_HOST:-localhost}
+      - OCTOPUS_USERNAME=${OCTOPUS_USERNAME}
+      - OCTOPUS_PASSWORD=${OCTOPUS_PASSWORD}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8088/health-check"]  # Replace with your service's health check URL
+      interval: 30s           # How often to perform the check (every 30 seconds)
+      timeout: 10s            # Time allowed to run the health check
+      retries: 3              # Number of retries before marking the container as unhealthy
+      start_period: 5s        # Initial delay before starting health checks
+    ports:
+      - "8088:8088"           # Exposing port 8080 (adjust if necessary)
+
+
+networks:
+  app-network:
+    driver: bridge

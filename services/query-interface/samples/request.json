@@ -1,0 +1,18 @@
+{
+  "variables": [
+    {
+      "label": "x",
+      "domain": "id229940000407"
+    },
+    {
+      "label": "b",
+      "domain": "id201000010099"
+    }
+  ],
+  "formula": "P(x, id232000000216, b) AND P(x, id232000000087, id241001148079)",
+  "n_candidates": 3,
+  "search_algorithm": "beam",
+  "search_parameters": {
+    "beam_size": 4
+  }
+}

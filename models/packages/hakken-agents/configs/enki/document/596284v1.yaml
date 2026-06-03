@@ -1,0 +1,8 @@
+# Set DOCS_FOLDER env var (e.g. absolute path to documents directory)
+path: ${oc.env:DOCS_FOLDER}/2024.05.28.596284v1.full.pdf
+encoding: utf-8
+group_id: test-graph
+source_description: The Latent Aging of Cells
+reference_year: 2024
+source_type: pdf
+lang: en

@@ -1,0 +1,14 @@
+# B) BCE with pos_weight from train_relation_labels - per-relation weighting for imbalance
+name: RankingRelationLoss
+kwargs:
+  entity_loss: MarginRankingLoss
+  entity_loss_kwargs:
+    margin: 1.0
+    reduction: mean
+  relation_loss: BCEWithLogitsLoss
+  relation_loss_kwargs:
+    reduction: mean
+    pos_weight_from_data: true
+  neg_strategy: hardest
+  rel_loss_weight: 1.0
+  entity_loss_multi_neg: false

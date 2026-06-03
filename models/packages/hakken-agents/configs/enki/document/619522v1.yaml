@@ -1,0 +1,8 @@
+# Set DOCS_FOLDER env var (e.g. absolute path to documents directory)
+path: ${oc.env:DOCS_FOLDER}/2024.10.22.619522v1.full.pdf
+encoding: utf-8
+group_id: test-graph
+source_description: "DNAm aging biomarkers are responsive: Insights from 51 longevity interventional studies in humans"
+reference_year: 2024
+source_type: pdf
+lang: en

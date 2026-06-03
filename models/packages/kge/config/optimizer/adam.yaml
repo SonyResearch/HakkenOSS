@@ -1,0 +1,6 @@
+_target_: kge.optim.factory.OptimizerInfo
+class_name: torch.optim.Adam
+kwargs:
+  lr: 0.005
+  betas: [0.9, 0.999]
+  weight_decay: 1e-6

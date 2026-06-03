@@ -1,0 +1,31 @@
+FROM pytorch/pytorch:2.7.1-cuda11.8-cudnn9-runtime AS base
+
+# uv installation
+RUN pip install uv
+ENV PATH="/opt/venv/bin:$PATH"
+ENV UV_PROJECT_ENVIRONMENT="/opt/venv"
+ENV UV_SYSTEM_PYTHON=1
+ENV PATH="/root/.local/bin/:$PATH"
+
+# install heavy dependencies first to leverage caching
+WORKDIR /app
+COPY pyproject.toml /app/pyproject.toml
+COPY uv.lock /app/uv.lock
+COPY README.md ./README.md
+COPY /hakken_ml_toolkit /app/../hakken_ml_toolkit
+
+RUN --mount=type=secret,id=codeartifact_username,uid=1000 \
+    --mount=type=secret,id=codeartifact_password,uid=1000 \
+    export UV_INDEX_HAKKEN_PIP_REGISTRY_USERNAME=$(cat /run/secrets/codeartifact_username) ; \
+    export UV_INDEX_HAKKEN_PIP_REGISTRY_PASSWORD=$(cat /run/secrets/codeartifact_password) ; \
+    uv sync --index-strategy unsafe-best-match --no-cache --no-install-project
+
+# install hakken related packages
+FROM base AS build
+
+COPY /hakken_models /app/hakken_models
+RUN --mount=type=secret,id=codeartifact_username,uid=1000 \
+    --mount=type=secret,id=codeartifact_password,uid=1000 \
+    export UV_INDEX_HAKKEN_PIP_REGISTRY_USERNAME=$(cat /run/secrets/codeartifact_username) ; \
+    export UV_INDEX_HAKKEN_PIP_REGISTRY_PASSWORD=$(cat /run/secrets/codeartifact_password) ; \
+    uv sync --index-strategy unsafe-best-match --no-cache

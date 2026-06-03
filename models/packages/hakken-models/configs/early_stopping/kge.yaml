@@ -1,0 +1,8 @@
+monitor: val/mean_rank
+mode: min
+patience: 5
+min_delta: 0.01
+verbose: true
+strict: true
+check_finite: true
+stopping_threshold: 2.0

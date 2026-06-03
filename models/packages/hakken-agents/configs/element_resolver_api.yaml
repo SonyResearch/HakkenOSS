@@ -1,0 +1,19 @@
+# Element Resolver API config.
+#
+# Embedder model, dimension, and metadata columns are loaded from the
+# DB registry at startup (written by the ingest CLI). The YAML only
+# needs the table name and operational settings (LLM, DB, credentials).
+#
+# resolver/llm: default (from .env) | openrouter | openai | ollama
+# resolver/embedder: default (from .env) | openrouter | openai | ollama
+
+defaults:
+  - resolver: default
+  - resolver/llm: default
+  - resolver/embedder: default
+  - resolver/db: default
+  - resolver/table: nodes
+  - _self_
+
+host: "0.0.0.0"
+port: 8000

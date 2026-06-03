@@ -1,0 +1,22 @@
+defaults:
+  - _self_
+  - triple_to_probe: pubtator3-v0.4.0
+  - candidate_finder: corpus_path
+  - explainer: default
+
+log_level: INFO
+
+output:
+  path: explanations.tsv
+  delimiter: "\t"
+
+run:
+  device: "cuda"
+  score_type_list:
+    # - _target_: hakken_explainer.entities.config.ScoreTypeConfig
+    #   type: necessary
+    #   batch_size: 8
+    - _target_: hakken_explainer.entities.config.ScoreTypeConfig
+      type: sufficient
+      batch_size: 32
+  relation_filter: null

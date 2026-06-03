@@ -1,0 +1,63 @@
+.candidate-row {
+  opacity: 0.7;
+  transition: opacity 400ms ease-in-out;
+  cursor: pointer;
+  position: relative;
+}
+
+.candidate-row .candidate-name {
+  word-break: break-word;
+}
+
+.candidate-domain {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.candidate-row:hover {
+  opacity: 1;
+}
+
+.candidate-row.active {
+  opacity: 1;
+  box-shadow: var(--highlighted-shadow);
+}
+
+.explanation-status {
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border-radius: 50%;
+}
+
+.explanation-status.loading {
+  border-top: 2px solid var(--blue);
+  border-right: 2px solid var(--blue);
+  animation: spin 1s linear infinite;
+}
+
+.explanation-status.ready {
+  background-color: var(--blue);
+}
+
+.explanation-status.error {
+  background-color: firebrick;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .candidate-row {
+    display: flex !important;
+    min-width: 250px;
+    flex-direction: column !important;
+  }
+}

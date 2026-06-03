@@ -1,0 +1,18 @@
+- |
+  MATCH (n) RETURN COUNT(n)
+- |
+  MATCH (n)-[r]->(o) RETURN COUNT(r)
+- |
+  MATCH (s:DISEASE)-[r:INHIBIT]->(o)
+  WHERE o.node_id = '233a13438aefb78bfcbc8deac4e2b952'
+  RETURN s.node_id AS node_id
+- |
+  MATCH (s)-[r]->(o)
+  WHERE ('DISEASE' IN LABELS(s))
+    AND (TYPE(r) = 'INHIBIT' AND o.node_id = '233a13438aefb78bfcbc8deac4e2b952')
+  RETURN s.node_id AS node_id
+- |
+  MATCH (s)-[r]->(o)
+  WHERE ('DISEASE' IN LABELS(s))
+    AND (NOT (TYPE(r) = 'ASSOCIATE' AND o.node_id = 'be61640182934a2527000895202e3a2e'))
+  RETURN s.node_id AS node_id

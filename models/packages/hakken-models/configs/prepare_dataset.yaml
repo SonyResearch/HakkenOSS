@@ -1,0 +1,4 @@
+defaults:
+  - _self_
+  - dataset_preparator: pubtator3-v0_4_0-v3
+  - db@dataset_preparator: default

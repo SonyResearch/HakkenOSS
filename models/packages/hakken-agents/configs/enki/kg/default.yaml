@@ -1,0 +1,20 @@
+# @package _global_
+#
+# Knowledge-graph profile: sets table names, facts table, and workspace.
+# Switch profiles from the CLI:  kg=agro
+
+workspace: "enki-ingest"
+
+chunks_table:
+  name: chunks_vectors
+
+entities_table:
+  name: entities_vectors
+
+domains_table:
+  name: domains_vectors
+
+relations_table:
+  name: relations_vectors
+
+facts_table_name: facts

@@ -1,0 +1,43 @@
+- person
+- organization
+- city
+- concept
+- country
+- university
+- research_institute
+
+# Academic / scientific structure
+- field_of_study      # Machine Learning, Computer Vision
+- research_area       # Representation Learning, RL
+- method              # CNN, Transformer, SVM
+- algorithm           # Q-learning, K-means
+- theory              # Bias-variance tradeoff
+- mathematical_object # Loss function, Gradient
+- metric              # Accuracy, F1-score
+- benchmark           # ImageNet, GLUE
+- dataset             # MNIST, CIFAR-10
+- task                # Classification, Segmentation
+- problem             # Overfitting, Domain shift
+
+# Artifacts / outputs
+- model          # GPT, ResNet
+- architecture   # Transformer, U-Net
+- framework      # TensorFlow, PyTorch
+- library        # scikit-learn
+- software_tool  # Weights & Biases
+- hardware       # GPU, TPU
+
+# Publication ecosystem
+- paper       # Research papers
+- conference  # NeurIPS, ICML
+- journal
+- book
+
+# Temporal / versioning
+- year
+- date
+- version
+
+# Industrial / product context
+- company
+- product

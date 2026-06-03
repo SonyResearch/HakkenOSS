@@ -1,0 +1,6 @@
+sampler_type: "uniform"
+walker_type: "random"
+type_word2vec: "skip-gram"
+vector_size: 200
+nr_walks: 200
+walk_depth: 4

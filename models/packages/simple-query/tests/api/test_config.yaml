@@ -1,0 +1,9 @@
+kg_config:
+  config_type: neo4j
+  username: your_username
+  password: your_password
+link_predictor_config:
+  config_type: api_based
+  url: http://link_predictor_url
+querying_config:
+  config_type: simple

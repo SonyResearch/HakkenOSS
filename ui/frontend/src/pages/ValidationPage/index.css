@@ -1,0 +1,124 @@
+.validation-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.validation-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: left;
+  margin: 2rem 0;
+  background-color: white;
+}
+
+.validation-table thead {
+  background-color: rgb(61, 62, 63);
+  color: white;
+}
+
+.validation-table th,
+.validation-table td {
+  border: 1px solid #ddd;
+  padding: var(--sm-padding);
+}
+
+.validation-page .table-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.validate-button {
+  align-self: flex-end;
+  background-color: var(--primary-pink) !important;
+  border: 2px solid black;
+  transition: all 400ms ease-in-out !important;
+}
+
+.validate-button:hover {
+  filter: saturate(80%);
+}
+
+.validation-page .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.input-position-marker {
+  margin: 0;
+  margin-top: 0.5rem;
+  width: 100%;
+  border-top: 1px solid;
+  text-align: center;
+}
+
+.input-position-marker.entity {
+  border-color: black;
+}
+
+.input-position-marker.relation {
+  border-color: darkgray;
+}
+
+.validation-page .error {
+  color: red;
+}
+
+.validation-page .icon-box {
+  cursor: pointer;
+  float: right;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0;
+}
+
+.validation-page .reset-button {
+  align-self: flex-end;
+}
+
+.validation-page .reference-row {
+  margin-bottom: 1rem;
+}
+
+.button-box {
+  display: flex;
+  align-self: flex-end;
+  gap: 1rem;
+}
+
+.button-box {
+  display: flex;
+  align-self: flex-end;
+  gap: 1rem;
+}
+
+.validation-results {
+  padding: 1% 10%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 10000;
+  padding-top: 7rem;
+  overflow-y: scroll;
+}
+
+.validation-results table {
+  border-collapse: separate !important;
+  border-spacing: 0 1rem;
+  border: none;
+  table-layout: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .table-wrapper {
+    overflow-x: scroll;
+  }
+}

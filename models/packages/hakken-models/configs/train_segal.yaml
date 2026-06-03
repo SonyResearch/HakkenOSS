@@ -1,0 +1,28 @@
+defaults:
+  - _self_
+  - dataset: pubtator3-v0_4_0-v2
+  - data_loader: segal
+  - experiment_tracker: segal
+  - segal: default
+  - segal/gnn: graphsage
+  - loss: segal_composite
+  - logger: log_model
+  - model_checkpoint: segal
+  - optimizer: adam
+  - optional scheduler: null
+  - optional resume: null
+  - optional early_stopping: segal
+  - run: default
+  - trainer: segal
+  - val_metric_hub: default
+  - optional hpo: null
+  - optional hpo/metric: null
+
+# Negatives per positive: training (num_negatives), validation (num_negatives_val; null = same as training)
+num_negatives: 32
+num_negatives_val: 5000
+
+# Embedding tables (must appear here for Hydra struct overrides; see TrainSeGALConfig)
+learn_embeddings: false
+embedding_lr_factor: 0.1
+embeddings_random_init: false

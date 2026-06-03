@@ -1,0 +1,31 @@
+.tab-nav {
+  position: absolute;
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: flex-end;
+  top: calc(-1 * var(--tabs-height));
+  right: 0rem;
+  height: var(--tabs-height);
+}
+
+.tab-nav button {
+  height: 100%;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  box-shadow: 0px -4px 4px 1px rgba(128, 128, 128, 0.354);
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  transition: all 400ms ease-in;
+  color: grey;
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+.tab-nav button.active {
+  color: var(--primary-pink);
+  background-color: white;
+  z-index: 1000;
+}

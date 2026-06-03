@@ -1,0 +1,14 @@
+
+name: chunks_vectors
+schema_name: public
+content_column: content
+embedding_column: embedding
+metadata_columns:
+  - name: doc_id
+    data_type: TEXT
+  - name: page_idx
+    data_type: INTEGER
+  - name: heading
+    data_type: TEXT
+  - name: size
+    data_type: INTEGER

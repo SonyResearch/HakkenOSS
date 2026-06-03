@@ -1,0 +1,3 @@
+system_prompt_id: "entity_extractor.system.default"
+user_prompt_id: "entity_extractor.user.default"
+use_relevant_domains: False

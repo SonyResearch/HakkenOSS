@@ -1,0 +1,4 @@
+entity_embedding_dim: 64
+relation_embedding_dim: 64
+domain_embedding_dim: 32
+has_logits: true

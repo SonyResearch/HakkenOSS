@@ -1,0 +1,22 @@
+# conf/config.yaml
+defaults:
+  - _self_
+
+hydra:
+  run:
+    dir: .hydra-outputs
+
+# Main configuration for DataProcessorConfig
+name: dummy
+library: pandas
+storage: local
+data_files:
+  relations:         
+    - path: "data/test/test_relations.tsv"
+      sep: "\t"
+      column_names: ["pmid", "subject_id", "object_id", "relation_type", "confidence"]
+      header: 0
+      encoding: "utf-8"
+output_path: data/output
+output_sep: "\t"
+spark_builder: null

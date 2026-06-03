@@ -1,0 +1,5 @@
+name: ExponentialLR
+kwargs:
+  gamma: 0.95
+  interval: epoch
+  frequency: 1

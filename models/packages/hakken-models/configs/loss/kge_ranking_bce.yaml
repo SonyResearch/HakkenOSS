@@ -1,0 +1,8 @@
+name: RankingRelationLoss
+kwargs:
+  entity_loss: MarginRankingLoss
+  entity_loss_kwargs:
+    margin: 1.0
+  relation_loss: BCEWithLogitsLoss
+  relation_loss_kwargs: {}
+  rel_loss_weight: 0.5

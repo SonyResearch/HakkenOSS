@@ -1,0 +1,68 @@
+packages/simple_xkgc/misc
+packages/thiger_llm/data
+packages/thiger_llm/outputs
+packages/graphiti
+packages/hakken-agents/LightRAG
+packages/hakken-agents/RAG-Anything
+
+*.code-workspace
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific files
+*.DS_Store
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.envrc
+.python-version
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs & editors
+.idea/
+*.swp
+.vscode/
+
+# Nodejs
+node_modules/
+
+# Jupyter notebook
+.ipynb_checkpoints/
+
+hakken_hype/
+backups
+
+# compressed files
+*.jar
+*.zip
+
+# cache files
+.mypy_cache
+.pytest_cache
+.ruff_cache

@@ -1,0 +1,7 @@
+name: KGLinkNeighborLoader
+kwargs:
+  batch_size: 1024
+  num_neighbors: [128, 128]
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: False

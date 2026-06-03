@@ -1,0 +1,6 @@
+device: cuda
+ckpt_is_lightning: true
+relative_ckpt_path: last.ckpt
+mlflow_run_id: bdac587d5a5d476e8c23e0eab6b050db
+artifact_path: checkpoints
+tracking_uri: http://127.0.0.1:5000

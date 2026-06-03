@@ -1,0 +1,9 @@
+# Manuel pratique de la culture maraîchère de Paris (Moreau et Daverne, 1845)
+# Set DOCS_FOLDER env var; place the file in DOCS_FOLDER/agro/ (or override path)
+path: ${oc.env:DOCS_FOLDER}/agro/Manuel_pratique_de_la_culture_maraichere_de_Paris__par_Moreau_et_Daverne__1845.txt
+encoding: utf-8
+group_id: agro
+source_description: Manuel pratique de la culture maraîchère de Paris, par Moreau et Daverne (1845)
+reference_year: 1845
+source_type: txt
+lang: en

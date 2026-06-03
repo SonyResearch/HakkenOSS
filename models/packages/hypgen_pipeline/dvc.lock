@@ -1,0 +1,151 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: poetry run prepare data/batch2/raw/inference_output.csv data/batch2/prepare
+      params.yaml
+    deps:
+    - path: data/batch2/raw/inference_output.csv
+      hash: md5
+      md5: 0e2b21e1095349d68bec6f3b69b62838
+      size: 115142738
+    - path: hypgen_pipeline/delivery/cli/prepare.py
+      hash: md5
+      md5: 8ff64e818506e7abf124d9dbd45620cc
+      size: 2692
+    - path: params.yaml
+      hash: md5
+      md5: 45ebcefaa3a4588b0cfd21d6ec4b5a09
+      size: 538
+    params:
+      params.yaml:
+        batch_version: 2
+    outs:
+    - path: data/batch2/prepare
+      hash: md5
+      md5: 1928817d6b9e5ad0f57569cfa39814ec.dir
+      size: 278353413
+      nfiles: 2
+  filter_topk_entities:
+    cmd: poetry run filter-topk-entities data/batch2/filter_by_recency/hypothesis.pkl
+      data/batch2/filter_topk_entities params.yaml
+    deps:
+    - path: data/batch2/prepare/hypothesis.pkl
+      hash: md5
+      md5: 265c11ac31100b9ce4858df3e4db27c9
+      size: 126653082
+    - path: hypgen_pipeline/delivery/cli/filter_topk_entities.py
+      hash: md5
+      md5: a950a26f225f5402937dc6312cbf3fed
+      size: 2066
+    - path: params.yaml
+      hash: md5
+      md5: 45ebcefaa3a4588b0cfd21d6ec4b5a09
+      size: 538
+    params:
+      params.yaml:
+        batch_version: 2
+    outs:
+    - path: data/batch2/filter_topk_entities
+      hash: md5
+      md5: 72346344a7ff1410bf6f7b88dac69f22.dir
+      size: 768589
+      nfiles: 2
+  compute_shortest_path_length:
+    cmd: poetry run compute-shortest-path-length data/batch2/filter_topk_entities/hypothesis.pkl
+      data/batch2/compute_shortest_path_length
+    deps:
+    - path: data/batch2/filter_topk_entities/hypothesis.pkl
+      hash: md5
+      md5: 79ba4675a60b6e3c89900f04dd21bfa7
+      size: 353678
+    - path: hypgen_pipeline/delivery/cli/compute_shortest_path_length.py
+      hash: md5
+      md5: 2e0909b2225c2e54eb4e1fd9551ffd97
+      size: 3366
+    params:
+      params.yaml:
+        batch: 2
+        compute_shortest_path_length.input_kg_filepath_tsv: data/relations_v2/edges.csv
+    outs:
+    - path: data/batch2/compute_shortest_path_length
+      hash: md5
+      md5: b8c9d0631412ddb49d6dbb7c5f0cf23c.dir
+      size: 744558
+      nfiles: 2
+  filter_by_recency:
+    cmd: poetry run filter-by-recency data/batch2/prepare/hypothesis.pkl data/batch2/filter_by_recency
+      params.yaml
+    deps:
+    - path: data/batch2/prepare/hypothesis.pkl
+      hash: md5
+      md5: 265c11ac31100b9ce4858df3e4db27c9
+      size: 126653082
+    - path: hypgen_pipeline/delivery/cli/filter_by_recency.py
+      hash: md5
+      md5: 5006ad907fcd2286f2184017d30aa742
+      size: 3312
+    - path: params.yaml
+      hash: md5
+      md5: 45ebcefaa3a4588b0cfd21d6ec4b5a09
+      size: 538
+    params:
+      params.yaml:
+        batch_version: 2
+        filter_by_recency.reference_kg_filepath_tsv: KG_FILEPATH_TSV
+    outs:
+    - path: data/batch2/filter_by_recency
+      hash: md5
+      md5: 85c9f0ae34ed0758de2fae271ac85b14.dir
+      size: 377060848
+      nfiles: 2
+  filter_by_path_length:
+    cmd: poetry run filter-by-path-length data/batch2/filter_topk_entities/hypothesis.pkl
+      data/batch2/filter_by_path_length params.yaml
+    deps:
+    - path: data/batch2/filter_topk_entities/hypothesis.pkl
+      hash: md5
+      md5: 6d82c367ac762069c0b536568fce7d42
+      size: 378034
+    - path: hypgen_pipeline/delivery/cli/filter_by_path_length.py
+      hash: md5
+      md5: fc25756700f7ffebc32c24b015f21d5b
+      size: 3599
+    - path: params.yaml
+      hash: md5
+      md5: 45ebcefaa3a4588b0cfd21d6ec4b5a09
+      size: 538
+    params:
+      params.yaml:
+        batch_version: 2
+        filter_by_path_length.reference_kg_filepath_tsv: KG_FILEPATH_TSV
+    outs:
+    - path: data/batch2/filter_by_path_length
+      hash: md5
+      md5: 4dbbc32eb13f88614c5c12d9dba7177c.dir
+      size: 796811
+      nfiles: 2
+  finalize:
+    cmd: poetry run finalize data/batch2/filter_by_path_length/hypothesis.pkl data/batch2/finalize
+      params.yaml
+    deps:
+    - path: data/batch2/filter_by_path_length/hypothesis.pkl
+      hash: md5
+      md5: ac59ce149a257843a8d6168b76e6b2f7
+      size: 400627
+    - path: hypgen_pipeline/delivery/cli/finalize.py
+      hash: md5
+      md5: 6a42f2418c7cc7f8ad8385d6c357ecab
+      size: 2310
+    - path: params.yaml
+      hash: md5
+      md5: 45ebcefaa3a4588b0cfd21d6ec4b5a09
+      size: 538
+    params:
+      params.yaml:
+        batch_version: 2
+    outs:
+    - path: data/batch2/finalize
+      hash: md5
+      md5: 0d95435ab2624d21086001ee54dc4a98.dir
+      size: 881373
+      nfiles: 2

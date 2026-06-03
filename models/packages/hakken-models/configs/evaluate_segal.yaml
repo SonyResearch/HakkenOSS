@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - model_loader: segal_mlflow
+  - evaluator: segal
+  - experiment_tracker: segal
+  - data_loader: segal
+
+
+evaluation_groups:
+  train:
+    - train
+  val:
+    - train
+    - val

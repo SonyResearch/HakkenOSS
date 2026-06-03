@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  db:
+    image: postgres:14.5
+    restart: always
+    container_name: sentences_database
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGPORT: ${PGPORT}
+      PGDATA: ${PGDATA}
+    volumes:
+      - ./data/pg_data:/var/lib/postgresql/data
+    ports:
+      - "${PGPORT}:${PGPORT}"
+    expose:
+      - ${PGPORT}

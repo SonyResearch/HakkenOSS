@@ -1,0 +1,4 @@
+embedding_model: openai/text-embedding-3-small
+embedding_dim: 1536
+api_key: ${oc.env:OPENROUTER_API_KEY}
+base_url: ${oc.env:OPENROUTER_BASE_URL}

@@ -1,0 +1,32 @@
+site_name: Hakken Agents
+site_description: Agents for Hakken
+# site_url and repo_url - set if publishing to GitHub Pages
+# repo_name: hakken-agents
+# repo_url: https://github.com/org/hakken-agents
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Quick Start: quickstart.md
+  - Element Resolver API:
+    - Overview: element-resolver/overview.md
+    - Configuration: element-resolver/configuration.md
+    - CLI Examples: element-resolver/cli-examples.md

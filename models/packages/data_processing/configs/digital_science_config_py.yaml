@@ -1,0 +1,72 @@
+# conf/config.yaml
+defaults:
+  - _self_
+
+hydra:
+  run:
+    dir: .hydra-outputs
+
+# Main configuration for DataProcessorConfig
+name: digital_science
+library: pyspark
+storage: s3
+data_files:
+  relations:         
+    - path: "s3://<your-bucket>/data/raw/digital_science/2024r02/relations/dbcsvrel_med.csv"
+      sep: "\t"
+      column_names: ["#relation_concept", "ocid_relation", "ocid_subject", "subject_role", "subject_text", "subject_prefname", "subject_range", "ocid_object", "object_role", "object_text", "object_prefname", "object_range", "srcrep", "val_doc_id", "srcsection", "store_source_id", "store_source_link", "store_source_date", "store_srcsent", "store_created_by_module", "store_created_by"]
+      header:  true
+      encoding: "utf-8"
+    - path: "s3://<your-bucket>/data/raw/digital_science/2024r02/relations/dbcsvrel_pmc.csv"
+      sep: "\t"
+      column_names: ["#relation_concept", "ocid_relation", "ocid_subject", "subject_role", "subject_text", "subject_prefname", "subject_range", "ocid_object", "object_role", "object_text", "object_prefname", "object_range", "srcrep", "val_doc_id", "srcsection", "store_source_id", "store_source_link", "store_source_date", "store_srcsent", "store_created_by_module", "store_created_by"]
+      header:  true
+      encoding: "utf-8"
+    - path: "s3://<your-bucket>/data/raw/digital_science/2024r02/relations/dspub-dbrel_2024-10-18_1633_cleaned.csv"
+      sep: "\t"
+      column_names: ["#relation_concept", "ocid_relation", "ocid_subject", "subject_role", "subject_text", "subject_prefname", "subject_range", "ocid_object", "object_role", "object_text", "object_prefname", "object_range", "srcrep", "val_doc_id", "srcsection", "store_source_id", "store_source_date"]
+      header:  true
+      encoding: "utf-8"
+  ontologies:
+    - path: "s3://<your-bucket>/data/raw/digital_science/2024r02/hierarchies/anatomy_hierarchy.csv_tree.csv"
+      sep: "\t"
+      column_names: ["#concept_id", "concept_name", "parent_ids"]
+      header: true
+      encoding: "utf-8"
+    - path: "s3://<your-bucket>/data/raw/digital_science/2024r02/hierarchies/biomarker_hierarchy.csv_tree.csv"
+      sep: "\t"
+      column_names: ["#concept_id", "concept_name", "parent_ids"]
+      header: true
+      encoding: "utf-8"
+
+output_path: data/output/digital_science
+output_sep: "\t"
+spark_builder: null
+spark:
+  app_name: Digital_Science_Processor_Spark
+  master: local[*]
+  configs:
+    spark.hadoop.fs.s3.impl: org.apache.hadoop.fs.s3a.S3AFileSystem
+    spark.hadoop.fs.s3a.impl: org.apache.hadoop.fs.s3a.S3AFileSystem
+    spark.hadoop.fs.s3a.path.style.access: "true"
+    spark.hadoop.fs.s3a.aws.credentials.provider: com.amazonaws.auth.profile.ProfileCredentialsProvider
+
+    spark.executor.memory: "6g"
+    spark.executor.heartbeatInterval: "160s"
+
+    spark.driver.memory: "6g"
+    spark.driver.maxResultSize: "10g"
+
+    spark.network.timeout: "800s"
+
+    # SQL settings
+    spark.sql.shuffle.partitions: "400"
+    spark.sql.adaptive.enabled: "true"
+    spark.sql.adaptive.coalescePartitions.enabled: "true"
+
+    # Parallelism
+    spark.default.parallelism: "100"
+
+    # Memory tuning
+    spark.memory.fraction: "0.8"
+    spark.memory.storageFraction: "0.3"

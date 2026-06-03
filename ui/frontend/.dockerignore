@@ -1,0 +1,11 @@
+!package*.json
+!src/
+!README.md
+!tsconfig.json
+!vite*.ts
+!index.html
+Dockerfile
+README.md
+docker-compose.yaml
+dockerimage_repo.txt
+public

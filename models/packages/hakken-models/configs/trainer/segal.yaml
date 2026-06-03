@@ -1,0 +1,9 @@
+limit_train_batches: 0.05
+limit_val_batches: 0.05
+gradient_clip_val: 5.0
+auto_batch_size: False
+max_epochs: 100
+devices: 1
+strategy: "auto"
+precision: "16-mixed"
+check_val_every_n_epoch: 1

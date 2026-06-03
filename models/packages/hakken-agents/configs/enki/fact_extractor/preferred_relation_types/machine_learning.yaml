@@ -1,0 +1,56 @@
+# Foundational / taxonomic
+- is_a
+- subclass_of
+- instance_of
+- part_of
+- has_component
+
+# Causal / functional
+- causes
+- enables
+- inhibits
+- improves
+- degrades
+
+# Performance / evaluation
+- outperforms
+- achieves
+- evaluated_on
+- measured_by
+
+# Development / methodology
+- trained_on
+- fine_tuned_on
+- optimizes
+- extends
+- based_on
+- derived_from
+- implements
+
+# Data / artifact
+- uses_dataset
+- produces
+- requires
+- generates
+
+# Authorship / publication
+- proposed_by
+- published_in
+- cited_by
+- funded_by
+
+# Temporal / versioning
+- succeeds
+- precedes
+- released_in
+
+# Equivalence / comparison
+- equivalent_to
+- similar_to
+- contrasts_with
+- alternative_to
+
+# Application
+- applied_to
+- solves
+- addresses

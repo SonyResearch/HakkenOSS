@@ -1,0 +1,5 @@
+name: NSSALoss
+kwargs:
+  margin: 1.0
+  adversarial_temperature: 1.0 # 0.5 - 1.0
+  reduction: mean

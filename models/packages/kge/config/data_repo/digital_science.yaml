@@ -1,0 +1,24 @@
+_target_: datasets.DSVKGDataset
+config:
+  _target_: datasets.DSVKGConfig
+  root_folder: ${oc.env:DATA_ROOT_FOLDER}
+  data_split_temporal_dict:
+    train: [1678, 2022]
+    val: [2023, 2023]
+  relation_filter: null
+  facts_file: ${oc.env:DATA_ROOT_FOLDER}/edges.csv
+  cache_folder: ${oc.env:CACHED_DATA_FOLDER}
+  facts_file_delimiter: \t
+  relation_column: relation_type
+  subject_column: ocid_subject
+  object_column: ocid_object
+  timestamp_column: timestamp
+  timestamp_parser:
+    unit: s
+  facts_file_columns_dtypes:
+    subject_domain: string
+    object_domain: string 
+    ocid_subject: string
+    ocid_object: string 
+    relation_type:  string
+    timestamp: float

@@ -1,0 +1,51 @@
+# conf/config.yaml
+defaults:
+  - _self_
+
+hydra:
+  run:
+    dir: .hydra-outputs
+
+# Main configuration for DataProcessorConfig
+name: pubtator
+library: pyspark
+storage: s3
+data_files:
+  relations:         
+    - path: "s3://<your-bucket>/data/raw/pubtator/pubtator3/relations/relation2pubtator3.tsv"
+      sep: "\t"
+      column_names: ["pmid", "relation_type", "domain_pipe_subject_id_raw", "domain_pipe_object_id_raw"]
+      header: false
+      encoding: "utf-16le"
+
+output_path: data/output/pubtator
+output_sep: "\t"
+spark_builder: null
+spark:
+  app_name: Pubtator_Processor_Spark
+  master: local[*]
+  configs:
+    spark.hadoop.fs.s3.impl: org.apache.hadoop.fs.s3a.S3AFileSystem
+    spark.hadoop.fs.s3a.impl: org.apache.hadoop.fs.s3a.S3AFileSystem
+    spark.hadoop.fs.s3a.path.style.access: "true"
+    spark.hadoop.fs.s3a.aws.credentials.provider: com.amazonaws.auth.profile.ProfileCredentialsProvider
+
+    spark.executor.memory: "6g"
+    spark.executor.heartbeatInterval: "160s"
+
+    spark.driver.memory: "6g"
+    spark.driver.maxResultSize: "10g"
+
+    spark.network.timeout: "800s"
+
+    # SQL settings
+    spark.sql.shuffle.partitions: "400"
+    spark.sql.adaptive.enabled: "true"
+    spark.sql.adaptive.coalescePartitions.enabled: "true"
+
+    # Parallelism
+    spark.default.parallelism: "100"
+
+    # Memory tuning
+    spark.memory.fraction: "0.8"
+    spark.memory.storageFraction: "0.3"

@@ -1,0 +1,4 @@
+subject_id_list: ["/m/010016","/m/0100mt"]  # Hydrophis hardwickii 3S11_HYDHA
+object_id_list: ["/m/0100mt", "/m/010016"] # Pisum sativum ALB1E_PEA
+relation_id_list: ["/people/profession/specialization_of"] # null is also possible
+inference_config: null

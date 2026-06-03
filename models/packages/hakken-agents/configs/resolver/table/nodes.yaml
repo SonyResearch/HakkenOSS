@@ -1,0 +1,16 @@
+name: ${oc.env:TABLE_NAME,nodes_vectors}
+schema_name: public
+content_column: content
+embedding_column: embedding
+metadata_columns:
+  - name: node_name
+    data_type: TEXT
+  - name: node_id_raw
+    data_type: TEXT
+  - name: node_id
+    data_type: TEXT
+  - name: node_domain
+    data_type: TEXT
+  - name: node_domain_id
+    data_type: TEXT
+

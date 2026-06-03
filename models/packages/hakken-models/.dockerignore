@@ -1,0 +1,7 @@
+# Ignore the heavy stuff
+.venv/
+__pycache__/
+.git/
+*.egg-info/
+
+# DO NOT include hakken_ml_toolkit here!

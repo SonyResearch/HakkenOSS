@@ -1,0 +1,8 @@
+dataset_name: "pubtator3-v0.4.0"
+dataset_version: "v2"
+s3_raw_dir: "s3://sai-spaice-ds/data/processed/data_processing/{dataset_name}"
+output_dir: "s3://sai-spaice-ds/data/processed/data_processing/zenml/{dataset_name}/{dataset_version}"
+allowed_relations: null
+temporal_partitions: 
+  train: ['1800-01-01', '2023-01-01']
+  val: ['2023-01-01', '2026-01-01']

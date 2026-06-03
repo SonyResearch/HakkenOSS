@@ -1,0 +1,5 @@
+max_num_batches: 10000
+metrics:
+  - name: mean_rank
+    target_class: hakken_models.evaluators.metrics.mean_rank_metric.MeanRankMetric
+    kwargs: {}

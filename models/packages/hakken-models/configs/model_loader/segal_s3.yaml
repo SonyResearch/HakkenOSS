@@ -1,0 +1,5 @@
+device: cuda
+ckpt_is_lightning: true
+relative_ckpt_path: artifacts/checkpoints/last/last.ckpt
+run_dir: s3://sai-spaice-ds/models/prod/segal-v1.0.0/
+relative_params_path: params.json

@@ -1,0 +1,42 @@
+_target_: kge.evaluator.MimicKGEEvaluator
+config:
+  _target_: kge.evaluator.MimicKGEEvaluatorConfig
+  metrics:
+    mse:
+      _target_: kge.evaluator.MetricModel
+      class_path: torchmetrics.regression.MeanSquaredError
+      parameter_grid: {}
+      update_args_mapping:
+        preds: "scores"
+        target: "targets"
+      target_list: ["object"] # Not used
+    mae:
+      _target_: kge.evaluator.MetricModel
+      class_path: torchmetrics.regression.MeanAbsoluteError
+      parameter_grid: {}
+      update_args_mapping:
+        preds: "scores"
+        target: "targets"
+      target_list: ["object"] # Not used
+    r2_squared:
+      _target_: kge.evaluator.MetricModel
+      class_path: torchmetrics.regression.R2Score
+      parameter_grid: {}
+      update_args_mapping:
+        preds: "scores"
+        target: "targets"
+      target_list: ["object"] # Not used
+    pearson_corr:
+      _target_: kge.evaluator.MetricModel
+      class_path: torchmetrics.regression.PearsonCorrCoef
+      parameter_grid: {}
+      update_args_mapping:
+        preds: "scores"
+        target: "targets"
+      target_list: ["object"] # Not used
+  loader_kwargs:
+    batch_size: 1024
+    num_workers: 8
+  enable: true
+  
+      

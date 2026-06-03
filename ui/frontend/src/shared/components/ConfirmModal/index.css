@@ -1,0 +1,47 @@
+.confirm-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.468);
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+}
+
+.confirm-modal {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.confirm-modal p {
+  padding: 0;
+  margin: 0;
+}
+
+.confirm-modal .buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.confirm-modal .buttons button {
+  border: none;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  width: 4rem;
+  cursor: pointer;
+}
+
+.confirm-modal .buttons button:first-child {
+  background-color: var(--blue);
+  color: white;
+}

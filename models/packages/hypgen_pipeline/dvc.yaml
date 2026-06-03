@@ -1,0 +1,54 @@
+stages:
+  prepare:
+    cmd:
+      poetry run prepare data/batch${batch_version}/raw/inference_output.csv data/batch${batch_version}/prepare params.yaml
+    deps:
+    - data/batch${batch_version}/raw/inference_output.csv
+    - hypgen_pipeline/delivery/cli/prepare.py
+    - params.yaml
+    params:
+    - batch_version
+    outs:
+    - data/batch${batch_version}/prepare
+  filter_by_recency:
+    cmd: poetry run filter-by-recency data/batch${batch_version}/prepare/hypothesis.pkl data/batch${batch_version}/filter_by_recency params.yaml
+    deps:
+    - data/batch${batch_version}/prepare/hypothesis.pkl
+    - hypgen_pipeline/delivery/cli/filter_by_recency.py
+    - params.yaml
+    params:
+    - batch_version
+    - filter_by_recency.reference_kg_filepath_tsv
+    outs:
+    - data/batch${batch_version}/filter_by_recency
+  filter_topk_entities:
+    cmd: poetry run filter-topk-entities data/batch${batch_version}/filter_by_recency/hypothesis.pkl data/batch${batch_version}/filter_topk_entities params.yaml
+    deps:
+    - data/batch${batch_version}/prepare/hypothesis.pkl
+    - hypgen_pipeline/delivery/cli/filter_topk_entities.py
+    - params.yaml
+    params:
+    - batch_version
+    outs:
+    - data/batch${batch_version}/filter_topk_entities
+  filter_by_path_length:
+    cmd: poetry run filter-by-path-length data/batch${batch_version}/filter_topk_entities/hypothesis.pkl data/batch${batch_version}/filter_by_path_length params.yaml
+    deps:
+    - data/batch${batch_version}/filter_topk_entities/hypothesis.pkl
+    - hypgen_pipeline/delivery/cli/filter_by_path_length.py
+    - params.yaml
+    params:
+    - batch_version
+    - filter_by_path_length.reference_kg_filepath_tsv
+    outs:
+    - data/batch${batch_version}/filter_by_path_length
+  finalize:
+    cmd: poetry run finalize data/batch${batch_version}/filter_by_path_length/hypothesis.pkl data/batch${batch_version}/finalize params.yaml
+    deps:
+    - data/batch${batch_version}/filter_by_path_length/hypothesis.pkl
+    - hypgen_pipeline/delivery/cli/finalize.py
+    - params.yaml
+    params:
+    - batch_version
+    outs:
+    - data/batch${batch_version}/finalize

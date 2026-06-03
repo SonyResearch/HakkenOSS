@@ -1,0 +1,24 @@
+  run:
+    dir: ${hydra:runtime.cwd}/outputs/${now:%Y%m%d}_${now:%H%M%S}
+  sweeper:
+    _target_: hydra_plugins.hydra_optuna_sweeper.optuna_sweeper.OptunaSweeper
+    sampler:
+      _target_: optuna.samplers.TPESampler
+      seed: 5
+    direction: maximize
+    study_name: gnn-study
+    n_trials: 100
+    n_jobs: 1   
+    params:
+      optimizer.config.learning_rate: tag(log, interval(0.01, 0.2))
+      optimizer.config.weight_decay: tag(log, interval(0.000001, 0.0001))
+      loss_fn.config.margin: interval(50.0, 200.0)
+      model.config.embedding_dim: choice(128, 256, 512)
+      model.config.gnn.activation: choice(relu, lrelu, sin, tanh)
+      model.config.gnn.dropout: choice(0.0, 0.2, 0.3, 0.4, 0.5)
+      model.config.gnn.batch_norm: choice(False, True)
+      model.config.gnn.num_layers_pre: choice(0, 1)
+      model.config.gnn.num_layers_gnn: choice(1, 2)
+      model.config.gnn.num_layers_post: choice(0, 1)
+      model.config.gnn.heads: choice(1, 2, 4)
+      negative_sampler.config.num_negatives: choice(50, 100, 200)   

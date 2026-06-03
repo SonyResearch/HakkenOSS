@@ -1,0 +1,196 @@
+:root {
+  --visualization-card-width: 320px;
+  --scale-offset: calc(var(--visualization-card-width) * 0.3);
+  --gap: 2rem;
+}
+
+.container {
+  height: fit-content;
+  position: relative;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.container.results {
+  width: calc(var(--visualization-card-width) + 70px);
+}
+
+.container:focus {
+  outline: none;
+}
+
+.visualization {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  scroll-snap-align: center;
+  width: var(--visualization-card-width);
+  height: 220px;
+  position: relative;
+  border-radius: var(--border-radius);
+}
+
+.container .visualization:nth-of-type(n + 2):before {
+  content: 'OR';
+  position: absolute;
+  color: gray;
+  left: -2.8rem;
+  bottom: -1rem;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  scroll-snap-type: mandatory;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: calc((var(--visualization-card-width) * 3) + var(--scale-offset));
+  padding: 2rem;
+}
+
+.container svg,
+.container-active svg {
+  border-radius: var(--border-radius);
+  width: 300px;
+  cursor: 'pointer';
+  max-height: 700px;
+}
+
+.condition-type-container {
+  position: absolute;
+  z-index: -10;
+  height: 50vh;
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  color: transparent;
+  padding: 1rem;
+}
+
+.condition-type-container.hypotheses {
+  width: 45%;
+  right: 5%;
+  top: 5%;
+  transition:
+    background-color 400ms ease-in-out,
+    color 800ms ease-in-out;
+}
+
+.condition-type-container.constraints {
+  width: 40%;
+  right: 50%;
+  bottom: 5%;
+  transition:
+    background-color 400ms 500ms ease-in-out,
+    color 800ms 500ms ease-in-out;
+}
+
+.visualization:hover .condition-type-container.hypotheses {
+  color: black;
+  background-color: rgb(232, 244, 255);
+}
+.visualization:hover .condition-type-container.constraints {
+  color: black;
+  background-color: rgb(240, 240, 240);
+}
+
+.slider-controllers {
+  width: 2.2rem;
+  border: 1px solid black;
+  filter: invert(30%);
+  border-radius: 100px;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.container.results .slider-controllers {
+  width: 1.8rem;
+}
+
+.container-active {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  z-index: 5000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.container-active svg {
+  width: 100%;
+  pointer-events: all;
+}
+
+.container-active svg circle {
+  pointer-events: all;
+}
+
+.container-active .slider-controllers {
+  position: absolute;
+  width: 4rem;
+}
+
+.container-active .slider-controllers.left {
+  left: 15vw;
+  top: 50%;
+}
+.container-active .slider-controllers.right {
+  right: 15vw;
+  top: 50%;
+}
+
+.container-active .visualization {
+  width: min(800px, 60vw);
+  height: 100%;
+}
+
+.container-active .slider-wrapper {
+  max-width: 62vw;
+  width: min(calc(850px), 62vw);
+}
+
+.container-active span {
+  color: white;
+  background-color: rgb(42, 42, 42);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.maximize-icon {
+  width: 1.5rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 400ms ease-in;
+  z-index: 100;
+}
+
+.maximize-icon:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 1300px) {
+  .slider-wrapper {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .slider-wrapper {
+    padding: 0rem;
+  }
+  .container.results {
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+pmid	subject_id	object_id	relation_type	confidence
+12345	SUB001	OBJ001	inhibits	0.95
+12346	SUB002	OBJ002	activates	0.88
+12347		OBJ003	binds	0.72
+12348	SUB004	OBJ004	regulates	0.90
+12345	SUB001	OBJ001	inhibits	0.95
+12349	SUB005		interacts	0.60
+		OBJ006	binds	0.40
+12350	SUB006	OBJ007	inhibits	0.85

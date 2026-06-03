@@ -1,0 +1,8 @@
+# Set DOCS_FOLDER env var (e.g. absolute path to documents directory)
+path: ${oc.env:DOCS_FOLDER}/2025.11.09.687483v1.full.pdf
+encoding: utf-8
+group_id: test-graph
+source_description: The blood proteome predicts the impact of circulating factors on age-related mitochondrial health
+reference_year: 2025
+source_type: pdf
+lang: en

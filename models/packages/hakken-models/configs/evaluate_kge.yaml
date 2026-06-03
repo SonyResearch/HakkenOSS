@@ -1,0 +1,13 @@
+defaults:
+  - _self_
+  - model_loader: kge_mlflow
+  - evaluator: kge
+  - experiment_tracker: kge_evaluate
+  - data_loader: default
+
+
+evaluation_groups:
+  train:
+    - train
+  val:
+    - val

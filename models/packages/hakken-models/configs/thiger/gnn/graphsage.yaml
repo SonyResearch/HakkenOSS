@@ -1,0 +1,8 @@
+name: GraphSAGE
+kwargs:
+  hidden_channels: 64
+  num_layers: 2
+  dropout: 0.0
+  act: "relu"
+  norm: null
+  jk: null

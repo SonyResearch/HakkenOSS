@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - model_loader: thiger_s3
+  - evaluator: thiger
+  - experiment_tracker: thiger_evaluate
+  - data_loader: thiger
+
+
+evaluation_groups:
+  train:
+    - train
+  val:
+    - train
+    - val

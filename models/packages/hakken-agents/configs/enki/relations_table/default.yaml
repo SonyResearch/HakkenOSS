@@ -1,0 +1,9 @@
+name: relations_vectors
+schema_name: public
+content_column: content
+embedding_column: embedding
+metadata_columns:
+  - name: domain
+    data_type: TEXT
+  - name: name
+    data_type: TEXT

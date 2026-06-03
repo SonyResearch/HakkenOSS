@@ -1,0 +1,6 @@
+# Embedder credentials from .env.
+# embedding_model and embedding_dim are overridden from the DB registry at API startup.
+api_key: ${oc.env:EMBEDDER_API_KEY}
+base_url: ${oc.env:EMBEDDER_BASE_URL}
+embedding_model: ${oc.env:EMBEDDER_NAME,openai/text-embedding-3-small}
+embedding_dim: ${oc.env:EMBEDDER_DIM,1536}

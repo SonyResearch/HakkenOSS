@@ -1,0 +1,12 @@
+_target_:  hakken_explainer.entities.config.HakkenExplainerConfig
+data_path: ${oc.env:DATA_ROOT_FOLDER}
+search_space_split_names: [train, val, test]
+graph_cache_folder: ${oc.env:GRAPH_CACHE_FOLDER}
+gnn_experiment_config:
+  _target_: kge.common.entities.kge_loader_config.KGELoadExperimentConfig
+  experiment_folder: ${oc.env:MODEL_FOLDER}
+  config_path: .hydra/config.yaml
+  model_ckpt_path: seed_0/model_checkpoint/last.ckpt
+  model_ckpt_is_lightning: True
+  device: ${run.device}
+  load_negative_sampler: False

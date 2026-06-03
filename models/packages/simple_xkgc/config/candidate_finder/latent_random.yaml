@@ -1,0 +1,3 @@
+_target_: hakken_explainer.candidate_finder.latent.random.RandomPathCandidateFinder
+max_candidates: 500
+undirected: True

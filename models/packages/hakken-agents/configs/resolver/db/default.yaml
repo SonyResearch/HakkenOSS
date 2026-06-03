@@ -1,0 +1,5 @@
+host: ${oc.env:POSTGRES_HOST,localhost}
+port: ${oc.env:POSTGRES_PORT,5432}
+user: ${oc.env:POSTGRES_USER,postgres}
+password: ${oc.env:POSTGRES_PASSWORD}
+database: ${oc.env:POSTGRES_DB,hakken_agents}

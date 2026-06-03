@@ -1,0 +1,152 @@
+.condition-row-wrapper {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+.condition-row-wrapper.editing {
+  width: 100%;
+}
+
+.condition-row {
+  display: flex;
+  padding: 0.5rem 0;
+  display: 'flex';
+  align-items: 'flex-start';
+  width: 100%;
+}
+
+.condition-row strong {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.condition-row-wrapper > div:first-child > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.condition-row-wrapper > div {
+  display: flex;
+  gap: 1rem;
+}
+.editing .icon-box {
+  align-self: flex-end;
+}
+
+.icon-box {
+  padding: 1rem;
+}
+
+.icon-box div {
+  position: relative;
+}
+
+.icon-box.first div::before {
+  color: black;
+  font-size: 0.6rem;
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon-box .loading-spinner {
+  margin-top: 0.4rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icon-box.first .check-icon::before {
+  content: 'Add';
+}
+
+.icon-box.first .edit-icon::before {
+  content: 'Edit';
+}
+
+.icon-box.first .copy-icon::before {
+  content: 'Duplicate';
+}
+
+.icon-box.first .delete-icon::before {
+  content: 'Delete';
+}
+
+.conditions-container img {
+  height: 1.8rem;
+  width: 1.8rem;
+  opacity: 0.4;
+  transition: opacity 300ms ease-in-out;
+}
+
+.conditions-container img:hover {
+  opacity: 1;
+}
+
+.condition-row-wrapper select {
+  font-size: 0.9rem;
+  margin-right: 1rem;
+  padding: 0 1rem;
+  height: 2.6rem;
+  border: 1px solid rgb(216, 213, 213);
+}
+
+.light-text {
+  color: grey;
+}
+
+@media screen and (max-width: 1200px) {
+  .condition-row-wrapper.editing {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .icon-box {
+    padding: 0;
+    align-self: flex-start;
+  }
+  .icon-box.first div::before {
+    top: 2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .condition-row-wrapper,
+  .condition-row-wrapper.editing {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0rem;
+    margin-bottom: 3rem;
+  }
+  .condition-row-wrapper > div:first-child {
+    width: 100%;
+  }
+
+  .icon-box {
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+
+  .condition-row-wrapper span {
+    font-size: 0.8rem;
+  }
+}

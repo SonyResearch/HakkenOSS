@@ -1,0 +1,4 @@
+subject_id_list: ["0d28423129e620ff4ef207fcf7df8b0d"]
+relation_id_list: ["INHIBIT", "ASSOCIATE"]
+object_id_list: ["71d4034793735c89bdcee46cc8572747"]
+inference_config: null

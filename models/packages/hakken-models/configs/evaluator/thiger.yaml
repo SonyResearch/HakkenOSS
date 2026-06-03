@@ -1,0 +1,13 @@
+max_num_batches: 10
+metrics: 
+- name: accuracy
+  target_class: "torchmetrics.classification.MultilabelAccuracy"
+  kwargs: {"threshold": 0.5}
+  parameter_bindings:
+    num_labels: num_relations
+
+- name: precision
+  target_class: "torchmetrics.classification.MultilabelPrecision"
+  kwargs: {"threshold": 0.5}
+  parameter_bindings:
+    num_labels: num_relations

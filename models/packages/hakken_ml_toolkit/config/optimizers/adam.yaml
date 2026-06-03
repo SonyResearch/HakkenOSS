@@ -1,0 +1,5 @@
+_target_: optimizers.Adam
+config:
+  _target_: optimizers.AdamOptimizerConfig
+  learning_rate: 0.01
+  betas: [0.9, 0.999]

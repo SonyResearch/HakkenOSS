@@ -1,0 +1,8 @@
+reference_reader_config:
+  config_type: parquet
+  publications_directory: "tests/test_data/parquet/publications"
+publication_encoder_config:
+  config_type: llm
+  hf_model_name_or_path: "Qwen/Qwen3-Embedding-0.6B"
+publication_vector_database_config:
+  config_type: in_memory

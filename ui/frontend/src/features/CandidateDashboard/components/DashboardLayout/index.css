@@ -1,0 +1,65 @@
+.results-summary {
+  display: flex;
+  column-gap: 1rem;
+  max-width: 2000px;
+  margin-inline: auto;
+  padding-top: var(--tabs-height);
+  position: relative;
+}
+
+.results-summary.loading > div {
+  height: 100vh;
+  width: 100%;
+}
+.results-summary table {
+  border-collapse: separate !important;
+  border-spacing: 0 1rem;
+  border: none;
+  table-layout: auto;
+}
+
+.candidate-wrapper table {
+  max-width: 350px;
+}
+
+.results-summary td,
+th {
+  vertical-align: top;
+}
+
+.results-summary th {
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  border-bottom: none;
+}
+
+.results-summary tr span {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.results-summary ol,
+.results-summary ul,
+.results-summary p {
+  padding: 0;
+  margin: 0;
+}
+
+.results-summary p {
+  padding-top: 0.4rem;
+}
+
+.results-summary em {
+  font-weight: 700;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1000px) {
+  .results-summary {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--tabs-height) + 1rem);
+  }
+}

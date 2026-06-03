@@ -1,0 +1,45 @@
+.hamburger-menu {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hamburger-menu.active {
+  transform: rotate(45deg);
+}
+
+.line {
+  fill: none;
+  transition:
+    stroke-dasharray 400ms,
+    stroke-dashoffset 400ms;
+  stroke: #ffffff;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.top {
+  stroke-dasharray: 40 139;
+}
+
+.bottom {
+  stroke-dasharray: 40 180;
+}
+
+.hamburger-menu.active .top {
+  stroke-dashoffset: -98px;
+}
+
+.hamburger-menu.active .bottom {
+  stroke-dashoffset: -138px;
+}
+
+@media screen and (min-width: 750px) {
+  .hamburger-menu {
+    display: none;
+  }
+}

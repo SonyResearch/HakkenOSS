@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: "postgres:17.1"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./test_db:/var/lib/postgresql/data
+    env_file: ".env"

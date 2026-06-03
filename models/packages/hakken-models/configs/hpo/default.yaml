@@ -1,0 +1,6 @@
+resources_per_trial:
+  cpu: 8
+  gpu: 1
+num_trials: 200
+name: my_hpo_experiment
+relative_storage_path: ./ray_results/hakken_hpo

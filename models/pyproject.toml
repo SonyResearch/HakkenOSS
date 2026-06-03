@@ -1,0 +1,52 @@
+[project]
+name = "hakkenoss"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10, <3.14"
+dependencies = [
+    "python-semantic-release>=10.5.3",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.workspace]
+members = [
+    "packages/query-common", 
+    "packages/spaice_inference_api", 
+    "packages/filtering",
+    "packages/simple-query",
+    "packages/complex-query",
+    # "packages/contextualization",
+    # "packages/data_api",
+    # "packages/data_io",
+    # "packages/data_processing",
+    # "packages/data-conversion",
+    # "packages/datasets",
+    # "packages/hakken_ml_toolkit",
+    # "packages/embeddings",
+    # "packages/gnn",
+    # "packages/hakken_api_gateway",
+    # "packages/hakken_utils",
+    # "packages/hakken-agents",
+    # "packages/hakken-models",
+    # "packages/hakken-models-api",
+    # "packages/hypgen_pipeline",
+    # "packages/kge",
+    # "packages/kge_api",
+    # "packages/simple_xkgc",
+    # "packages/simple_xkgc_api",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["hakken"]
+
+[tool.uv]
+
+required-environments = [
+    "sys_platform == 'darwin'",
+    "sys_platform == 'linux'"
+]

@@ -1,0 +1,7 @@
+_target_: kge.optim.factory.LRSchedulerInfo
+class_name: torch.optim.lr_scheduler.ReduceLROnPlateau
+kwargs:
+  mode: "min"
+  factor: 0.95
+  patience: 5
+  min_lr: 1e-6

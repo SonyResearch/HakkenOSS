@@ -1,0 +1,59 @@
+.empty-results {
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.candidate-row,
+.candidate-references {
+  margin-top: 0;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.candidate-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(217, 218, 216);
+  padding: var(--md-padding);
+  max-height: var(--results-section-height);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  min-width: fit-content;
+}
+
+.candidate-wrapper h3 {
+  align-self: flex-start;
+}
+
+.candidate-wrapper .candidates-found {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.candidate-summary {
+  padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .candidates-table {
+    display: flex !important;
+    flex-direction: row !important;
+    all: unset;
+    max-width: 90vw !important;
+  }
+
+  .candidate-wrapper {
+    overflow-x: scroll;
+  }
+
+  .candidates-table tbody {
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+  }
+
+  .candidates-table th {
+    display: none;
+  }
+}

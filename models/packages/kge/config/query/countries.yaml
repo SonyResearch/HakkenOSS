@@ -1,0 +1,4 @@
+subject_id_list: ["spain"]  # Hydrophis hardwickii 3S11_HYDHA
+relation_id_list: ["neighbor"] # Pisum sativum ALB1E_PEA
+object_id_list: ["hungary"] # null is also possible
+inference_config: null

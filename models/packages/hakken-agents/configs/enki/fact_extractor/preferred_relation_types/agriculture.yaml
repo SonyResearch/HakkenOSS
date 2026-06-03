@@ -1,0 +1,133 @@
+# Foundational / taxonomic
+- is_a
+- subclass_of
+- instance_of
+- part_of
+- has_component
+- has_property
+- has_attribute
+- derived_from
+- related_to
+
+# Causal / functional
+- causes
+- contributes_to
+- enables
+- inhibits
+- improves
+- degrades
+- affects
+- regulates
+- interacts_with
+- influences
+- mitigates
+- exacerbates
+
+# Growth / requirements
+- requires
+- depends_on
+- limited_by
+- thrives_in
+- adapted_to
+- tolerant_to
+- resistant_to
+- susceptible_to
+- sensitive_to
+- optimized_by
+
+# Inputs / management actions
+- grown_in
+- planted_in
+- planted_with
+- fertilized_with
+- amended_with
+- irrigated_with
+- treated_with
+- protected_by
+- managed_by
+- monitored_by
+
+# Location / environment
+- located_in
+- occurs_in
+- native_to
+- found_in
+- distributed_in
+- prevalent_in
+- associated_with_environment
+
+# Pests & diseases
+- affected_by
+- infested_by
+- infected_by
+- hosts
+- transmitted_by
+- vectored_by
+- controlled_by
+- suppressed_by
+- prevented_by
+
+# Practices & production
+- cultivated_by
+- produced_by
+- processed_by
+- harvested_in
+- yields
+- measured_as
+- optimized_by_practice
+- evaluated_by
+- certified_as
+
+# Measurement / data relationships
+- observed_by
+- measured_by
+- estimated_by
+- predicted_by
+- detected_by
+- recorded_in
+- modeled_by
+- validated_by
+
+# Economic / business
+- sold_in
+- priced_at
+- influenced_by_market
+- subsidized_by
+- insured_by
+- contracted_through
+- contributes_to_cost
+- contributes_to_revenue
+- impacts_profitability
+
+# Post-harvest / supply chain
+- stored_in
+- transported_by
+- delivered_to
+- processed_into
+- graded_as
+- marketed_as
+- consumed_as
+
+# Temporal
+- occurs_before
+- occurs_after
+- overlaps_with
+- seasonal_in
+- cycle_of
+- triggered_by
+
+# Equivalence / comparison
+- equivalent_to
+- similar_to
+- alternative_to
+- replaces
+- compared_with
+- benchmarked_against
+
+# Application / suitability
+- applied_to
+- used_for
+- suitable_for
+- recommended_for
+- restricted_by
+- compliant_with

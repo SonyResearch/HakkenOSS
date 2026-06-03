@@ -1,0 +1,3 @@
+embedding_dim: 128
+score_fn_name: "RotatEScore"
+score_fn_kwargs: {"epsilon": 2.0}

@@ -1,0 +1,53 @@
+defaults:
+  - _self_
+  - benchmark_plot_metrics: minimal
+  - benchmark_table_metrics: default
+
+# Qualitative palette for radar & bar (matplotlib colormap name). Options:
+#   tab10 (10) | tab20 (20) | tab20b (20) | tab20c (20) | Set1 (9) | Set2 (8) | Set3 (12)
+#   Paired (12) | Pastel1 (9) | Pastel2 (8) | Dark2 (8) | Accent (8)
+palette: "tab20b"
+
+paths:
+  root: "/home/pablo.sanchez2/GitHub/project_spaice_ds/packages/pip/hakken-models"
+  results_csv: "results/benchmark/1990/comparison_summary.csv"
+  output_dir: "results/benchmark/"
+  label: "1990"
+  
+
+
+
+latex:
+  decimals: 2
+  multiplier: 100.0
+  column_format: "lcccccc"   # adjust according to number of metrics
+
+legend:
+  loc: "upper right"
+  bbox_to_anchor: [1.25, 1.15]
+  frameon: false
+  ncol: 9                     # one row for all models (radar_legend)
+
+radar:
+  title: ""
+  normalize: false
+  dpi: 140
+  sort_by_metric: "avg_macro_f1"   # or avg_weighted_f1, etc.
+
+# Bar plot: reuses benchmark_plot_metrics; optional subset via bar.metrics
+bar:
+  enabled: true
+  metrics: null   # null = use all benchmark_plot_metrics; or e.g. [avg_macro_f1, avg_weighted_f1, ndcg_all_m]
+  title: ""
+  sort_by_metric: "avg_macro_f1"
+  dpi: 140
+  figsize: [24, 5]    # width for one row of all metrics; reduce height when ncols >= 6
+  ncols: 6            # number of columns (6 = one row for 6 metrics; 3 = two rows)
+  multiplier: 100.0
+  shared_ylim: false   # true = same y range for all subplots (from data); or set ylim below
+  ylim: null          # e.g. [0, 100] to fix range when shared_ylim is true
+  show_x_labels: false # true = show model names on x-axis; false = hide (legend still shows model names)
+  show_y_label: false   # false = hide y-axis label on each subplot (title still shows metric name)
+  show_title: true      # false = hide subplot titles (metric names); e.g. set false for all but first year in a batch
+  title_fontsize: 28    # font size for subplot titles (metric names)
+  ytick_fontsize: 18    # font size for y-axis tick labels

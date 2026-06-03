@@ -1,0 +1,9 @@
+kind: recursive_char
+chunk_size: 400
+chunk_overlap: 50
+separators:
+  - "\n\n"
+  - "\n"
+  - ". "
+  - " "
+  - ""

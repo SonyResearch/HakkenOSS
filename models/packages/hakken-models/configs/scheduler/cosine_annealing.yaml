@@ -1,0 +1,6 @@
+name: CosineAnnealingLR
+kwargs:
+  T_max: 20
+  eta_min: 0.00001
+  interval: epoch
+  frequency: 1

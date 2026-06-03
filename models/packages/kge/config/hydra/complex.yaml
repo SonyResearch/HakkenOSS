@@ -1,0 +1,19 @@
+sweep:
+  dir: outputs/hpo/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  subdir: ${hydra.job.num}
+sweeper:
+  _target_: hydra_plugins.hydra_optuna_sweeper.optuna_sweeper.OptunaSweeper
+  sampler:
+    _target_: optuna.samplers.TPESampler
+    seed: 5
+  direction: maximize
+  study_name: ${run.project}
+  n_trials: 60
+  n_jobs: 1   
+  params:
+    optimizer.kwargs.lr: choice(0.01, 0.1)
+    loss_fn.config.margin: choice(1.0, 10.0, 50.0, 120.0)
+    model.config.embedding_dim: choice(128, 256, 512)
+    negative_sampler.config.num_negatives: choice(1, 50, 100)  
+
+

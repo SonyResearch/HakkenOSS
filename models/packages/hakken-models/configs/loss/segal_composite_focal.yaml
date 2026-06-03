@@ -1,0 +1,14 @@
+# A) Focal Loss for relations - addresses class imbalance by down-weighting easy examples
+name: RankingRelationLoss
+kwargs:
+  entity_loss: MarginRankingLoss
+  entity_loss_kwargs:
+    margin: 1.5
+    reduction: mean
+  relation_loss: FLWithLogitsLoss
+  relation_loss_kwargs:
+    gamma: 2.0
+    reduction: mean
+  neg_strategy: mean
+  rel_loss_weight: 1.0
+  entity_loss_multi_neg: false

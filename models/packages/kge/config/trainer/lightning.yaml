@@ -1,0 +1,13 @@
+accelerator: ${run.device}
+deterministic: False
+devices: "auto"
+strategy: "auto"
+limit_train_batches: 0.1
+limit_val_batches: 1.0
+check_val_every_n_epoch: 1
+max_epochs: 1000
+num_sanity_val_steps: 1
+enable_checkpointing: ${run.save_artifacts}
+logger: false
+gradient_clip_val: null
+precision: 32

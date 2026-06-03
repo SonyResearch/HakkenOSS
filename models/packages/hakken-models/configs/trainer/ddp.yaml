@@ -1,0 +1,7 @@
+limit_train_batches: 0.1
+limit_val_batches: 0.1
+max_epochs: 20
+devices: 4
+strategy: "ddp"
+precision: "16-mixed"
+check_val_every_n_epoch: 1

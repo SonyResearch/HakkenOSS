@@ -1,0 +1,33 @@
+_target_: datasets.DigitalScience
+config:
+  _target_: datasets.DigitalScienceConfig
+  root_folder: ${oc.env:DATA_ROOT_FOLDER}
+  cache: True
+  data_split_proportion_dict: null
+  relation_filter:
+    - 'IS_A_BIOMARKER'
+    - 'INHIBITS_PROLIFERATION_OF'
+    - 'PREVENTS'
+    - 'INDUCES'
+    - 'AFFECTS_TRANSCRIPTIONAL_ACTIVITY_OF'
+    - 'IS_DIFFERENTIATED_BY'
+    - 'INCREASES_TRANSCRIPTIONAL_ACTIVITY_OF'
+    - 'IS_A_TARGET_FOR'
+    - 'INHIBITS'
+    - 'IS_A'
+    - 'CONTAINS'
+    - 'DECREASES_ABUNDANCE_OF'
+    - 'METABOLIZES'
+    - 'AFFECTS_ABUNDANCE_OF'
+    - 'AFFECTS_DEGRADATION_OF'
+    - 'AFFECTS_EXPRESSION_OF'
+    - 'DECREASES_TRANSCRIPTIONAL_ACTIVITY_OF'
+    - 'INHIBITS_GROWTH_OF'
+    - 'INCREASES_ABUNDANCE_OF'
+    - 'TREATS'
+    - 'INCREASES_DEGRADATION_OF'
+    - 'DECREASES_EXPRESSION_OF'
+    - 'INCREASES_EXPRESSION_OF'
+  nodes_file: ${oc.env:DATA_ROOT_FOLDER}/nodes.csv
+  edges_file: ${oc.env:DATA_ROOT_FOLDER}/edges.csv
+  relation_column: relation_type

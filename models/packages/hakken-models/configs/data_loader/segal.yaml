@@ -1,0 +1,7 @@
+name: TemporalKGLinkNeighborLoader
+kwargs:
+  batch_size: 128
+  num_neighbors: [128, 64]
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: true

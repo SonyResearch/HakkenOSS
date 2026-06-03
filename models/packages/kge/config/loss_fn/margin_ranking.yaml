@@ -1,0 +1,5 @@
+_target_: hakken_ml_toolkit.losses.MarginRankingLoss
+config:
+  _target_: hakken_ml_toolkit.losses.MarginRankingLossConfig
+  reduce: mean
+  margin: 10.0

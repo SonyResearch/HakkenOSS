@@ -1,0 +1,5 @@
+_target_: kge.models.complex.ComplEx
+config:
+  _target_: kge.models.complex.ComplExConfig
+  embedding_dim: 128
+  name: complex_kge

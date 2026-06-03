@@ -1,0 +1,21 @@
+# Biomedical knowledge graph — essential entity domains (flat)
+
+- gene
+- protein
+- drug
+- disease
+- phenotype
+- pathway
+- biological_process
+- cell_type
+- tissue
+- organ
+- organism
+- species
+- variant
+- compound
+- biomarker
+- clinical_trial
+- method
+- concept
+- organization

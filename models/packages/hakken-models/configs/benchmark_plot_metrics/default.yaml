@@ -1,0 +1,54 @@
+- key: avg_macro_prec
+  display: '$\mathrm{Prec}_{\mathrm{macro}}$'
+  higher_is_better: true
+
+- key: avg_macro_rec
+  display: '$\mathrm{Rec}_{\mathrm{macro}}$'
+  higher_is_better: true
+
+- key: avg_macro_f1
+  display: '$F_{1,\mathrm{macro}}$'
+  higher_is_better: true
+
+- key: avg_weighted_prec
+  display: '$\mathrm{Prec}_{\mathrm{w}}$'
+  higher_is_better: true
+
+- key: avg_weighted_rec
+  display: '$\mathrm{Rec}_{\mathrm{w}}$'
+  higher_is_better: true
+
+- key: avg_weighted_f1
+  display: '$F_{1,\mathrm{w}}$'
+  higher_is_better: true
+
+- key: ndcg_all_m
+  display: '$\mathrm{nDCG}_{\mathrm{mean}}$'
+  higher_is_better: true
+- key: future_predictions_at_K_micro_f1
+  display: '$F_{1,\mathrm{micro}}^{\mathrm{future}@K}$'
+  higher_is_better: true
+
+- key: future_predictions_at_K_macro_f1
+  display: '$F_{1,\mathrm{macro}}^{\mathrm{future}@K}$'
+  higher_is_better: true
+
+- key: future_predictions_at_K_weighted_f1
+  display: '$F_{1,\mathrm{w}}^{\mathrm{future}@K}$'
+  higher_is_better: true
+
+- key: ndcg_all_1
+  display: '$\mathrm{nDCG}@1$'
+  higher_is_better: true
+
+- key: masked_upto_K_micro_f1
+  display: '$F_{1,\mathrm{micro}}^{\mathrm{mask}\leq K}$'
+  higher_is_better: true
+
+- key: masked_upto_K_macro_f1
+  display: '$F_{1,\mathrm{macro}}^{\mathrm{mask}\leq K}$'
+  higher_is_better: true
+
+- key: masked_upto_K_weighted_f1
+  display: '$F_{1,\mathrm{w}}^{\mathrm{mask}\leq K}$'
+  higher_is_better: true

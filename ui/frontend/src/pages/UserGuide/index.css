@@ -1,0 +1,149 @@
+.user-guide-container {
+  position: relative;
+}
+
+.user-guide-container h2 {
+  font-size: 2rem;
+  color: var(--primary-pink);
+}
+
+.user-guide > article > ul > li {
+  list-style: none;
+}
+
+.user-guide {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 1rem 4rem;
+  width: min(1200px, 70vw);
+  margin-inline: auto;
+  border-radius: var(--border-radius);
+}
+
+.user-guide img {
+  max-width: 100%;
+  margin: 2rem 0;
+}
+
+.user-guide h3 {
+  font-size: 2rem;
+  width: fit-content;
+}
+
+.user-guide h4 {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-top: 4rem;
+  padding: 1rem;
+  border: 2px solid rgb(218, 221, 255);
+  background-color: var(--light-blue);
+  width: fit-content;
+}
+
+.user-guide li {
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+
+.user-guide .icon {
+  width: 1.2rem;
+  margin: 0 0.4rem;
+}
+.user-guide .example {
+  display: flex;
+  gap: 2rem;
+}
+.user-guide .example > div {
+  font-size: 0.9rem;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  width: fit-content;
+  background-color: rgb(245, 245, 245);
+  box-shadow: var(--box-shadow);
+}
+
+.prediction-type-list {
+  list-style: lower-latin;
+}
+
+.user-guide figure {
+  width: fit-content;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: var(--border-radius);
+}
+.user-guide figure figcaption {
+  border-top: 2px solid rgb(240, 240, 240);
+  text-align: center;
+  font-size: 0.7rem;
+  color: rgb(57, 57, 57);
+}
+
+.user-guide figure img {
+  padding: 0 1rem;
+}
+.image-container:first-of-type {
+  margin-inline: auto;
+}
+.image-container {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.user-guide article a {
+  color: var(--blue);
+}
+.image-container img {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.image-container video {
+  width: 100%;
+  height: auto;
+}
+
+.table-of-contents {
+  background-color: var(--light-blue);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  width: fit-content;
+}
+
+.table-of-contents li {
+  margin-left: 0;
+}
+.table-of-contents a {
+  color: black;
+}
+@media screen and (max-width: 1200px) {
+  .user-guide .example > div {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .user-guide {
+    width: 90vw;
+    padding: 1rem;
+  }
+  .user-guide li {
+    list-style: none;
+  }
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .example {
+    flex-direction: column;
+  }
+
+  .user-guide .example > div {
+    padding: 1rem;
+  }
+  .image-container {
+    flex-direction: column;
+  }
+}

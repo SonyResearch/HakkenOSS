@@ -1,0 +1,21 @@
+
+_target_: datasets.TextKGDataset
+config:
+  _target_: datasets.TextKGConfig
+  root_folder: ${oc.env:DATA_ROOT}/Countries_S1
+  cache: True
+  files_dict:
+    train: train.txt
+    val: valid.txt
+    test: test.txt
+  delimiter: "\t"
+  column_names: ["subject", "relation", "object"]
+  relation_mapping:
+    filename: relation2id.txt
+    delimiter: "\t"
+    column_names: ["ids", "indexes"]
+  entity_mapping:
+    filename: entity2id.txt
+    delimiter: "\t"
+    column_names: ["ids", "indexes"]
+  name: countries_s1

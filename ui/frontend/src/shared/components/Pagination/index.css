@@ -1,0 +1,26 @@
+.pagination > div {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  margin-top: 2rem;
+  width: fit-content;
+  box-shadow: var(--box-shadow);
+}
+
+.pagination button {
+  background-color: rgb(242, 242, 242);
+  padding: 1rem;
+  cursor: pointer;
+  transition:
+    color 200ms ease-in-out,
+    border 200ms ease-in;
+  border: 1px solid rgb(210, 210, 210);
+}
+
+.pagination button:disabled {
+  pointer-events: none;
+}
+
+.pagination button:hover {
+  color: var(--primary-pink);
+}

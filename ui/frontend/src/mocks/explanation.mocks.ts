@@ -1,0 +1,67 @@
+export const mockExplanation = {
+  explanations: {
+    '1b4d01997d1dd063fe6a53f4ce8535dc - [CAUSE] -> f8d44b5d47523234bd469604b870cd3b':
+      [
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [eacaee5fafbf47038f920a851c6b246f-ASSOCIATE->3a3ae7b66403557063c04cf4d9653105] <> [eacaee5fafbf47038f920a851c6b246f-POSITIVE_CORRELATE->01aaadc2a98c513c95104d3be6d22fa1] <> [01aaadc2a98c513c95104d3be6d22fa1-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.5076314806938171,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [3a3ae7b66403557063c04cf4d9653105-ASSOCIATE->d84945b59de4d32831f50d775fe07f8a] <> [05a7110e3ad1236641d0504dd13548c6-POSITIVE_CORRELATE->d84945b59de4d32831f50d775fe07f8a] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [8f9f95be243aa939865215e15418b186-TREAT->3a3ae7b66403557063c04cf4d9653105] <> [05a7110e3ad1236641d0504dd13548c6-COTREAT->8f9f95be243aa939865215e15418b186] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [ac79fcbd40d706ea3b0f8f15f90b1fe5-TREAT->3a3ae7b66403557063c04cf4d9653105] <> [05a7110e3ad1236641d0504dd13548c6-COTREAT->ac79fcbd40d706ea3b0f8f15f90b1fe5] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [ac79fcbd40d706ea3b0f8f15f90b1fe5-TREAT->3a3ae7b66403557063c04cf4d9653105] <> [05a7110e3ad1236641d0504dd13548c6-ASSOCIATE->ac79fcbd40d706ea3b0f8f15f90b1fe5] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [ff86ce3a130b59e76f21479129eb5b19-ASSOCIATE->3a3ae7b66403557063c04cf4d9653105] <> [05a7110e3ad1236641d0504dd13548c6-ASSOCIATE->ff86ce3a130b59e76f21479129eb5b19] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [f02db733b5db465dab0ad76abc2cf5a0-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [05a7110e3ad1236641d0504dd13548c6-POSITIVE_CORRELATE->f02db733b5db465dab0ad76abc2cf5a0] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [f02db733b5db465dab0ad76abc2cf5a0-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [05a7110e3ad1236641d0504dd13548c6-NEGATIVE_CORRELATE->f02db733b5db465dab0ad76abc2cf5a0] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [340571f87130d566e98f3ca8646948ee-ASSOCIATE->3a3ae7b66403557063c04cf4d9653105] <> [05a7110e3ad1236641d0504dd13548c6-ASSOCIATE->340571f87130d566e98f3ca8646948ee] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+        {
+          data: '[1b4d01997d1dd063fe6a53f4ce8535dc-CAUSE->3a3ae7b66403557063c04cf4d9653105] <> [3a3ae7b66403557063c04cf4d9653105-STIMULATE->cccf41cadcd13afdb8612c43dd75a26d] <> [05a7110e3ad1236641d0504dd13548c6-POSITIVE_CORRELATE->cccf41cadcd13afdb8612c43dd75a26d] <> [05a7110e3ad1236641d0504dd13548c6-TREAT->f8d44b5d47523234bd469604b870cd3b]',
+          length: 4,
+          score: -0.509917140007019,
+        },
+      ],
+  },
+};
+
+export const mockComplexityResponse = {
+  length_dict: {
+    '1000000429 - [TREAT] -> 1000038363': 3,
+    '1000000421 - [TREAT] -> 1000038362': 3,
+    '1000000423 - [TREAT] -> 1000038365': 4,
+  },
+};
+
+export const mockExplanationTime = 5000;

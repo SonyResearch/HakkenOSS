@@ -1,0 +1,10 @@
+kg_config:
+  config_type: neo4j
+  use_okta: true
+
+filtering_container_config:
+  kg_config:
+    config_type: neo4j
+    use_okta: true
+  node_filtering_config:
+    config_type: entropy

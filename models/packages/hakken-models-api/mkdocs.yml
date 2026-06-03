@@ -1,0 +1,62 @@
+site_name: Hakken Models API
+site_description: "RESTful API service for serving THiGER models for knowledge graph completion and inference"
+site_url: https://dev-hakken-biomedical.spaice.research.sony/
+repo_url: https://github.com/SonyResearch/project_spaice_ds
+repo_name: project_spaice_ds
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - content.code.annotate
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - API Reference:
+      - Endpoints: api/endpoints.md
+      - Request/Response Models: api/models.md
+  - Configuration: configuration.md
+  - Architecture: architecture.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [hakken_models_api]
+          options:
+            docstring_style: google
+            show_source: false
+            show_root_heading: true
+            show_signature: true
+            separate_signature: true
+            show_if_no_docstring: true
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
+

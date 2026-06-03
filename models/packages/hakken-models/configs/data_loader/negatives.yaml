@@ -1,0 +1,7 @@
+name: DataLoader
+kwargs:
+  batch_size: 1024
+  num_negatives: 1
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: False

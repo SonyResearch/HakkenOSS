@@ -1,0 +1,16 @@
+# C) Asymmetric Loss for relations - PU-friendly, down-weights easy negatives
+name: RankingRelationLoss
+kwargs:
+  entity_loss: MarginRankingLoss
+  entity_loss_kwargs:
+    margin: 1.0
+    reduction: mean
+  relation_loss: AsymmetricLoss
+  relation_loss_kwargs:
+    gamma_neg: 4.0
+    gamma_pos: 1.0
+    clip: 0.05
+    reduction: mean
+  neg_strategy: mean
+  rel_loss_weight: 1.0
+  entity_loss_multi_neg: false

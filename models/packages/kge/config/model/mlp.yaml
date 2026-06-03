@@ -1,0 +1,24 @@
+_target_: kge.models.gnn.GNNKGE
+config:
+  _target_: kge.models.gnn.GNNKGEConfig
+  name: gnn_kge
+  embedding_dim: 64
+  gnn_class: gnn.RGCN
+  num_relations: null
+  gnn_config:
+    _target_: gnn.RGCNConfig
+    input_dim: ${model.config.embedding_dim}
+    output_dim: ${model.config.embedding_dim}
+    hidden_dim: ${model.config.embedding_dim}
+    activation: relu
+    dropout: 0.0
+    batch_norm: True
+    stage_type: skipsum
+    num_layers_pre: 1
+    num_layers_gnn: 0
+    num_layers_post: 1
+    pooling: null
+    device: ${run.device}
+    num_relations: ${model.config.num_relations}
+    num_bases: null
+    aggr: mean

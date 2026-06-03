@@ -1,0 +1,30 @@
+defaults:
+  - _self_
+  - batch_size_optimization: none
+  - data_processor: mimic_kge
+  - data_repo: digital_science
+  - early_stopping: default
+  - evaluator: default
+  - hydra: default
+  - init_strategy: xavier_uniform
+  - lr_scheduler: on_plateau
+  - model: sagekge
+  - model_checkpoint: default
+  - negative_sampler: uniform
+  - optimizer: adam
+  - tracker: ml_flow
+  - trained_kge: digital_science
+  - trainer: lightning
+  - override hydra/sweeper: optuna
+
+
+log_level: DEBUG
+seed_list: [0]
+
+run:
+  name: null
+  project: test
+  device: cuda
+  output_dir: ${hydra:runtime.output_dir}
+  save_artifacts: false
+  remove_triples_path: null

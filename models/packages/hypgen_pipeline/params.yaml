@@ -1,0 +1,17 @@
+batch_version: 2
+prepare:
+  node_pair_column: "node pairs" 
+  node_pair_ocids_column: "node pair ocids" 
+  predicted_relations_column: "predictions"
+  confidence_scores_column: "confidence_score"
+  existing_relations_column: "true labels"
+filter_by_recency:
+  reference_kg_filepath_tsv: KG_FILEPATH_TSV
+  reference_kg_stats_filepath_json: KG_STATISTICS_FILEPATH_JSON
+filter_topk_entities:
+  topk: 3
+filter_by_path_length:
+  reference_kg_filepath_tsv: KG_FILEPATH_TSV
+  include_extrema: True
+finalize:
+  sort_by_column: "confidence_score"

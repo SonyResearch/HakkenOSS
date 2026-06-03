@@ -1,0 +1,57 @@
+site_name: Hakken ML Toolkit
+site_description: "A modular toolkit for ML research — with losses, metrics, optimizers, trackers, and utilities."
+site_url: https://hakken.com  
+repo_url: https://github.com/SonyResearch/project_spaice_ds 
+repo_name: project_spaice_ds
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - content.code.annotate
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Modules:
+      - File Manager: modules/file_manager.md
+      - Losses: modules/losses.md
+      - Metrics: modules/metrics.md
+      - ML Base Structures: modules/ml_base_structures.md
+      - ML Utils: modules/ml_utils.md
+      - Optimizers: modules/optimizers.md
+      - Tracker: modules/tracker.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: true
+            show_signature_annotations: true
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.highlight

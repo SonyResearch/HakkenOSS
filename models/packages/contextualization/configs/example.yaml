@@ -1,0 +1,15 @@
+publication_vector_database_config:
+  config_type: milvus
+  collection_name: test
+  dimension: 16
+  uri: "${oc.env:MILVUS_URI}"  # Uses OmegaConf's variable interpolation
+  
+publication_encoder_config:
+  config_type: llm
+  hf_model_name_or_path: trl-internal-testing/tiny-random-LlamaForCausalLM
+  max_length: 512
+  batch_size: 8
+
+reference_reader_config:
+  config_type: parquet
+  publications_directory: tests/test_data/parquet/publications

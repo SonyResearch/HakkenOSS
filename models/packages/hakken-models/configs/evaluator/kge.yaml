@@ -1,0 +1,22 @@
+max_num_batches: 10
+metrics: 
+- name: reciprocal_rank_object
+  target_class: "torcheval.metrics.ranking.ReciprocalRank"
+  kwargs: {"k": null}
+  prediction_mode: "object"
+
+- name: reciprocal_rank_object
+  target_class: "torcheval.metrics.ranking.ReciprocalRank"
+  kwargs: {"k": null}
+  prediction_mode: "object"
+  divide_by_relation: true
+
+- name: reciprocal_rank_subject
+  target_class: "torcheval.metrics.ranking.ReciprocalRank"
+  kwargs: {"k": null}
+  prediction_mode: "subject"
+  
+- name: hit_rate_100_object
+  target_class: "torcheval.metrics.ranking.HitRate"
+  kwargs: {"k": 100}
+  prediction_mode: "object"

@@ -1,0 +1,13 @@
+name: domains_vectors
+schema_name: public
+content_column: content
+embedding_column: embedding
+metadata_columns:
+  - name: level_1
+    data_type: TEXT
+  - name: level_2
+    data_type: TEXT
+  - name: level_3
+    data_type: TEXT
+  - name: level_4
+    data_type: TEXT

@@ -1,0 +1,20 @@
+_target_: kge.evaluator.KGEEvaluator
+config:
+  _target_: kge.evaluator.KGEEvaluatorConfig
+  ranking_metrics:
+    mrr:
+      _target_: kge.evaluator.MetricModel
+      class_path: hakken_ml_toolkit.metrics.MeanReciprocalRank
+      parameter_grid: {}
+      update_args_mapping:
+        scores: "scores"
+        targets: "targets"
+      target_list: ["object"]
+  relation_clf_metrics: {}
+  loader_kwargs:
+    batch_size: 1024
+    num_workers: 8
+  filter_list: null # None
+  enable: false
+  
+      

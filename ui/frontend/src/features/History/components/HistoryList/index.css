@@ -1,0 +1,73 @@
+.history {
+  width: 100%;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+.history-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  color: rgb(34, 34, 34);
+}
+
+.history-list {
+  background-color: white;
+  border: 1px solid rgb(219, 219, 219);
+  max-height: 6rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: var(--border-radius);
+}
+
+.history-list li:hover {
+  color: black;
+  transition: color 200ms ease-in;
+}
+
+.history-list .empty-history {
+  padding: var(--sm-padding);
+}
+
+.history-icon {
+  width: 1.5rem;
+  filter: invert(40%);
+}
+
+.clear-history {
+  align-self: flex-end;
+  margin: 0.4rem;
+  cursor: pointer;
+  color: grey;
+  transition: color 200ms ease-in;
+}
+
+.clear-history:hover {
+  color: black;
+}
+
+@media screen and (max-width: 750px) {
+  .history-list li,
+  .history-list li > div {
+    padding-left: 0.2rem;
+    padding-top: 0;
+  }
+
+  .history-list li button {
+    margin: 0;
+  }
+
+  .history-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .history-title strong {
+    display: none;
+  }
+}

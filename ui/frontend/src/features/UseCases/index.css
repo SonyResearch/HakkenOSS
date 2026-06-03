@@ -1,0 +1,51 @@
+.examples > h2 {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.example-text {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  color: rgb(61, 61, 61);
+}
+
+.examples-wrapper {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.examples-wrapper div {
+  transition: all 300ms ease-in-out;
+}
+
+.example-card {
+  max-width: 250;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  scale: 1;
+  box-shadow: none;
+}
+
+.example-card.active {
+  box-shadow: var(--highlighted-shadow);
+}
+
+.example-card.active,
+.example-card:hover {
+  scale: 1.05;
+}
+
+@media screen and (max-width: 750px) {
+  .exampleCard > div {
+    padding: 0.6rem 1rem;
+  }
+  .button-box {
+    margin-left: auto;
+  }
+  .examples-wrapper {
+    flex-direction: column;
+  }
+}

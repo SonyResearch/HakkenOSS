@@ -1,0 +1,3 @@
+name: UniformNegativeSampler
+kwargs:
+  corruption_scheme: ["subject", "object"]

@@ -1,0 +1,13 @@
+
+_target_: datasets.TextKGDataset
+config:
+  _target_: datasets.TextKGConfig
+  root_folder: ${oc.env:DATA_ROOT}/YAGO3-10
+  cache: True
+  files_dict:
+    train: train.txt
+    val: valid.txt
+    test: test.txt
+  delimiter: "\t"
+  column_names: ["subject", "relation", "object"]
+  name: yago

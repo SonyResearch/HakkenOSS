@@ -1,0 +1,27 @@
+- key: avg_macro_prec
+  display: '$\mathrm{Prec}_{\mathrm{macro}}$'
+  higher_is_better: true
+
+- key: avg_macro_rec
+  display: '$\mathrm{Rec}_{\mathrm{macro}}$'
+  higher_is_better: true
+
+- key: avg_macro_f1
+  display: '$F_{1,\mathrm{macro}}$'
+  higher_is_better: true
+
+- key: avg_weighted_prec
+  display: '$\mathrm{Prec}_{\mathrm{w}}$'
+  higher_is_better: true
+
+- key: avg_weighted_rec
+  display: '$\mathrm{Rec}_{\mathrm{w}}$'
+  higher_is_better: true
+
+- key: avg_weighted_f1
+  display: '$F_{1,\mathrm{w}}$'
+  higher_is_better: true
+
+- key: ndcg_all_m
+  display: '$\mathrm{nDCG}_{\mathrm{mean}}$'
+  higher_is_better: true

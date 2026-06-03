@@ -1,0 +1,87 @@
+# Biomedical knowledge graph — allowed entity domains (hierarchical)
+# Format: level_1/level_2[/level_3] — choose the most precise applicable level.
+
+# === Organisms & taxonomy ===
+- organism
+- organism/species
+- organism/strain
+- organism/person
+
+# === Molecular entities ===
+- molecular_entity
+- molecular_entity/gene
+- molecular_entity/protein
+- molecular_entity/rna
+- molecular_entity/dna_sequence
+- molecular_entity/variant
+- molecular_entity/variant/mutation
+- molecular_entity/variant/allele
+- molecular_entity/molecule
+- molecular_entity/compound
+- molecular_entity/chemical
+- molecular_entity/drug
+- molecular_entity/metabolite
+- molecular_entity/biomarker
+
+# === Anatomy & cells ===
+- anatomical_entity
+- anatomical_entity/anatomical_structure
+- anatomical_entity/tissue
+- anatomical_entity/organ
+- anatomical_entity/cell_type
+- anatomical_entity/cell_line
+- anatomical_entity/organelle
+
+# === Diseases & phenotypes ===
+- disease_phenotype
+- disease_phenotype/disease
+- disease_phenotype/disorder
+- disease_phenotype/syndrome
+- disease_phenotype/phenotype
+- disease_phenotype/symptom
+- disease_phenotype/condition
+- disease_phenotype/pathology
+
+# === Biological processes & pathways ===
+- biological_process
+- biological_process/pathway
+- biological_process/molecular_function
+- biological_process/cellular_component
+- biological_process/mechanism
+- biological_process/reaction
+
+# === Clinical & interventions ===
+- clinical_entity
+- clinical_entity/treatment
+- clinical_entity/therapy
+- clinical_entity/drug_treatment
+- clinical_entity/procedure
+- clinical_entity/dosage
+- clinical_entity/clinical_trial
+
+# === Concepts & ontology ===
+- concept
+- concept/ontology_term
+- concept/medical_concept
+
+# === Organizations & publications ===
+- organization
+- organization/institution
+- organization/university
+- organization/research_institute
+- organization/company
+- publication
+- publication/journal
+- publication/paper
+- publication/conference
+
+# === Assays & methods ===
+- method
+- method/assay
+- method/technique
+- method/instrument
+
+# === Temporal ===
+- temporal
+- temporal/year
+- temporal/date

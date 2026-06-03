@@ -1,0 +1,7 @@
+# LLM via local Ollama (OpenAI-compatible API)
+# Run: ollama run llama3.2 (or mistral, etc.)
+# Override: entity_extractor/llm.base_url=..., entity_extractor/llm.name=...
+name: qwen3:14b
+temperature: 0.2
+api_key: ""
+base_url: http://localhost:11434

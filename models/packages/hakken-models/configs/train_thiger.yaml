@@ -1,0 +1,17 @@
+defaults:
+  - _self_
+  - dataset: pubtator3-v0_4_0-v2
+  - data_loader: thiger
+  - experiment_tracker: thiger
+  - thiger: default
+  - thiger/gnn: graphsage
+  - thiger/transformer: hakken_transformer
+  - loss: bce_with_logits
+  - logger: log_model
+  - optimizer: adam
+  - optional resume: null  
+  - optional early_stopping: thiger
+  - run: default
+  - trainer: default
+  - optional hpo: null
+  - optional hpo/metric: null

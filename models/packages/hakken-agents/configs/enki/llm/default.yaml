@@ -1,0 +1,4 @@
+name: ${oc.env:LLM_NAME}
+temperature: ${oc.env:LLM_TEMPERATURE}
+api_key: ${oc.env:OPENROUTER_API_KEY}
+base_url: ${oc.env:OPENROUTER_BASE_URL}

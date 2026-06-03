@@ -1,0 +1,5 @@
+# LLM config from .env (load_dotenv in run_element_resolver_api.py).
+name: ${oc.env:LLM_MODEL_NAME,openai/gpt-4.1-nano}
+temperature: ${oc.env:LLM_TEMPERATURE,0.2}
+api_key: ${oc.env:LLM_API_KEY}
+base_url: ${oc.env:LLM_BASE_URL}

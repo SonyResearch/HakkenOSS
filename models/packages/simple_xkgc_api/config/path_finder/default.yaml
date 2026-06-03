@@ -1,0 +1,3 @@
+_target_: simple_xkgc.path_finder.impl.networkx.NetworkXPathFinder
+max_paths: 10000
+undirected: True

@@ -1,0 +1,12 @@
+site_name: Hakken Data Processing
+site_description: Documentation for the temporal_kg_engine
+site_url: https://dev-hakken-biomedical.spaice.research.sony/
+theme:
+  name: material
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Temporal KG Engine:
+      - Overview: temporal_kg_engine/overview.md

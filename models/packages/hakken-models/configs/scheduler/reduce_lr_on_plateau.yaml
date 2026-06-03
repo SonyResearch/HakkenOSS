@@ -1,0 +1,10 @@
+name: ReduceLROnPlateau
+kwargs:
+  mode: min
+  factor: 0.5
+  patience: 20
+  min_lr: 0.00001
+  # Lightning-specific (passed to lr_scheduler dict, not to scheduler constructor)
+  monitor: val/loss
+  interval: epoch
+  frequency: 1

@@ -1,0 +1,4 @@
+_target_: kge.models.distmult.DistMult
+config:
+  _target_: kge.models.distmult.DistMultConfig
+  embedding_dim: 64

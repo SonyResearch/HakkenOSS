@@ -1,0 +1,91 @@
+site_name: Hakken Explainer Documentation
+site_description: Documentation for Hakken Explainer - A package for explaining KGE predictions using path-based explanations
+site_url: https://your-docs-url
+repo_url: https://github.com/your-org/project_spaice_ds
+repo_name: project_spaice_ds
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [hakken_explainer]
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+            show_root_toc_entry: true
+            show_object_full_path: false
+            show_category_heading: true
+            show_if_no_docstring: false
+            separate_signature: true
+            merge_init_into_class: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quickstart.md
+      - Configuration: getting-started/configuration.md
+  - User Guide:
+      - Overview: user-guide/overview.md
+      - Architecture: user-guide/architecture.md
+      - Candidate Finders: user-guide/candidate-finders.md
+      - Scoring Methods: user-guide/scoring-methods.md
+      - Rerankers: user-guide/rerankers.md
+  - Examples:
+      - Basic Usage: examples/basic-usage.md
+      - Advanced Configuration: examples/advanced-config.md
+  - API Reference:
+      - hakken_explainer:
+          - explainers: api/explainers.md
+          - candidate_finder: api/candidate-finder.md
+          - scores: api/scores.md
+          - reranker: api/reranker.md
+          - utils: api/utils.md
+  - Contributing: contributing.md
+

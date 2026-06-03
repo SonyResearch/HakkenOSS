@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: "postgres:17.1"
+    command: -c config_file=/etc/postgresql/postgresql.conf
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./postgresql.conf:/etc/postgresql/postgresql.conf
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    env_file: ".env"
+
+networks:
+  default:
+    name: postgres

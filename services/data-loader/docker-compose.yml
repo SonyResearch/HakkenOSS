@@ -1,0 +1,27 @@
+version: ´3.8´
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: ds_kg
+    restart: unless-stopped
+    ports:
+      - 7474:7474
+      - 7687:7687
+    volumes:
+      - /var/lib/neo4j/conf:/var/lib/neo4j/conf
+      - /var/lib/neo4j/data:/var/lib/neo4j/data
+      - /var/lib/neo4j/import:/var/lib/neo4j/import
+      - /var/lib/neo4j/logs:/var/lib/neo4j/logs
+      - /var/lib/neo4j/plugins:/var/lib/neo4j/plugins
+    environment: 
+
+      NEO4J_apoc_export_file_enabled: true
+      NEO4J_apoc_import_file_enabled: true 
+      NEO4J_apoc_import_file_use__neo4j__config: true
+      NEO4J_PLUGINS: ´["apoc-extended"]´
+
+      NEO4J_AUTH: ${NEO4J_AUTH:-neo4j/password}
+      NEO4J_memory_heap_initial/_size: 31G
+      NEO4J_memory_heap_max/_size: 31G
+      NEO4J_server_memory_pagecache_size: 320G
+     

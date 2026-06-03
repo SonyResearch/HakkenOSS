@@ -1,0 +1,78 @@
+.scatter-plot-modal {
+  opacity: 0;
+  position: fixed;
+  padding: 0;
+  pointer-events: none;
+  transition: opacity 400ms ease-in-out;
+  right: 50%;
+  transform: translateX(60%);
+  top: 6rem;
+  z-index: 1000;
+  backdrop-filter: blur(50px);
+  border: 2px solid rgba(0, 0, 0, 0.332);
+  padding: 4rem;
+}
+
+.scatter-plot-container {
+  display: flex;
+  padding: 0;
+  box-shadow: var(--box-shadow);
+  background-color: white;
+  height: 70vh;
+}
+
+.scatter-plot-modal.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scatter-plot-container svg {
+  scale: 1;
+}
+.scatter-plot-container circle {
+  cursor: pointer;
+}
+.candidate-circle {
+  fill: var(--blue);
+}
+
+.scatter-plot-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.238);
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+  max-width: 20rem;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease-in-out;
+}
+
+.scatter-plot-tooltip.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media screen and (max-width: 750px) {
+  .scatter-plot-modal {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transform: none;
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+  }
+
+  .scatter-plot-container {
+    display: flex;
+    padding: 0;
+    box-shadow: var(--box-shadow);
+    background-color: white;
+    height: 50vh;
+    max-width: 90vw;
+  }
+}

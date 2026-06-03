@@ -1,0 +1,5 @@
+_target_: hakken_ml_toolkit.tracker.WandBTracker
+config:
+  _target_: hakken_ml_toolkit.tracker.WandBTrackerConfig
+  run_name: null
+  project: ${run.project}

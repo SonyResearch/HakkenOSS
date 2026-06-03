@@ -1,0 +1,4 @@
+subject_id_list: ["208000026934"]  # Hydrophis hardwickii 3S11_HYDHA
+relation_id_list: ["INHIBITS"] # Pisum sativum ALB1E_PEA
+object_id_list: ["102100010935"] # null is also possible
+inference_config: null

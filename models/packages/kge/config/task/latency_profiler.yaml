@@ -1,0 +1,4 @@
+name: latency_profiler
+num_trials: 50
+batch_size_list: [16192]
+device_list: ["cuda"]

@@ -1,0 +1,10 @@
+# Ignore .env files
+.env
+
+# Ignore Docker-related files
+docker-compose.yml
+.dockerignore
+
+# Ignoere data directroy
+data/
+

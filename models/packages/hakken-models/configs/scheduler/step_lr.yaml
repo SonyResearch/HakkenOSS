@@ -1,0 +1,6 @@
+name: StepLR
+kwargs:
+  step_size: 5
+  gamma: 0.1
+  interval: epoch
+  frequency: 1

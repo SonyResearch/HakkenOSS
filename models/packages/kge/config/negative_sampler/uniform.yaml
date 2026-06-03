@@ -1,0 +1,6 @@
+_target_: kge.negative_sampler.UniformNegativeSampler
+config:
+  _target_: kge.negative_sampler.UniformNegativeSamplerConfig
+  num_negatives: 1
+  filter_triples: ["train", "val", "test"]
+  corruption_scheme: ["subject", "relation", "object"]

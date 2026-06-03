@@ -1,0 +1,16 @@
+# Self-adversarial negative sampling (NSSA / RotatE-style) for entity ranking.
+# Uses all K negatives with learned weights; set entity_loss_multi_neg: true.
+name: RankingRelationLoss
+kwargs:
+  entity_loss: NSSALoss
+  entity_loss_kwargs:
+    margin: 9.0
+    adversarial_temperature: 1.0
+    reduction: mean
+  relation_loss: BCEWithLogitsLoss
+  relation_loss_kwargs:
+    reduction: mean
+    pos_weight_from_data: true
+  neg_strategy: mean
+  rel_loss_weight: 1.0
+  entity_loss_multi_neg: true

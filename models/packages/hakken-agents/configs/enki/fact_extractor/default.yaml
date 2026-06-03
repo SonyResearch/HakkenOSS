@@ -1,0 +1,4 @@
+system_prompt_id: "fact_extractor.system.default"
+user_prompt_id: "fact_extractor.user.default"
+preferred_relation_types: []
+use_relevant_relation_types: true

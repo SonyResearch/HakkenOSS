@@ -1,0 +1,15 @@
+.env.test
+.ml_flow/
+outputs/
+.cache/
+.pytest_cache/
+.test_tmp/
+.venv/
+multirun/
+wandb/*
+mlruns/
+experiments/*
+edge_cache/*
+misc/model_output*.mypy_cache/
+.ruff_cache/
+.DS_Store

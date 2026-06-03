@@ -1,0 +1,21 @@
+
+_target_: datasets.TextKGDataset
+config:
+  _target_: datasets.TextKGConfig
+  root_folder: ${oc.env:DATA_ROOT}/icews14
+  cache: True
+  files_dict:
+    train: train.txt
+    val: valid.txt
+    test: test.txt
+  delimiter: "\t"
+  column_names: ["subject", "relation", "object", "date"]
+  relation_mapping:
+    filename: relation2id.txt
+    delimiter: "\t"
+    column_names: ["ids", "indexes"]
+  entity_mapping:
+    filename: entity2id.txt
+    delimiter: "\t"
+    column_names: ["ids", "indexes"]
+  date_format: "%Y-%m-%d"

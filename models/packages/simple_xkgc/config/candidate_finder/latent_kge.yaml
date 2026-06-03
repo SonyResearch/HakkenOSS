@@ -1,0 +1,4 @@
+_target_: hakken_explainer.candidate_finder.latent.kge.KGEPathCandidateFinder
+max_candidates: 50000
+undirected: True
+min_score: 0.8

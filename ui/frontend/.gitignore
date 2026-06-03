@@ -1,0 +1,9 @@
+/.pnp
+.pnp.js
+.env
+.env.local
+
+# testing
+/coverage
+
+/dist

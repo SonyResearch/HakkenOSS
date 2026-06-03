@@ -1,0 +1,22 @@
+_target_: kge.models.gnn.GNNKGEConfig
+embedding_dim: 256
+gnn_class: torch_geometric.nn.models.GraphSAGE
+gnn_kwargs:
+  in_channels: ${model.embedding_dim}
+  hidden_channels: ${model.embedding_dim}
+  num_layers: 2
+  out_channels: ${model.embedding_dim}
+  dropout: 0.1
+  act: LeakyReLU
+  act_first: False
+  act_kwargs:
+    negative_slope: 1e-2
+  norm: null
+  norm_kwargs: null
+  jk: last
+  aggr: mean
+  normalize: False
+  project: False
+  bias: True
+score_fn_class: kge.scores.ComplExScore
+score_fn_kwargs: null

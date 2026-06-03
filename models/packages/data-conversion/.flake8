@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 100
+# compliant with black
+extend-ignore = E203, E704  
+exclude = .venv/*, build/*, setup.py

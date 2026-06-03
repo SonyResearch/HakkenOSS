@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'arial-nova';
+  src: url('./assets/fonts/arial-nova-light.ttf');
+}
+
+:root {
+  --blue: #1976d2;
+  --light-blue: #f3f4ff;
+  --primary-pink: #d2007b;
+  --relation-color: #9acd32;
+  --concept-color: #00ced1;
+  --offwhite: #f8f8f8;
+  --light-gray: rgb(241, 241, 241);
+  --box-shadow: 0px 1px 4px 1px rgba(128, 128, 128, 0.354);
+  --highlighted-shadow: 0px 0px 5px var(--blue);
+  --tabs-height: 2.2rem;
+  --min-input-width: 10rem;
+  --max-input-width: 12rem;
+  --concept-input-width: 14rem;
+  --border-radius: 4px;
+  --lg-padding: 2rem 1.5rem 1.5rem;
+  --md-padding: 1.5rem 1rem 1rem;
+  --sm-padding: 0.5rem 1rem;
+  --header-height: 4rem;
+}
+
+html {
+  position: relative;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--offwhite);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family:
+    'arial-nova', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    sans-serif;
+}
+
+h1 {
+  font-family:
+    'arial-nova', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    sans-serif;
+  font-weight: 500;
+  color: var(--primary-pink);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2,
+h3 {
+  font-family:
+    'arial-nova', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-content {
+  margin-top: calc(var(--header-height) + 2rem);
+  height: 100%;
+  padding-bottom: 10rem;
+  width: min(85vw, 1500px);
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 1500px) {
+  /*small laptop*/
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .page-content {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --min-input-width: 35vw;
+    --max-input-width: 40vw;
+    --concept-input-width: 30vw;
+  }
+}

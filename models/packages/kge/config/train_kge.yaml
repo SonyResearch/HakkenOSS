@@ -1,0 +1,33 @@
+defaults:
+  - _self_
+  - batch_size_optimization: none
+  - data_processor: default
+  - data_repo: digital_science_small
+  - early_stopping: default
+  - evaluator: default
+  - hydra: default
+  - init_strategy: xavier_uniform
+  - loss_fn: margin_ranking
+  - lr_scheduler: on_plateau
+  - model: complex
+  - model_checkpoint: default
+  - negative_sampler: uniform
+  - optimizer: adam
+  - tracker: ml_flow
+  - trainer: lightning
+  - override hydra/sweeper: optuna
+
+
+
+
+log_level: DEBUG
+seed_list: [0]
+
+run:
+  name: null
+  project: test
+  device: cuda
+  precision: medium
+  output_dir: ${hydra:runtime.output_dir}
+  save_artifacts: false
+  remove_triples_path: null

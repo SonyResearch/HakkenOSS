@@ -1,0 +1,21 @@
+
+defaults:
+  - _self_
+  - document: braca1
+  - chunks_table: default
+  - domains_table: default
+  - entities_table: default
+  - embedder: default
+  - llm: default
+  - relations_table: default
+  - kg: default
+  - entity_extractor: default
+  - entity_extractor/llm: default
+  - optional entity_extractor/allowed_domains: null
+  - text_splitter: recursive_char
+  - fact_extractor: default
+  - fact_extractor/llm: default
+  - optional fact_extractor/preferred_relation_types: null
+
+
+print_config: true

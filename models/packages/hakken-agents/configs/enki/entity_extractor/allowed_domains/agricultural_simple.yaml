@@ -1,0 +1,139 @@
+# Core entities
+- person
+- organization
+- crop
+- cultivar
+- variety
+- species
+- weed
+- livestock
+- pollinator
+- soil
+- fertilizer
+- irrigation
+- pesticide
+- seed
+- climate
+- pest
+- disease
+- pathogen
+- region
+- season
+- farm
+- practice
+- method
+- tool
+- product
+- yield
+- concept
+
+# Genetics & biology
+- gene
+- trait
+- phenotype
+- genotype
+- breeding_program
+- germplasm
+- seed_lot
+- microbiome
+- beneficial_microbe
+- mycorrhiza
+- nutrient_deficiency
+
+# Pest & disease dynamics
+- vector
+- host
+- resistance
+- susceptibility
+- infestation
+- outbreak
+- lifecycle_stage
+- control_strategy
+
+# Environment & conditions
+- weather_event
+- temperature
+- precipitation
+- drought
+- frost
+- growing_degree_day
+- stress_factor
+- ecosystem
+
+# Farm operations & management
+- field
+- plot
+- rotation
+- planting_event
+- harvest_event
+- application_event
+- labor
+- machinery
+- equipment
+- maintenance
+
+# Resources & inputs
+- water_source
+- energy_source
+- amendment
+- organic_input
+- nutrient
+- micronutrient
+- input_cost
+
+# Measurement & data
+- sensor
+- satellite_data
+- observation
+- measurement
+- index
+- forecast
+- model
+- dataset
+
+# Economics & business
+- market
+- price
+- contract
+- subsidy
+- insurance
+- risk
+- revenue
+- cost
+- profitability
+- supply_chain
+
+# Post-harvest & logistics
+- storage
+- transport
+- processor
+- distributor
+- retailer
+- quality_grade
+- shelf_life
+
+# Sustainability & policy
+- certification
+- regulation
+- carbon_emission
+- carbon_credit
+- biodiversity
+- conservation_practice
+- sustainability_metric
+
+# Technology & innovation
+- technology
+- decision_support_system
+- automation
+- ai_model
+- robotics
+- precision_agriculture
+
+# Higher-level concepts
+- productivity
+- efficiency
+- resilience
+- sustainability
+- food_security
+- soil_health
+- regenerative_agriculture

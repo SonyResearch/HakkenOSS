@@ -1,0 +1,3 @@
+_target_: hakken_explainer.candidate_finder.corpus.CorpusPathFinder
+max_candidates: 10000
+undirected: True

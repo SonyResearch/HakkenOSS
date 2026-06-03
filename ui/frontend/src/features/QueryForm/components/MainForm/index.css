@@ -1,0 +1,111 @@
+.query-box-display {
+  display: flex;
+  flex-direction: column;
+  padding: var(--lg-padding);
+  padding-bottom: 3rem;
+  margin-bottom: 1rem;
+  background-color: rgb(252, 252, 252);
+  z-index: 10;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  position: relative;
+}
+
+.query-box-display > h3 {
+  font-weight: 600;
+}
+
+.query-box-display hr {
+  width: 90%;
+  background-color: rgba(182, 182, 182, 0.39);
+  margin: 4rem;
+  height: 2px;
+  border: none;
+}
+
+.main-form h2 {
+  margin: 0;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  width: 800;
+  color: rgb(38, 38, 38);
+}
+
+.constraints-expand-button {
+  width: 3rem;
+  height: 3rem;
+  padding: var(--sm-padding);
+  border-radius: 50%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(252, 252, 252);
+  background-size: 50%;
+  border: none;
+  box-shadow: 0px 3px 2px rgb(200, 200, 200);
+  cursor: pointer;
+  transition: background-image 300ms ease;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.constraints-expand-button.up {
+  background-image: url('../../../../assets/images/icons/arrow-up-solid.svg');
+}
+
+.constraints-expand-button.down {
+  background-image: url('../../../../assets/images/icons/arrow-down-solid.svg');
+}
+
+.constraints-expand-button > span {
+  position: absolute;
+  color: gray;
+  top: 3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.constraints-expand-button > img {
+  margin-bottom: 4rem;
+}
+.find-button {
+  transition: all 300ms ease-in-out !important;
+}
+.find-button:hover {
+  background-color: var(--primary-pink) !important;
+  filter: saturate(80%);
+}
+
+@media screen and (max-width: 900px) {
+  .query-box-display {
+    padding: 1.5rem;
+  }
+  .query-box-display > div {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .query-box-display > div > img {
+    float: right;
+  }
+
+  .constraints-expand-button span {
+    top: 3.2rem;
+    font-size: 0.9rem;
+  }
+
+  .query-box-display {
+    margin-bottom: 5rem;
+    padding: var(--sm-padding);
+    padding-top: 2rem;
+  }
+
+  .constraints-container {
+    padding-bottom: 3rem;
+  }
+}

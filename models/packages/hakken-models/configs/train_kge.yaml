@@ -1,0 +1,24 @@
+defaults:
+  - _self_
+  - dataset: pubtator3-v0_4_0-v2
+  - data_loader: negatives
+  - experiment_tracker: kge
+  - kge: complex
+  - loss: margin_ranking
+  - logger: log_model
+  - model_checkpoint: kge
+  - negative_sampler: uniform
+  - negative_strategy: hardest
+  - optimizer: adam
+  - optional resume: null
+  - optional early_stopping: kge
+  - run: default
+  - trainer: default
+  - val_metric_hub: default
+  - optional hpo: null
+  - optional hpo/metric: null
+
+# KGE learns its own embeddings; skip loading pre-computed embeddings
+dataset:
+  load_embeddings: false
+

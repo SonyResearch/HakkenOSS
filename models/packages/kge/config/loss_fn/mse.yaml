@@ -1,0 +1,4 @@
+_target_: hakken_ml_toolkit.losses.MSELoss
+config:
+  _target_: hakken_ml_toolkit.losses.MSELossConfig
+  reduce: mean

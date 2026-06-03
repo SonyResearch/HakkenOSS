@@ -1,0 +1,29 @@
+.header {
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding: var(--md-padding);
+  background-color: black;
+  color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10000000;
+  width: 100vw;
+  position: fixed;
+  height: var(--header-height);
+}
+
+.header div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header-icon {
+  width: 2rem;
+  filter: invert(90%);
+}
+
+.logo {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,6 @@
+embedding_dim: 128
+score_fn_name: "ConvKBScore"
+score_fn_kwargs:
+  emb_dim: ${..embedding_dim}
+  num_filters: 50
+  kernel_size: [1, 3]

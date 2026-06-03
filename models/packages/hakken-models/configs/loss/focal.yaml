@@ -1,0 +1,5 @@
+name: FLWithLogitsLoss
+kwargs:
+  reduction: none
+  gamma: 2.0
+  regularization_coeff: 0.0

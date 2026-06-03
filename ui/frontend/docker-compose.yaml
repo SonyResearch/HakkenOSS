@@ -1,0 +1,24 @@
+services:
+  frontend:
+    restart: always
+    container_name: frontend
+    build: ./
+    ports:
+      - 3000:3000
+    environment:
+      NODE_ENV: production
+      VITE_API_PATH: ${VITE_API_PATH:-/api/}
+      VITE_API_URL: ${VITE_API_URL:-http://backend:8080/}
+    networks:
+      - uinet
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:3000" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+networks:
+  uinet:
+    external: true
+    driver: bridge

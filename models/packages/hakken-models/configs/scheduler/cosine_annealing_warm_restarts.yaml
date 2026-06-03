@@ -1,0 +1,7 @@
+name: CosineAnnealingWarmRestarts
+kwargs:
+  T_0: 5
+  T_mult: 2
+  eta_min: 0.00001
+  interval: epoch
+  frequency: 1

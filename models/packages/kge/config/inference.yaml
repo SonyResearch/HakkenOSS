@@ -1,0 +1,32 @@
+defaults:
+  - _self_
+  - query: digital_science
+  - task: save_embeddings
+  - evaluator: default
+  - negative_sampler: uniform
+
+
+# Experiment Configuration
+experiment_folder: outputs/digital_science/complex/2025-08-13/08-26-24/
+seed: 0
+config_path: .hydra/config.yaml
+
+
+# Model Configuration
+model_is_gnn: False
+model_id: last
+model_ckpt_path: seed_${seed}/model_checkpoint/${model_id}.ckpt
+model_ckpt_is_lightning: true
+score_scaler_json_path: ${experiment_folder}/seed_${seed}/model_checkpoint/${model_id}_score_scaler.json
+
+
+# Runtime Configuration
+device: cuda
+log_level: DEBUG  
+output_dir: ${hydra:runtime.output_dir}
+
+
+# Hydra Configuration
+hydra:
+  run:
+    dir: ${experiment_folder}/seed_${seed}/inference/${now:%Y-%m-%d}/${now:%H-%M-%S}

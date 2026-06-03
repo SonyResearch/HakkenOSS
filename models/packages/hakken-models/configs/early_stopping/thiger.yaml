@@ -1,0 +1,8 @@
+monitor: val_macro_avg_f1_score
+mode: max
+patience: 5
+min_delta: 0.01
+verbose: true
+strict: true
+check_finite: true
+stopping_threshold: 0.99
