@@ -69,14 +69,6 @@ Each component is governed by its original license as noted below.
 
 ---
 
-## 9. Mistral 7B
-
-- **Model:** Mistral-7B-v0.1 by Mistral AI
-- **License:** Apache License 2.0
-- **License text:** https://huggingface.co/mistralai/Mistral-7B-v0.1/blob/main/LICENSE
-
----
-
 ## 10. Hydra
 
 - **Repository:** https://github.com/facebookresearch/hydra
