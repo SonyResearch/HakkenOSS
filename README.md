@@ -47,3 +47,11 @@ Each component has its own setup guide. Common entry points:
 - Docker image builds use secret mounts (`--secret`) — no credentials are baked into layers.
 - Before pushing, run a secret scan: `trufflehog git file://.` or `ggshield secret scan repo .`
 - See individual package READMEs for service-specific environment variable requirements.
+
+## License
+
+| Asset | License |
+|-------|---------|
+| **Source code** | [BSD 3-Clause](LICENSE) |
+| **Model parameters** | [CC BY 4.0 or CDLA Permissive 2.0](LICENSE-MODEL-PARAMETERS.md) — pending Sony management confirmation |
+| **Redistributed open-source components** | Each component retains its original license — see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) |

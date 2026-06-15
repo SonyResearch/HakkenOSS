@@ -1,5 +1,5 @@
 # LLM via local Ollama (OpenAI-compatible API)
-# Run: ollama run llama3.2 (or mistral, etc.)
+# Run: ollama run llama3.2
 # Override: fact_extractor/llm.base_url=..., fact_extractor/llm.name=...
 name: qwen3:14b
 temperature: 0.2

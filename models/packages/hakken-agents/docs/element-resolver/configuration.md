@@ -124,7 +124,7 @@ No API keys required. Install [Ollama](https://ollama.com) and pull the models:
 ollama run llama3.2
 ```
 
-Or use `mistral`, `llama3.1`, etc.
+Or use `llama3.1`, etc.
 
 **Embedder** (for semantic search):
 
