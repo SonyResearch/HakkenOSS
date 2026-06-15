@@ -79,7 +79,7 @@ Each component is governed by its original license as noted below.
 
 ## Apache License 2.0 (full text)
 
-Components licensed under Apache 2.0: PyTorch Lightning, ZenML, MLflow, Hugging Face Transformers, Mistral 7B.
+Components licensed under Apache 2.0: PyTorch Lightning, ZenML, MLflow, Hugging Face Transformers.
 
 ```
                                  Apache License
